@@ -1,8 +1,8 @@
-# Pâte Sablée with Almond Flour
+# Pate Sablee with Almond Flour
 
 - Section: baking
 - Status: drafted
-- Yield: 8 tartlets at 8cm, or 1 tart at 23cm
+- Yield: 8 mini tartlets at 8 cm, or 1 large 23 cm tart
 - Active time: 30 min
 - Rest: 1 h 15 min
 - Source: Spatula Desserts, spatuladesserts.com
@@ -18,20 +18,18 @@
 
 ## Method
 
-1. Sift the flour, powdered sugar, almond flour and salt together.
-2. Rub the very cold butter in by hand to a sand-like texture. A few minutes at most, before the butter warms.
-3. Add the room-temperature egg and bring it together by hand. It looks crumbly at first, which is correct. Do not add liquid or flour.
-4. Knead with the palm 1 to 2 minutes, only until smooth.
-5. If it turns warm and sticky, chill 10 to 15 minutes before rolling.
-6. Roll between two silicone mats to an even 2 mm, rotating 90 degrees between passes.
+1. Freeze the butter chunks 10 to 15 minutes first.
+2. Sift the flour, powdered sugar, almond flour and salt together.
+3. Rub the very cold butter in until sandy, working fast, no more than a few minutes.
+4. Add the room-temperature egg and bring it together by hand. It looks crumbly at first, so resist adding liquid.
+5. Wrap and chill.
 
 ## Notes
 
-- No mixer or processor. Motor heat melts the butter.
-- Almond flour is 30 g against 230 g flour, adding richness the Ferrandi version does not have.
-- Pastry flour beats all-purpose here for its lower protein.
-- Rolled to 2 mm, thinner than the brisée at 3 mm.
-- Baked shells keep several days at room temperature. Raw dough freezes 3 months.
+- Almond flour is the difference from the Ferrandi version, and it makes a more tender, less snappy shell.
+- Pastry flour preferred for the lower protein, all-purpose works.
+- Scaled for tartlets as well as one large tart, so it is the one to use for small formats.
+- Baked shells keep several days at room temperature. The raw dough freezes for 3 months, far longer than the other two.
 
 ## Learnings
 

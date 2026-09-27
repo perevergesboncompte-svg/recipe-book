@@ -2,9 +2,9 @@
 
 - Section: baking
 - Status: drafted
-- Yield: 1 x 20cm base
+- Yield: base for 1 x 20 cm cake
 - Active time: 10 min
-- Source: Alex Cordobés, Madrid, alexcordobes.es
+- Source: Alex Cordobes, alexcordobes.es
 
 ## Ingredients
 
@@ -13,15 +13,14 @@
 
 ## Method
 
-1. Crush the Maria cookies to fine crumbs, in a processor or in a sealed bag with a rolling pin.
-2. Mix with the melted butter until every crumb is moistened.
-3. Press firmly into the base of the lined tin, compacting with the bottom of a glass.
-4. No pre-bake. The filling goes straight on.
+1. Crush the cookies to fine crumbs in a processor, or in a sealed bag with a rolling pin.
+2. Mix with the melted butter until every crumb is damp.
+3. Press firmly into the base of a lined 20 cm tin, compacting with the bottom of a glass.
 
 ## Notes
 
-- Two ingredients and no baking, the fastest base in the collection.
-- Maria cookies are the Spanish standard here. A plain sweet biscuit substitutes.
+- No bake needed before filling, unlike the shortbread crust alternative.
+- Two ingredients, so it is the fast route.
 
 ## Learnings
 
