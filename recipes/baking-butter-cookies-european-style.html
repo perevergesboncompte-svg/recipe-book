@@ -21,23 +21,30 @@
 </div>
 <script>
 (function(){
-  var box=document.querySelector('[data-scaler]'); if(!box) return;
-  var qs=[].slice.call(document.querySelectorAll('.q'));
-  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
-  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
-    return parseFloat(v.toFixed(d)).toString(); }
-  function apply(f){
-    if(!(f>0)) return;
-    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
-    box.querySelectorAll('button').forEach(function(b){
-      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
   }
-  box.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      var f=parseFloat(b.dataset.f);
-      box.querySelector('input').value=f; apply(f); }); });
-  box.querySelector('input').addEventListener('input', function(){
-    apply(parseFloat(this.value)); });
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
 })();
 </script><ul><li>All-purpose flour: <span class="q" data-q="250">250</span> g</li><li>Baking powder: <span class="q" data-q="3">3</span> g</li><li>Fine sea salt: <span class="q" data-q="1.5">1.5</span> g</li><li>Salted European style butter, about 85% fat: <span class="q" data-q="226">226</span> g</li><li>Granulated sugar: <span class="q" data-q="130">130</span> g</li><li>Egg yolk: <span class="q" data-q="1">1</span></li><li>Demerara sugar, for coating: <span class="q" data-q="55">55</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter and sugar about 3 minutes until light.</li><li>Mix in the egg yolk.</li><li>Add the sifted flour, baking powder and salt, mix to just combined.</li><li>Divide in half and roll each into a log about 1.5 inches across. Brush off loose flour.</li><li>Roll each log through demerara sugar spread on parchment.</li><li>Wrap tight and chill at least 1 hour.</li><li>Slice into 1/4 inch rounds, 1 inch apart.</li><li>Bake at 325F for 18 minutes until golden underneath and at the edges.</li><li>Cool 5 minutes, then move to a rack.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>A slice-and-bake log rather than piped, the only one of its kind in the group.</li><li>Do not flour the work surface when rolling the logs, or the sugar will not stick.</li><li>Logs freeze well. Slice from frozen and add a minute.</li><li>With unsalted butter, raise the salt to about 1/2 tsp.</li><li>Keeps 2 weeks airtight.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>

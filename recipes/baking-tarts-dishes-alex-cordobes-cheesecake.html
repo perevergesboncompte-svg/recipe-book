@@ -21,23 +21,30 @@
 </div>
 <script>
 (function(){
-  var box=document.querySelector('[data-scaler]'); if(!box) return;
-  var qs=[].slice.call(document.querySelectorAll('.q'));
-  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
-  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
-    return parseFloat(v.toFixed(d)).toString(); }
-  function apply(f){
-    if(!(f>0)) return;
-    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
-    box.querySelectorAll('button').forEach(function(b){
-      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
   }
-  box.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      var f=parseFloat(b.dataset.f);
-      box.querySelector('input').value=f; apply(f); }); });
-  box.querySelector('input').addEventListener('input', function(){
-    apply(parseFloat(this.value)); });
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
 })();
 </script><ul><li>Cream cheese, Philadelphia style, room temperature: <span class="q" data-q="400">400</span> g</li><li>Heavy cream, 35% fat: <span class="q" data-q="200">200</span> ml</li><li>Eggs: <span class="q" data-q="4">4</span></li><li>Sugar: <span class="q" data-q="150">150</span> g</li><li>All-purpose flour: <span class="q" data-q="8">8</span> g</li><li>Salt: a pinch</li></ul></section><section class="block"><h2>Method</h2><ol><li>Bring the cream cheese to room temperature, at least an hour out. Cold cheese leaves lumps.</li><li>Line a 20cm springform with a large sheet of crumpled parchment standing well above the rim, since it rises a lot.</li><li>Prepare the base, either the Maria cookie one or the blind-baked shortbread crust.</li><li>Whisk the eggs and cream smooth, without overbeating.</li><li>Add the cream cheese and stir gently with a spatula. Stir, do not whisk, since air bubbles crack the top.</li><li>Sift the flour over and fold until no streaks remain.</li><li>Add the sugar and salt last, mixing to a smooth homogeneous batter. The order matters for the texture.</li><li>Pour over the base and tap the tin to release trapped air.</li><li>Bake 35 minutes at 320F. Edges set, centre still wobbling.</li><li>Raise to 355F for 5 minutes for the dark caramelised top.</li><li>Chill 8 hours before cutting.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Basque style, so the dark top is the point rather than a mistake.</li><li>Only 8 g of flour in the whole cake, which is why it stays this creamy.</li><li>Two base options are recorded as separate parts, since the shortbread version adds a blind bake and 10 minutes.</li><li>The wobble in the centre coming out of the oven is correct. It sets over the 8 hour chill.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>

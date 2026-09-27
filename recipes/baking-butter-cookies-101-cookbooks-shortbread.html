@@ -21,23 +21,30 @@
 </div>
 <script>
 (function(){
-  var box=document.querySelector('[data-scaler]'); if(!box) return;
-  var qs=[].slice.call(document.querySelectorAll('.q'));
-  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
-  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
-    return parseFloat(v.toFixed(d)).toString(); }
-  function apply(f){
-    if(!(f>0)) return;
-    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
-    box.querySelectorAll('button').forEach(function(b){
-      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
   }
-  box.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      var f=parseFloat(b.dataset.f);
-      box.querySelector('input').value=f; apply(f); }); });
-  box.querySelector('input').addEventListener('input', function(){
-    apply(parseFloat(this.value)); });
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
 })();
 </script><ul><li>Cold unsalted butter, sliced: <span class="q" data-q="454">454</span> g</li><li>Granulated sugar: <span class="q" data-q="100">100</span> g</li><li>Powdered sugar: <span class="q" data-q="65">65</span> g</li><li>Fine grain sea salt: <span class="q" data-q="5">5</span> g</li><li>Unbleached all-purpose flour: <span class="q" data-q="500">500</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the cold sliced butter until soft.</li><li>Add both sugars and the salt, mix until billowy and fluffy, scraping down once or twice.</li><li>Add the flour in two additions on low, just until combined.</li><li>Form a ball, press into a thick disc, wrap and chill at least a couple of hours.</li><li>Roll to 3/4 inch thick and cut shapes. Re-roll the scraps.</li><li>Dock the larger ones with a fork or skewer.</li><li>Arrange an inch apart, then chill another 15 to 30 minutes to stop spread.</li><li>Bake 20 minutes, rotate, then 10 to 15 more until deeply golden where they meet the pan.</li><li>Cool 5 minutes, then move to a rack.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Two sugars, granulated and powdered, unlike the other shortbreads.</li><li>Roll it thick. Thin means dry.</li><li>Take the colour further than feels right, since that toasted butter flavour is the point.</li><li>Flavour keeps developing for several days, so make it ahead.</li><li>Dough freezes for months, double wrapped.</li><li>The file this came from was named &quot;classic shortbread&quot;, but the recipe is the 101 Cookbooks one. Preppy Kitchen&#x27;s Classic Shortbread is the one missing from the download.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>

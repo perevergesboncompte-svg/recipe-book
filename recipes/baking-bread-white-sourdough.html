@@ -21,23 +21,30 @@
 </div>
 <script>
 (function(){
-  var box=document.querySelector('[data-scaler]'); if(!box) return;
-  var qs=[].slice.call(document.querySelectorAll('.q'));
-  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
-  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
-    return parseFloat(v.toFixed(d)).toString(); }
-  function apply(f){
-    if(!(f>0)) return;
-    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
-    box.querySelectorAll('button').forEach(function(b){
-      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
   }
-  box.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      var f=parseFloat(b.dataset.f);
-      box.querySelector('input').value=f; apply(f); }); });
-  box.querySelector('input').addEventListener('input', function(){
-    apply(parseFloat(this.value)); });
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
 })();
 </script><ul><li>Active starter: <span class="q" data-q="100">100</span> g</li><li>Kosher salt: <span class="q" data-q="10">10</span> g</li><li>Water, room temperature: <span class="q" data-q="430">430</span> g</li><li>Bread flour: <span class="q" data-q="512">512</span> g</li><li>Olive oil: a few tbsp</li><li>Butter: for greasing the pan</li></ul></section><section class="block"><h2>Method</h2><ol><li>Stir the starter, salt and water together. It does not need to be uniform.</li><li>Add the flour and mix until no dry flour remains. A straight-sided container makes the rise easy to judge.</li><li>After 30 minutes, reach in and pull the dough up into the centre, turning the bowl a quarter turn each time, 8 to 10 pulls. Repeat every 30 minutes for the first two hours if you are around. One fold is still worth doing.</li><li>Coat with a splash of olive oil, cover, and bulk ferment at room temperature, around 70F, for 4 to 18 hours. Go by volume, not the clock: stop at 50% growth. Hot or humid rooms can get there in 4 to 6 hours.</li><li>Grease a 9x5 or 10x5 inch loaf pan with butter.</li><li>Oil the dough and your hands. Release it from the container without deflating it, turn out, fold envelope-style, then shape to a rough rectangle.</li><li>Set it seam-side down in the pan and stretch gently to an oblong.</li><li>Second rise 5 to 6 hours, until the dough reaches the rim. Do not rush this one, the rim is what gives the loaf its height.</li><li>Bake at 425F for 20 minutes, drop to 375F, then 20 to 25 minutes more until golden all over. Internal temperature 206 to 210F.</li><li>Turn out onto a rack and cool at least 30 minutes before slicing.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>430 g water against 512 g flour is 84% hydration, which is high for a sandwich loaf. The recipe itself says you can use less, so hold some back if the dough is unmanageable.</li><li>Judge the bulk on volume rather than time. 50% growth, not doubled.</li><li>Do not use the oven with the light on to bulk ferment, it runs too warm.</li><li>After shaping you can oil the surface, cover, and retard the pan in the fridge overnight, then finish the next day. That is the lever for fitting it around a schedule.</li><li>Vegan as written. The butter is only for greasing the pan, so oil or spray keeps it vegan.</li></ul></section><section class="block"><h2>Learnings</h2><p>The one I actually use for white bread, so it stands as the house formula. No scorecard numbers recorded yet.</p></section><section class="block"><h2>Preserving</h2><p>Freeze what you will not eat within a couple of days. Sliced before freezing means you toast straight from frozen instead of thawing the whole loaf.</p><ul><li>Cool completely before wrapping, or condensation makes the crust soggy.</li><li>Slice, then freeze in a bag with the air pressed out.</li><li>Dough can be retarded in the fridge overnight after shaping, but freeze the baked loaf rather than the shaped dough.</li></ul></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>

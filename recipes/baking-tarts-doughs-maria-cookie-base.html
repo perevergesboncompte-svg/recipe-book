@@ -21,23 +21,30 @@
 </div>
 <script>
 (function(){
-  var box=document.querySelector('[data-scaler]'); if(!box) return;
-  var qs=[].slice.call(document.querySelectorAll('.q'));
-  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
-  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
-    return parseFloat(v.toFixed(d)).toString(); }
-  function apply(f){
-    if(!(f>0)) return;
-    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
-    box.querySelectorAll('button').forEach(function(b){
-      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
   }
-  box.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      var f=parseFloat(b.dataset.f);
-      box.querySelector('input').value=f; apply(f); }); });
-  box.querySelector('input').addEventListener('input', function(){
-    apply(parseFloat(this.value)); });
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
 })();
 </script><ul><li>Maria cookies: <span class="q" data-q="200">200</span> g</li><li>Butter, melted: <span class="q" data-q="80">80</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Crush the Maria cookies to fine crumbs, in a processor or in a sealed bag with a rolling pin.</li><li>Mix with the melted butter until every crumb is moistened.</li><li>Press firmly into the base of the lined tin, compacting with the bottom of a glass.</li><li>No pre-bake. The filling goes straight on.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Two ingredients and no baking, the fastest base in the collection.</li><li>Maria cookies are the Spanish standard here. A plain sweet biscuit substitutes.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section><section class="block"><h2>Used in</h2><ul><li><a href="../recipes/baking-tarts-dishes-alex-cordobes-cheesecake.html">Alex Cordobés Cheesecake</a></li></ul></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>

@@ -21,23 +21,30 @@
 </div>
 <script>
 (function(){
-  var box=document.querySelector('[data-scaler]'); if(!box) return;
-  var qs=[].slice.call(document.querySelectorAll('.q'));
-  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
-  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
-    return parseFloat(v.toFixed(d)).toString(); }
-  function apply(f){
-    if(!(f>0)) return;
-    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
-    box.querySelectorAll('button').forEach(function(b){
-      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
   }
-  box.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      var f=parseFloat(b.dataset.f);
-      box.querySelector('input').value=f; apply(f); }); });
-  box.querySelector('input').addEventListener('input', function(){
-    apply(parseFloat(this.value)); });
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
 })();
 </script><ul><li>All-purpose flour: <span class="q" data-q="125">125</span> g</li><li>Confectioners&#x27; sugar: <span class="q" data-q="65">65</span> g</li><li>Unsalted butter, diced and frozen 10-15 min: <span class="q" data-q="65">65</span> g</li><li>Egg, lightly beaten: <span class="q" data-q="25">25</span> g</li><li>Salt: <span class="q" data-q="0.5">0.5</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Sift the flour and confectioners&#x27; sugar together.</li><li>Rub the cold diced butter in with your fingertips, lifting and dropping rather than pressing, so it stays cold and aerated.</li><li>Keep going until it is uniformly like coarse sand with no visible butter pieces. Getting this right before the egg goes in is the whole technique.</li><li>Make a well, pour in the beaten egg and salt.</li><li>Draw the dough inward with a scraper, cutting and folding rather than stirring.</li><li>Once the egg is mostly in, knead with the palm 1 to 2 minutes until smooth. Work fast and light.</li><li>Flatten into a disk, wrap, chill at least 2 hours to relax the gluten.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Butter goes in the freezer first here, unlike pâte brisée where chilled is enough.</li><li>65 g sugar against 125 g flour, so this is the sweet one, more than ten times the sugar of the brisée.</li><li>No mixer. Hands only, and quickly.</li><li>Keeps 3 days refrigerated, well wrapped.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
