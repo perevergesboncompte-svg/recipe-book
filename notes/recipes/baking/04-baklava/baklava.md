@@ -1,21 +1,20 @@
-# Caramel Walnut Tart
+# Baklava
 
 - Section: baking
-- Category: tart
 - Status: stub
-- Unit weight: 150 g
-- Price: $6
+- Unit weight: 80 g
+- Price: $4
 - Tags: vegetarian
 - Source: bakery site recipes.html
 
 ## Ingredients
 
-- 200 g flour
+- 300 g phyllo dough
 - 150 g butter
-- 200 g walnuts
-- 200 g caramel
-- 100 ml cream
-- 3 eggs
+- 300 g walnuts
+- 200 g honey
+- 150 g sugar
+- 10 g cinnamon
 
 ## Method
 

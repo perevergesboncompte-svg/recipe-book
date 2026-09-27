@@ -1,10 +1,9 @@
-# Shortbread
+# Lemon Tart
 
 - Section: baking
-- Category: cookie
 - Status: stub
-- Unit weight: 30 g
-- Price: $2.50
+- Unit weight: 150 g
+- Price: $5
 - Tags: vegetarian
 - Source: bakery site recipes.html
 
@@ -12,7 +11,9 @@
 
 - 200 g flour
 - 150 g butter
-- 75 g sugar
+- 4 lemons
+- 4 eggs
+- 200 g sugar
 
 ## Method
 

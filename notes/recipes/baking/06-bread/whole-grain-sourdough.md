@@ -1,16 +1,16 @@
-# White Sourdough Bread
+# Whole Grain Sourdough
 
 - Section: baking
-- Category: bread
 - Status: stub
 - Unit weight: 600 g
-- Price: $8
+- Price: $9
 - Tags: vegan
 - Source: bakery site recipes.html
 
 ## Ingredients
 
-- 500 g bread flour
+- 300 g bread flour
+- 200 g whole wheat flour
 - 350 ml water
 - 10 g salt
 - sourdough starter

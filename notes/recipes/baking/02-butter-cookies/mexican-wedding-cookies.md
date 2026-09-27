@@ -1,7 +1,6 @@
 # Mexican Wedding Cookies
 
 - Section: baking
-- Category: cookie
 - Status: drafted
 - Yield: 48 cookies
 - Unit weight: 15 g

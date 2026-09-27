@@ -1,7 +1,6 @@
 # Broma Chocolate Chip Cookie
 
 - Section: baking
-- Category: cookie
 - Status: drafted
 - Yield: 14 cookies
 - Unit weight: 50 g

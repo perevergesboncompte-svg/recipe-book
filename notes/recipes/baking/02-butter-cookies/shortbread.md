@@ -1,10 +1,9 @@
-# Chocolate Tart
+# Shortbread
 
 - Section: baking
-- Category: tart
 - Status: stub
-- Unit weight: 150 g
-- Price: $6
+- Unit weight: 30 g
+- Price: $2.50
 - Tags: vegetarian
 - Source: bakery site recipes.html
 
@@ -12,10 +11,7 @@
 
 - 200 g flour
 - 150 g butter
-- 200 g dark chocolate
-- 150 ml cream
-- 3 eggs
-- 100 g sugar
+- 75 g sugar
 
 ## Method
 

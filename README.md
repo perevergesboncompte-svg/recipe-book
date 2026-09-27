@@ -11,9 +11,9 @@ the pages to the repository root, which is what GitHub Pages serves. Editing the
 generated HTML accomplishes nothing, because the next build overwrites it.
 `assets/site.css` is the stylesheet source and gets copied to `site.css` on build.
 
-    profile.md                      oven, equipment, flours, defaults
-    journal.md                      dated log of what was made and how it went
-    recipes/<section>/<slug>.md     one file per recipe
+    profile.md    oven, equipment, flours, defaults
+    journal.md    dated log of what was made and how it went
+    recipes/      one file per recipe, arranged as below
 
 Rebuild after any change:
 
@@ -28,6 +28,38 @@ To build, commit and push in one step:
 The build also copies the source markdown into `notes/`, so this repo carries the
 collection's own history rather than only the rendered pages. `git log -p
 notes/recipes/baking/sourdough.md` shows how a formula changed over time.
+
+## Layout
+
+A section holds ordered groups, and a group holds either recipes directly or part
+folders. Order comes from a numeric prefix on the directory name, so reordering a
+section is a rename and there is no index to keep in sync. The prefix is stripped
+for display, and nesting stops at two levels.
+
+    baking/01-chocolate-chip-cookies/*.md
+    baking/05-tarts/01-doughs/*.md
+    baking/05-tarts/03-dishes/*.md
+    pasta/01-doughs/  02-fillings/  03-shapes/  04-dishes/
+    croquetas/*.md
+    empanadas/01-doughs/  02-fillings/  03-dishes/
+
+Croquetas are whole recipes, so their files sit at the section root. Baking splits
+into parts only inside tarts, because a tart is a dough plus a filling while a
+cookie is not.
+
+## Parts and dishes
+
+A part is written once and reused, so one empanada dough serves every filling. A
+dish names its parts by file stem:
+
+    - Dough: criolla-dough
+    - Filling: beef-picadillo
+
+`Dough`, `Filling`, `Shape`, `Base` and `Coating` are recognised, each taking one
+stem or a comma-separated list. The site renders them as links, adds a `Used in`
+list to the part's own page, and prints `(not recorded yet)` when a stem matches
+nothing, so an unwritten dough shows up as a gap instead of going unnoticed.
+References resolve within a section only.
 
 ## Recipe format
 

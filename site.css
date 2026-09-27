@@ -122,12 +122,47 @@ main {
   color: inherit;
 }
 .card:hover { border-color: var(--accent); }
-.card h2 {
+.card h2, .card h3 {
   font-family: var(--serif);
   font-size: 1.15rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
 }
+
+h2.group {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin: 2.5rem 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+h2.group:first-of-type { margin-top: 0.5rem; }
+.gcount {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+}
+
+h3.bucket {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--dim);
+  margin: 1.5rem 0 0.75rem;
+}
+
+.cards + h3.bucket { margin-top: 1.75rem; }
+main > .cards { margin-bottom: 1.5rem; }
 
 .count {
   font-size: 0.75rem;

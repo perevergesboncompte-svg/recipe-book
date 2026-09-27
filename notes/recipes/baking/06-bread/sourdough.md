@@ -1,7 +1,6 @@
 # Sourdough Bread
 
 - Section: baking
-- Category: bread
 - Status: stub
 - Unit weight: 600 g
 - Price: $8

@@ -6,7 +6,16 @@ collection the assistant maintains:
 
     ~/.claude/skills/recipes/profile.md
     ~/.claude/skills/recipes/journal.md
-    ~/.claude/skills/recipes/recipes/<section>/<slug>.md
+    ~/.claude/skills/recipes/recipes/<section>/...
+
+A section holds ordered groups, and a group holds either recipes directly or
+part folders (doughs, fillings, shapes, dishes). Order comes from a numeric
+prefix on the directory name, so reordering is a rename and there is no separate
+index to keep in sync. Layout the walker accepts:
+
+    <section>/*.md                        flat, no groups
+    <section>/<NN-group>/*.md             one group of plain recipes
+    <section>/<NN-group>/<NN-part>/*.md   a group split into parts
 
 Pages are written to the repository root, which is what GitHub Pages serves.
 
@@ -36,6 +45,9 @@ SECTIONS = [
     ("empanadas", "Empanadas"),
 ]
 
+PART_TYPES = {"doughs": "Dough", "fillings": "Filling", "shapes": "Shape",
+              "dishes": "Dish", "bases": "Base", "coatings": "Coating"}
+
 STATUS_ORDER = ["house", "tested", "drafted", "stub", "retired"]
 STATUS_CLASS = {
     "house": "s-house", "tested": "s-tested", "drafted": "s-draft",
@@ -49,9 +61,11 @@ STATUS_HELP = {
     "retired": "superseded, kept for reference",
 }
 
-META_ORDER = ["category", "yield", "makes", "serves", "unit weight", "active time",
+META_ORDER = ["yield", "makes", "serves", "unit weight", "active time",
               "rest", "total time", "oven", "price", "tags", "source"]
+LINK_KEYS = ["dough", "filling", "shape", "base", "coating"]
 BODY_ORDER = ["ingredients", "method", "notes", "learnings"]
+HIDE_META = {"section", "status", "image", "category", "group"}
 
 CSSVER = ""
 
@@ -66,13 +80,29 @@ def esc(s):
 
 
 def inline(s):
-    """Escape, then honour the one inline mark recipes actually use."""
     out = esc(s)
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out)
 
 
-def parse_recipe(path, section):
-    """Metadata is the `- Key: value` run before the first heading."""
+def strip_order(name):
+    return re.sub(r"^\d+[-_]", "", name)
+
+
+def order_key(path):
+    m = re.match(r"^(\d+)[-_]", path.name)
+    return (int(m.group(1)), "") if m else (10 ** 6, path.name.lower())
+
+
+def nice(name):
+    s = strip_order(name).replace("-", " ").replace("_", " ").strip()
+    return s[:1].upper() + s[1:] if s else s
+
+
+def subdirs(p):
+    return [d for d in p.iterdir() if d.is_dir() and not d.name.startswith(".")]
+
+
+def parse_recipe(path, section, group, part):
     name = path.stem.replace("-", " ").title()
     meta, order, blocks = {}, [], []
     cur = None
@@ -92,28 +122,75 @@ def parse_recipe(path, section):
             key = m.group(1).strip().lower()
             meta[key] = m.group(2).strip()
             order.append(key)
-    status = (meta.get("status") or "").lower() or "stub"
+    bits = [section] + [strip_order(x) for x in (group, part) if x] + [path.stem]
     return {
         "name": name,
         "slug": path.stem,
         "section": section,
-        "status": status,
+        "group": nice(group) if group else None,
+        "part": PART_TYPES.get(strip_order(part)) if part else None,
+        "status": (meta.get("status") or "").lower() or "stub",
         "meta": meta,
         "order": order,
         "blocks": blocks,
-        "url": f"recipes/{section}-{path.stem}.html",
+        "url": "recipes/" + "-".join(bits) + ".html",
+        "used_in": [],
     }
 
 
-def parse_recipes():
-    out = {}
-    for key, _ in SECTIONS:
-        d = SKILL / "recipes" / key
-        out[key] = [parse_recipe(f, key) for f in sorted(d.glob("*.md"))] if d.is_dir() else []
-        out[key].sort(key=lambda r: (STATUS_ORDER.index(r["status"])
-                                     if r["status"] in STATUS_ORDER else 99,
-                                     r["name"].lower()))
-    return out
+def sort_recipes(items):
+    return sorted(items, key=lambda r: (
+        STATUS_ORDER.index(r["status"]) if r["status"] in STATUS_ORDER else 99,
+        r["name"].lower()))
+
+
+def walk_section(key):
+    """Groups in prefix order, each carrying one or more labelled buckets."""
+    root = SKILL / "recipes" / key
+    groups = []
+    if not root.is_dir():
+        return groups
+
+    loose = sort_recipes([parse_recipe(f, key, None, None)
+                          for f in sorted(root.glob("*.md"))])
+    if loose:
+        groups.append({"label": None, "buckets": [{"label": None, "items": loose}]})
+
+    for d in sorted(subdirs(root), key=order_key):
+        parts = sorted(subdirs(d), key=order_key)
+        if parts:
+            buckets = [{"label": nice(p.name),
+                        "items": sort_recipes([parse_recipe(f, key, d.name, p.name)
+                                               for f in sorted(p.glob("*.md"))])}
+                       for p in parts]
+        else:
+            buckets = [{"label": None,
+                        "items": sort_recipes([parse_recipe(f, key, d.name, None)
+                                               for f in sorted(d.glob("*.md"))])}]
+        groups.append({"label": nice(d.name), "buckets": buckets})
+    return groups
+
+
+def flatten(groups):
+    return [r for g in groups for b in g["buckets"] for r in b["items"]]
+
+
+def link_parts(recipes):
+    """Resolve `- Dough: <slug>` style keys to the part entry they name."""
+    by_section = {}
+    for r in recipes:
+        by_section.setdefault(r["section"], {})[r["slug"]] = r
+    for r in recipes:
+        r["links"] = []
+        for k in LINK_KEYS:
+            raw = r["meta"].get(k)
+            if not raw:
+                continue
+            for ref in [x.strip() for x in raw.split(",") if x.strip()]:
+                target = by_section.get(r["section"], {}).get(ref)
+                r["links"].append((k.title(), ref, target))
+                if target is not None:
+                    target["used_in"].append(r)
 
 
 def parse_journal():
@@ -253,23 +330,72 @@ def counts(items):
     return done, len(items)
 
 
-def build_index(recipes):
+def card(r, depth=""):
+    bits = [r["meta"][k] for k in ("yield", "makes", "serves", "total time")
+            if r["meta"].get(k)]
+    sub = f'<p class="peek">{esc(" · ".join(bits))}</p>' if bits else ""
+    ing = next((b for b in r["blocks"] if b["heading"].lower() == "ingredients"), None)
+    n = len([l for l in (ing["lines"] if ing else []) if l.strip().startswith("-")])
+    tail = f'<p class="count">{n} ingredient{"s" if n != 1 else ""}</p>' if n else ""
+    return (f'<a class="card" href="{depth}{r["url"]}">'
+            f'<h3>{esc(r["name"])} {badge(r["status"])}</h3>{sub}{tail}</a>')
+
+
+def build_section(key, label, groups):
+    items = flatten(groups)
+    if not items:
+        body = (f'<section class="lede"><h1>{esc(label)}</h1>'
+                "<p>No recipes recorded yet.</p></section>")
+        return page(f"{label} | Vergés Recipes", body, here=key)
+
+    parts = []
+    for g in groups:
+        if g["label"]:
+            gdone, gtotal = counts(flatten([g]))
+            parts.append(f'<h2 class="group">{esc(g["label"])}'
+                         f'<span class="gcount">{gtotal} recipe'
+                         f'{"s" if gtotal != 1 else ""}, {gdone} with a method</span></h2>')
+        for b in g["buckets"]:
+            if b["label"]:
+                parts.append(f'<h3 class="bucket">{esc(b["label"])}</h3>')
+            if b["items"]:
+                parts.append('<div class="cards">'
+                             + "".join(card(r) for r in b["items"]) + "</div>")
+            else:
+                parts.append('<p class="empty">Nothing here yet.</p>')
+
+    done, total = counts(items)
+    ngroups = len([g for g in groups if g["label"]])
+    lede = f"{total} recipe{'s' if total != 1 else ''}, {done} with a method"
+    if ngroups:
+        lede += f", in {ngroups} group{'s' if ngroups != 1 else ''}"
+    body = (f'<section class="lede"><h1>{esc(label)}</h1><p>{esc(lede + ".")}</p></section>'
+            + "".join(parts))
+    return page(f"{label} | Vergés Recipes", body, here=key)
+
+
+def build_index(sections):
     cards = []
     for key, label in SECTIONS:
-        items = recipes[key]
+        groups = sections[key]
+        items = flatten(groups)
         done, total = counts(items)
         if total:
-            state = f"{total} recipe{'s' if total != 1 else ''}, {done} with a method"
-            names = ", ".join(r["name"] for r in items[:6])
-            if total > 6:
-                names += f", and {total - 6} more"
-            inner = f'<p class="count">{esc(state)}</p><p class="peek">{esc(names)}</p>'
+            names = [g["label"] for g in groups if g["label"]]
+            if not names:
+                names = [r["name"] for r in items[:6]]
+            peek = ", ".join(names[:7])
+            if len(names) > 7:
+                peek += f", and {len(names) - 7} more"
+            inner = (f'<p class="count">{total} recipe{"s" if total != 1 else ""}, '
+                     f'{done} with a method</p><p class="peek">{esc(peek)}</p>')
         else:
             inner = '<p class="count">Nothing recorded yet</p>'
-        cards.append(f'<a class="card" href="{key}.html"><h2>{esc(label)}</h2>{inner}</a>')
+        cards.append(f'<a class="card" href="{key}.html"><h2>{esc(label)}</h2>'
+                     f"{inner}</a>")
 
-    total = sum(len(recipes[k]) for k, _ in SECTIONS)
-    done = sum(counts(recipes[k])[0] for k, _ in SECTIONS)
+    allitems = [r for key, _ in SECTIONS for r in flatten(sections[key])]
+    done, total = counts(allitems)
     lede = (f"{total} recipe{'s' if total != 1 else ''} across four sections, "
             f"{done} with a method written up.")
     return page("Vergés Recipes", f"""
@@ -278,38 +404,26 @@ def build_index(recipes):
 """, here="index")
 
 
-def build_section(key, label, items):
-    if not items:
-        body = (f"<section class=\"lede\"><h1>{esc(label)}</h1>"
-                "<p>No recipes recorded yet.</p></section>")
-        return page(f"{label} | Vergés Recipes", body, here=key)
-
-    rows = []
-    for r in items:
-        bits = []
-        for k in ("category", "yield", "makes", "serves", "total time"):
-            if r["meta"].get(k):
-                bits.append(r["meta"][k])
-        sub = f'<p class="peek">{esc(" · ".join(bits))}</p>' if bits else ""
-        ing = next((b for b in r["blocks"] if b["heading"].lower() == "ingredients"), None)
-        n = len([l for l in (ing["lines"] if ing else []) if l.strip().startswith("-")])
-        tail = f'<p class="count">{n} ingredient{"s" if n != 1 else ""}</p>' if n else ""
-        rows.append(f'<a class="card" href="{r["url"]}">'
-                    f'<h2>{esc(r["name"])} {badge(r["status"])}</h2>{sub}{tail}</a>')
-
-    done, total = counts(items)
-    lede = f"{total} recipe{'s' if total != 1 else ''}, {done} with a method."
-    body = (f'<section class="lede"><h1>{esc(label)}</h1><p>{esc(lede)}</p></section>'
-            f'<section class="cards">{"".join(rows)}</section>')
-    return page(f"{label} | Vergés Recipes", body, here=key)
-
-
 def build_recipe(r):
     label = dict(SECTIONS)[r["section"]]
+    crumb = [f'<a href="../{r["section"]}.html">{esc(label)}</a>']
+    if r["group"]:
+        crumb.append(esc(r["group"]))
+    if r["part"]:
+        crumb.append(esc(r["part"]))
+
     rows = []
     seen = set()
+    for k, ref, target in r.get("links") or []:
+        if target is not None:
+            rows.append(f"<dt>{esc(k)}</dt>"
+                        f'<dd><a href="../{target["url"]}">{esc(target["name"])}</a></dd>')
+        else:
+            rows.append(f"<dt>{esc(k)}</dt>"
+                        f'<dd class="empty">{esc(ref)} (not recorded yet)</dd>')
+        seen.add(k.lower())
     for k in META_ORDER + [k for k in r["order"] if k not in META_ORDER]:
-        if k in seen or k in ("section", "status", "image") or not r["meta"].get(k):
+        if k in seen or k in HIDE_META or k in LINK_KEYS or not r["meta"].get(k):
             continue
         seen.add(k)
         rows.append(f"<dt>{esc(k.title())}</dt><dd>{inline(r['meta'][k])}</dd>")
@@ -323,12 +437,17 @@ def build_recipe(r):
     blocks = sorted(r["blocks"], key=lambda b: (
         BODY_ORDER.index(b["heading"].lower())
         if b["heading"].lower() in BODY_ORDER else 50))
-    parts = []
+    body_parts = []
     for b in blocks:
-        inner = render_md(b["lines"])
-        if not inner:
-            inner = '<p class="empty">Not recorded yet.</p>'
-        parts.append(f'<section class="block"><h2>{esc(b["heading"])}</h2>{inner}</section>')
+        inner = render_md(b["lines"]) or '<p class="empty">Not recorded yet.</p>'
+        body_parts.append(f'<section class="block"><h2>{esc(b["heading"])}</h2>'
+                          f"{inner}</section>")
+
+    if r["used_in"]:
+        links = "".join(f'<li><a href="../{u["url"]}">{esc(u["name"])}</a></li>'
+                        for u in sort_recipes(r["used_in"]))
+        body_parts.append('<section class="block"><h2>Used in</h2>'
+                          f"<ul>{links}</ul></section>")
 
     note = ""
     if r["status"] == "stub":
@@ -336,22 +455,22 @@ def build_recipe(r):
                 'are here, the steps are not, so this is a formula rather than '
                 'something to cook from.</p>')
 
-    body = (f'<p class="crumb"><a href="../{r["section"]}.html">{esc(label)}</a></p>'
+    body = (f'<p class="crumb">{" / ".join(crumb)}</p>'
             f'<section class="lede"><h1>{esc(r["name"])} {badge(r["status"])}</h1>'
-            f'{note}{img}{facts}</section>{"".join(parts)}')
+            f'{note}{img}{facts}</section>{"".join(body_parts)}')
     return page(f"{r['name']} | Vergés Recipes", body, here=r["section"], depth="../")
 
 
 def build_journal(days):
     if not days:
         body = ('<section class="lede"><h1>Journal</h1>'
-                '<p>Nothing logged yet.</p></section>')
+                "<p>Nothing logged yet.</p></section>")
     else:
         items = "".join(f'<section class="block"><h2>{esc(d["date"])}</h2>'
                         f'{render_md(d["lines"])}</section>' for d in days)
         body = (f'<section class="lede"><h1>Journal</h1>'
-                f'<p>{len(days)} day{"s" if len(days) != 1 else ""} logged, newest first.</p>'
-                f'</section>{items}')
+                f'<p>{len(days)} day{"s" if len(days) != 1 else ""} logged, '
+                f"newest first.</p></section>{items}")
     return page("Journal | Vergés Recipes", body, here="journal")
 
 
@@ -366,9 +485,10 @@ def build_kitchen(groups):
             parts.append(f'<section class="block"><h2>{esc(g["heading"])}</h2>'
                          f"{notes}{f'<dl>{rows}</dl>' if rows else ''}</section>")
     unknown = sum(1 for g in groups for _, v in g["rows"] if v.lower() == "unknown")
-    lede = ("<p>Oven, equipment and defaults the recipes assume. "
-            f"{unknown} value{'s' if unknown != 1 else ''} still unrecorded.</p>"
-            if unknown else "<p>Oven, equipment and defaults the recipes assume.</p>")
+    lede = "<p>Oven, equipment and defaults the recipes assume."
+    if unknown:
+        lede += f" {unknown} value{'s' if unknown != 1 else ''} still unrecorded."
+    lede += "</p>"
     body = f'<section class="lede"><h1>Kitchen</h1>{lede}</section>{"".join(parts)}'
     return page("Kitchen | Vergés Recipes", body, here="kitchen")
 
@@ -377,19 +497,15 @@ def export_notes():
     """Carry the source markdown into the repo so it holds its own history."""
     if NOTES.exists():
         shutil.rmtree(NOTES)
+    NOTES.mkdir(parents=True, exist_ok=True)
     for name in ("profile.md", "journal.md"):
         src = SKILL / name
         if src.exists():
-            NOTES.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, NOTES / name)
-    for key, _ in SECTIONS:
-        d = SKILL / "recipes" / key
-        if not d.is_dir():
-            continue
-        dst = NOTES / "recipes" / key
-        dst.mkdir(parents=True, exist_ok=True)
-        for f in sorted(d.glob("*.md")):
-            shutil.copy2(f, dst / f.name)
+    src = SKILL / "recipes"
+    if src.is_dir():
+        shutil.copytree(src, NOTES / "recipes",
+                        ignore=shutil.ignore_patterns(".*"))
 
 
 def privacy_check(pages):
@@ -414,12 +530,23 @@ def main():
         shutil.copy2(css_src, ROOT / "site.css")
         CSSVER = str(int(css_src.stat().st_mtime))
 
-    recipes = parse_recipes()
-    pages = {"index.html": build_index(recipes)}
+    sections = {key: walk_section(key) for key, _ in SECTIONS}
+    allitems = [r for key, _ in SECTIONS for r in flatten(sections[key])]
+
+    urls = {}
+    for r in allitems:
+        if r["url"] in urls:
+            sys.exit(f"two recipes render to {r['url']}: "
+                     f"{urls[r['url']]} and {r['section']}/{r['slug']}")
+        urls[r["url"]] = f"{r['section']}/{r['slug']}"
+
+    link_parts(allitems)
+
+    pages = {"index.html": build_index(sections)}
     for key, label in SECTIONS:
-        pages[f"{key}.html"] = build_section(key, label, recipes[key])
-        for r in recipes[key]:
-            pages[r["url"]] = build_recipe(r)
+        pages[f"{key}.html"] = build_section(key, label, sections[key])
+    for r in allitems:
+        pages[r["url"]] = build_recipe(r)
     pages["journal.html"] = build_journal(parse_journal())
     pages["kitchen.html"] = build_kitchen(parse_profile())
 
@@ -431,9 +558,14 @@ def main():
         write(rel, text)
     export_notes()
 
-    total = sum(len(recipes[k]) for k, _ in SECTIONS)
-    print(f"{len(pages)} pages, {total} recipes "
-          + ", ".join(f"{k} {len(recipes[k])}" for k, _ in SECTIONS))
+    print(f"{len(pages)} pages, {len(allitems)} recipes")
+    for key, _ in SECTIONS:
+        gs = sections[key]
+        desc = ", ".join(
+            f"{g['label'] or 'ungrouped'} "
+            f"[{'/'.join(str(len(b['items'])) for b in g['buckets'])}]"
+            for g in gs) or "empty"
+        print(f"  {key}: {desc}")
 
 
 if __name__ == "__main__":
