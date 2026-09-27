@@ -3,21 +3,20 @@
 - Section: baking
 - Category: cookie
 - Status: stub
-- Source: bakery product list, ingredient names only
+- Unit weight: 80 g
 - Price: $4
 - Tags: vegetarian
+- Source: bakery site recipes.html
 
 ## Ingredients
 
-- phyllo dough
-- butter
-- walnuts
-- honey
-- sugar
-- cinnamon
+- 300 g phyllo dough
+- 150 g butter
+- 300 g walnuts
+- 200 g honey
+- 150 g sugar
+- 10 g cinnamon
 
 ## Method
 
-## Notes
-
-No quantities or method recorded yet.
+Not recorded yet.

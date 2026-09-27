@@ -43,3 +43,18 @@ relevant to an answer instead of assuming a default.
 
 - Constraints: unknown
 - Tags in use: vegan, vegetarian
+
+## Ingredient prices
+
+Costco, recorded April 2026. Re-check before costing a batch.
+
+- Butter: $4.82 per lb, salted and unsalted the same
+- Eggs: $1.84 per dozen
+- Egg yolks: $2.76 per dozen
+- Heavy whipping cream: $4.37 per lb
+- Milk: $3.91 per gal
+- Lemons: $1.28 per lb
+- Walnuts: $15.00 per kg
+
+Flour, sugar, chocolate, phyllo, nuts other than walnuts and the leaveners have no
+price recorded, so any cost total built from this list is partial.

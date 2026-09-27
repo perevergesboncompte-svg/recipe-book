@@ -45,12 +45,12 @@ STATUS_HELP = {
     "house": "the settled formula, cook from this one",
     "tested": "made at least once and it worked",
     "drafted": "written down but not yet made",
-    "stub": "name and ingredients only, no quantities",
+    "stub": "incomplete, no method recorded",
     "retired": "superseded, kept for reference",
 }
 
-META_ORDER = ["category", "yield", "makes", "serves", "active time", "rest",
-              "total time", "oven", "price", "tags", "source"]
+META_ORDER = ["category", "yield", "makes", "serves", "unit weight", "active time",
+              "rest", "total time", "oven", "price", "tags", "source"]
 BODY_ORDER = ["ingredients", "method", "notes", "learnings"]
 
 CSSVER = ""
@@ -137,12 +137,16 @@ def parse_profile():
     groups, cur = [], None
     for line in p.read_text(encoding="utf-8").splitlines():
         if line.startswith("## "):
-            cur = {"heading": line[3:].strip(), "rows": []}
+            cur = {"heading": line[3:].strip(), "rows": [], "notes": []}
             groups.append(cur)
             continue
+        if cur is None:
+            continue
         m = re.match(r"^- ([A-Za-z][A-Za-z ]*?):\s*(.*)$", line)
-        if m and cur is not None:
+        if m:
             cur["rows"].append((m.group(1).strip(), m.group(2).strip()))
+        else:
+            cur["notes"].append(line)
     return groups
 
 
@@ -244,7 +248,8 @@ def write(rel, text):
 
 
 def counts(items):
-    done = sum(1 for r in items if r["status"] in ("house", "tested"))
+    """A recipe counts as usable once it has a method, not once it is a favourite."""
+    done = sum(1 for r in items if r["status"] in ("house", "tested", "drafted"))
     return done, len(items)
 
 
@@ -254,7 +259,7 @@ def build_index(recipes):
         items = recipes[key]
         done, total = counts(items)
         if total:
-            state = f"{total} recipe{'s' if total != 1 else ''}, {done} written up"
+            state = f"{total} recipe{'s' if total != 1 else ''}, {done} with a method"
             names = ", ".join(r["name"] for r in items[:6])
             if total > 6:
                 names += f", and {total - 6} more"
@@ -266,7 +271,7 @@ def build_index(recipes):
     total = sum(len(recipes[k]) for k, _ in SECTIONS)
     done = sum(counts(recipes[k])[0] for k, _ in SECTIONS)
     lede = (f"{total} recipe{'s' if total != 1 else ''} across four sections, "
-            f"{done} with a full formula written up.")
+            f"{done} with a method written up.")
     return page("Vergés Recipes", f"""
 <section class="lede"><h1>Recipes</h1><p>{esc(lede)}</p></section>
 <section class="cards">{''.join(cards)}</section>
@@ -293,7 +298,7 @@ def build_section(key, label, items):
                     f'<h2>{esc(r["name"])} {badge(r["status"])}</h2>{sub}{tail}</a>')
 
     done, total = counts(items)
-    lede = f"{total} recipe{'s' if total != 1 else ''}, {done} with a full formula."
+    lede = f"{total} recipe{'s' if total != 1 else ''}, {done} with a method."
     body = (f'<section class="lede"><h1>{esc(label)}</h1><p>{esc(lede)}</p></section>'
             f'<section class="cards">{"".join(rows)}</section>')
     return page(f"{label} | Vergés Recipes", body, here=key)
@@ -327,8 +332,9 @@ def build_recipe(r):
 
     note = ""
     if r["status"] == "stub":
-        note = ('<p class="warn">This is a stub. Ingredient names only, with no '
-                'quantities or method, so it is not yet something to cook from.</p>')
+        note = ('<p class="warn">No method recorded yet. The ingredients and weights '
+                'are here, the steps are not, so this is a formula rather than '
+                'something to cook from.</p>')
 
     body = (f'<p class="crumb"><a href="../{r["section"]}.html">{esc(label)}</a></p>'
             f'<section class="lede"><h1>{esc(r["name"])} {badge(r["status"])}</h1>'
@@ -355,9 +361,10 @@ def build_kitchen(groups):
         rows = "".join(
             f"<dt>{esc(k)}</dt><dd" + (' class="empty"' if v.lower() == "unknown" else "")
             + f">{inline(v)}</dd>" for k, v in g["rows"])
-        if rows:
+        notes = render_md(g.get("notes") or [])
+        if rows or notes:
             parts.append(f'<section class="block"><h2>{esc(g["heading"])}</h2>'
-                         f"<dl>{rows}</dl></section>")
+                         f"{notes}{f'<dl>{rows}</dl>' if rows else ''}</section>")
     unknown = sum(1 for g in groups for _, v in g["rows"] if v.lower() == "unknown")
     lede = ("<p>Oven, equipment and defaults the recipes assume. "
             f"{unknown} value{'s' if unknown != 1 else ''} still unrecorded.</p>"

@@ -3,20 +3,19 @@
 - Section: baking
 - Category: bread
 - Status: stub
-- Source: bakery product list, ingredient names only
+- Unit weight: 600 g
 - Price: $9
 - Tags: vegan
+- Source: bakery site recipes.html
 
 ## Ingredients
 
-- whole wheat flour
-- bread flour
-- water
-- salt
+- 300 g bread flour
+- 200 g whole wheat flour
+- 350 ml water
+- 10 g salt
 - sourdough starter
 
 ## Method
 
-## Notes
-
-No quantities or method recorded yet.
+Not recorded yet.

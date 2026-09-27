@@ -3,20 +3,19 @@
 - Section: baking
 - Category: tart
 - Status: stub
-- Source: bakery product list, ingredient names only
+- Unit weight: 150 g
 - Price: $5
 - Tags: vegetarian
+- Source: bakery site recipes.html
 
 ## Ingredients
 
-- flour
-- butter
-- lemons
-- eggs
-- sugar
+- 200 g flour
+- 150 g butter
+- 4 lemons
+- 4 eggs
+- 200 g sugar
 
 ## Method
 
-## Notes
-
-No quantities or method recorded yet.
+Not recorded yet.

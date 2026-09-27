@@ -3,21 +3,20 @@
 - Section: baking
 - Category: tart
 - Status: stub
-- Source: bakery product list, ingredient names only
+- Unit weight: 150 g
 - Price: $6
 - Tags: vegetarian
+- Source: bakery site recipes.html
 
 ## Ingredients
 
-- flour
-- butter
-- walnuts
-- caramel
-- cream
-- eggs
+- 200 g flour
+- 150 g butter
+- 200 g walnuts
+- 200 g caramel
+- 100 ml cream
+- 3 eggs
 
 ## Method
 
-## Notes
-
-No quantities or method recorded yet.
+Not recorded yet.

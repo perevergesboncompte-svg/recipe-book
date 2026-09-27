@@ -3,21 +3,20 @@
 - Section: baking
 - Category: tart
 - Status: stub
-- Source: bakery product list, ingredient names only
+- Unit weight: 150 g
 - Price: $6
 - Tags: vegetarian
+- Source: bakery site recipes.html
 
 ## Ingredients
 
-- flour
-- butter
-- dark chocolate
-- cream
-- eggs
-- sugar
+- 200 g flour
+- 150 g butter
+- 200 g dark chocolate
+- 150 ml cream
+- 3 eggs
+- 100 g sugar
 
 ## Method
 
-## Notes
-
-No quantities or method recorded yet.
+Not recorded yet.

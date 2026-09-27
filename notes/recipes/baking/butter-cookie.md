@@ -3,20 +3,19 @@
 - Section: baking
 - Category: cookie
 - Status: stub
-- Source: bakery product list, ingredient names only
-- Price: $2.5
+- Unit weight: 30 g
+- Price: $2.50
 - Tags: vegetarian
+- Source: bakery site recipes.html
 
 ## Ingredients
 
-- flour
-- butter
-- sugar
-- eggs
-- vanilla
+- 150 g flour
+- 100 g butter
+- 50 g sugar
+- 1 egg
+- 5 ml vanilla
 
 ## Method
 
-## Notes
-
-No quantities or method recorded yet.
+Not recorded yet.
