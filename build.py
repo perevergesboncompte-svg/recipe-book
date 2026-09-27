@@ -168,6 +168,10 @@ def walk_section(key):
     for d in sorted(subdirs(root), key=order_key):
         parts = sorted(subdirs(d), key=order_key)
         if parts:
+            stranded = sorted(f.name for f in d.glob("*.md"))
+            if stranded:
+                sys.exit(f"{key}/{d.name} has part folders, so its loose files "
+                         f"would never render: {', '.join(stranded)}")
             buckets = [{"label": nice(p.name),
                         "items": sort_recipes([parse_recipe(f, key, d.name, p.name)
                                                for f in sorted(p.glob("*.md"))])}
