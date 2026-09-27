@@ -64,6 +64,7 @@ STATUS_HELP = {
 META_ORDER = ["yield", "makes", "serves", "unit weight", "active time",
               "rest", "total time", "oven", "price", "tags", "source"]
 LINK_KEYS = ["dough", "filling", "shape", "base", "coating"]
+SCORE_KEYS = ["appearance", "texture", "flavor", "technique", "overall"]
 BODY_ORDER = ["ingredients", "method", "notes", "learnings"]
 HIDE_META = {"section", "status", "image", "category", "group"}
 
@@ -138,10 +139,18 @@ def parse_recipe(path, section, group, part):
     }
 
 
+def score(r):
+    try:
+        return float(r["meta"].get("overall", ""))
+    except ValueError:
+        return -1.0
+
+
 def sort_recipes(items):
+    """Status first, then the best-rated inside a status, then by name."""
     return sorted(items, key=lambda r: (
         STATUS_ORDER.index(r["status"]) if r["status"] in STATUS_ORDER else 99,
-        r["name"].lower()))
+        -score(r), r["name"].lower()))
 
 
 def walk_section(key):
@@ -336,7 +345,12 @@ def card(r, depth=""):
     sub = f'<p class="peek">{esc(" · ".join(bits))}</p>' if bits else ""
     ing = next((b for b in r["blocks"] if b["heading"].lower() == "ingredients"), None)
     n = len([l for l in (ing["lines"] if ing else []) if l.strip().startswith("-")])
-    tail = f'<p class="count">{n} ingredient{"s" if n != 1 else ""}</p>' if n else ""
+    bits2 = []
+    if r["meta"].get("overall"):
+        bits2.append(f'<strong>{esc(r["meta"]["overall"])}/5</strong> overall')
+    if n:
+        bits2.append(f'{n} ingredient{"s" if n != 1 else ""}')
+    tail = f'<p class="count">{" · ".join(bits2)}</p>' if bits2 else ""
     return (f'<a class="card" href="{depth}{r["url"]}">'
             f'<h3>{esc(r["name"])} {badge(r["status"])}</h3>{sub}{tail}</a>')
 
@@ -423,7 +437,8 @@ def build_recipe(r):
                         f'<dd class="empty">{esc(ref)} (not recorded yet)</dd>')
         seen.add(k.lower())
     for k in META_ORDER + [k for k in r["order"] if k not in META_ORDER]:
-        if k in seen or k in HIDE_META or k in LINK_KEYS or not r["meta"].get(k):
+        if (k in seen or k in HIDE_META or k in LINK_KEYS or k in SCORE_KEYS
+                or not r["meta"].get(k)):
             continue
         seen.add(k)
         rows.append(f"<dt>{esc(k.title())}</dt><dd>{inline(r['meta'][k])}</dd>")
@@ -438,6 +453,19 @@ def build_recipe(r):
         BODY_ORDER.index(b["heading"].lower())
         if b["heading"].lower() in BODY_ORDER else 50))
     body_parts = []
+    if any(r["meta"].get(k) for k in SCORE_KEYS):
+        cells = []
+        for k in SCORE_KEYS:
+            v = r["meta"].get(k)
+            if not v:
+                continue
+            num = re.fullmatch(r"[\d.]+", v)
+            cls = "sc big" if k == "overall" else "sc"
+            val = f"{esc(v)}<span class='den'>/5</span>" if num else esc(v)
+            cells.append(f'<div class="{cls}"><span class="scv">{val}</span>'
+                         f'<span class="scl">{esc(k.title())}</span></div>')
+        body_parts.append('<section class="block"><h2>Scorecard</h2>'
+                          f'<div class="score">{"".join(cells)}</div></section>')
     for b in blocks:
         inner = render_md(b["lines"]) or '<p class="empty">Not recorded yet.</p>'
         body_parts.append(f'<section class="block"><h2>{esc(b["heading"])}</h2>'

@@ -1,49 +1,50 @@
-# Broma Chocolate Chip Cookie
+# Broma Bakery Chocolate Chip
 
 - Section: baking
-- Status: drafted
+- Status: house
 - Yield: 14 cookies
 - Unit weight: 50 g
-- Oven: 350°F, 11-12 min
+- Oven: 350F, 11-12 min
+- Rest: 10 min at room temperature
+- Appearance: 4
+- Texture: 5
+- Flavor: 4.5
+- Technique: medium
+- Overall: 4.5
 - Price: $3.50
 - Tags: vegetarian
-- Source: bakery site recipes.html
+- Source: Broma Bakery, bromabakery.com
 
 ## Ingredients
 
-- 168 g butter
-- 200 g brown sugar, packed
-- 50 g granulated sugar
-- 1 egg + 1 egg yolk
-- 15 ml vanilla extract
-- 220 g flour
-- 3 g baking soda
-- 4 g kosher salt
-- 170 g dark chocolate chunks
+- Butter: 168 g, browned
+- Brown sugar, packed: 200 g
+- Granulated sugar: 50 g
+- Egg: 1, plus 1 extra yolk
+- Vanilla extract: 15 ml
+- All-purpose flour: 220 g
+- Baking soda: 3 g
+- Kosher salt: 4 g
+- Dark chocolate chunks: 170 g
 
 ## Method
 
-Before starting:
-
-- Line baking sheets with parchment before starting.
-- If using salted butter, omit additional kosher salt.
-- Gather all ingredients and equipment before beginning.
-
-1. Place butter in a skillet over medium heat. Let it melt, then continue cooking, stirring occasionally.
-2. Watch carefully as butter transforms - it will bubble, foam, then turn deep golden brown with a nutty aroma (brown butter).
-3. Remove from heat and pour into a heatproof bowl. Let it cool for 5-10 minutes. If too hot, it will cook the eggs.
-4. Add brown sugar and granulated sugar to cooled brown butter. Whisk until combined.
-5. Crack in the egg and add egg yolk. Pour in vanilla. Whisk until completely smooth.
-6. Add flour, baking soda, and kosher salt. Stir with spatula until just combined. Stop as soon as no dry flour remains.
-7. Fold in chocolate chunks until evenly distributed.
-8. Let dough rest for 10 minutes at room temperature, or cover and refrigerate for later use.
-9. Scoop dough onto prepared baking sheets, leaving at least 5cm between each mound.
-10. Bake until edges turn golden brown but centers still look slightly soft and doughy. Don't overbake.
-11. Remove from oven and let cool on sheet for 5 minutes. While still warm, sprinkle with flaky sea salt if desired.
-12. After 5 minutes, transfer to a wire rack. Best eaten warm when chocolate is still melty.
+1. Brown the butter in a skillet over medium heat, until it foams and turns deep golden with a nutty smell. Pour into a heatproof bowl.
+2. Cool 5 to 10 minutes, or it will scramble the eggs.
+3. Whisk in both sugars, then the egg, yolk and vanilla, until smooth.
+4. Add flour, baking soda and salt. Fold with a spatula only until no dry flour shows.
+5. Fold in the chocolate chunks.
+6. Rest 10 minutes at room temperature, or chill for later.
+7. Scoop onto parchment with 5 cm between mounds.
+8. Bake at 350F for 11 to 12 minutes. Pull them with golden edges and centres still soft and puffy.
+9. Cool on the sheet 5 minutes, salting while warm if wanted, then move to a rack.
 
 ## Notes
 
-- The brown butter is what gives these cookies their incredible depth of flavor.
-- Using good quality chocolate makes a noticeable difference.
-- Don't overbake - cookies continue cooking on the hot pan after removing from oven.
+- Brown butter is the whole point of this one.
+- Skip salted butter or drop the added kosher salt.
+- They keep cooking on the hot pan, so underbake rather than over.
+
+## Learnings
+
+Best texture of the ten tested, a 5. Appearance only a 4 and flavor 4.5, which still puts it joint top overall with the Levain copycat at 4.5. Medium effort.
