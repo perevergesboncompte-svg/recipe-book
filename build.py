@@ -85,6 +85,61 @@ def inline(s):
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out)
 
 
+UNITS = r"(?:g|kg|ml|l|oz|lb|tbsp|tsp|cups?)"
+QTY = re.compile(
+    r"(?<![\d./])(?:"
+    r"(?P<lo>\d+(?:\.\d+)?)\s*(?:-|to)\s*(?P<hi>\d+(?:\.\d+)?)\s*(?P<u1>" + UNITS + r")\b"
+    r"|(?P<fn>\d+)/(?P<fd>\d+)\s*(?P<u2>" + UNITS + r")\b"
+    r"|(?P<n>\d+(?:\.\d+)?)\s*(?P<u3>" + UNITS + r")\b"
+    r")", re.I)
+COUNT = re.compile(r"(?<![\d./%])(?P<c>\d+(?:\.\d+)?)(?![\d.])(?!\s*%)(?=\s+[A-Za-z])")
+
+
+def qspan(value, suffix):
+    return f'<span class="q" data-q="{value:g}">{value:g}</span>{suffix}'
+
+
+def mark_qty(text):
+    """Wrap scalable quantities so the page can multiply them client-side.
+
+    Only numbers carrying a known unit, or bare counts, get touched. A percent
+    and a flour grade like `00` must never move, so everything before the first
+    colon is left alone and `%` is excluded outright.
+    """
+    body = inline(text)
+    head = ""
+    if ": " in body:
+        head, _, body = body.partition(": ")
+        head += ": "
+
+    def unit_sub(m):
+        u = m.group("u1") or m.group("u2") or m.group("u3")
+        if m.group("lo"):
+            return (qspan(float(m.group("lo")), "") + "-"
+                    + qspan(float(m.group("hi")), f" {u}"))
+        if m.group("fn"):
+            return qspan(int(m.group("fn")) / int(m.group("fd")), f" {u}")
+        return qspan(float(m.group("n")), f" {u}")
+
+    out, n = QTY.subn(unit_sub, body)
+    if not n:
+        out = COUNT.sub(lambda m: qspan(float(m.group("c")), ""), body)
+    return head + out
+
+
+def mark_lead(text):
+    """Scale only the leading number of a yield, so `2 loaves, 900 g each` is safe."""
+    s = inline(text)
+    m = re.match(r"^(\d+(?:\.\d+)?)\s*(?:-|to)\s*(\d+(?:\.\d+)?)", s)
+    if m:
+        return (qspan(float(m.group(1)), "") + "-"
+                + qspan(float(m.group(2)), "") + s[m.end():])
+    m = re.match(r"^(\d+(?:\.\d+)?)", s)
+    if m:
+        return qspan(float(m.group(1)), "") + s[m.end():]
+    return s
+
+
 def strip_order(name):
     return re.sub(r"^\d+[-_]", "", name)
 
@@ -540,6 +595,16 @@ def export_notes():
                         ignore=shutil.ignore_patterns(".*"))
 
 
+def export_images():
+    """Photos live with the recipes they belong to, so they ship from the skill."""
+    dst = ROOT / "images"
+    if dst.exists():
+        shutil.rmtree(dst)
+    src = SKILL / "images"
+    if src.is_dir():
+        shutil.copytree(src, dst, ignore=shutil.ignore_patterns(".*"))
+
+
 def privacy_check(pages):
     """Pages are world readable to anyone with the URL. Keep the box out of them.
 
@@ -589,6 +654,7 @@ def main():
     for rel, text in pages.items():
         write(rel, text)
     export_notes()
+    export_images()
 
     print(f"{len(pages)} pages, {len(allitems)} recipes")
     for key, _ in SECTIONS:
