@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Ina Garten&#x27;s Shortbread <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd>24 cookies</dd><dt>Rest</dt><dd>2 h minimum</dd><dt>Oven</dt><dd>350F, 12-15 min</dd><dt>Source</dt><dd>Ina Garten, via The Kitchn</dd></dl></section><section class="block"><h2>Ingredients</h2><ul><li>Unsalted butter, room temperature: 340 g</li><li>Granulated sugar: 100 g</li><li>All-purpose flour: 360 g</li><li>Salt: 1/4 tsp</li><li>Vanilla extract: 5 ml</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter and sugar on medium-high about 3 minutes until light and fluffy.</li><li>Mix in the vanilla and salt.</li><li>Add the flour gradually on low, just until combined.</li><li>Halve the dough, flatten each into a disk, wrap and chill at least 2 hours.</li><li>Roll to about 1/4 inch on a floured surface and cut shapes.</li><li>Bake on ungreased sheets at 350F for 12 to 15 minutes, edges lightly golden, centres still pale.</li><li>Cool 5 minutes on the sheet. They crisp as they cool.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Won The Kitchn&#x27;s shortbread comparison outright, which is why it was collected.</li><li>More front-loaded work than the pan shortbreads, since it wants chilling, rolling and cutting.</li><li>Hotter than most shortbread recipes, which is what gives the crisp.</li><li>Best within a few days for crispness, though the flavour keeps improving.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Ina Garten&#x27;s Shortbread <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd><span class="q" data-q="24">24</span> cookies</dd><dt>Rest</dt><dd>2 h minimum</dd><dt>Oven</dt><dd>350F, 12-15 min</dd><dt>Source</dt><dd>Ina Garten, via The Kitchn</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>Unsalted butter, room temperature: <span class="q" data-q="340">340</span> g</li><li>Granulated sugar: <span class="q" data-q="100">100</span> g</li><li>All-purpose flour: <span class="q" data-q="360">360</span> g</li><li>Salt: <span class="q" data-q="0.25">0.25</span> tsp</li><li>Vanilla extract: <span class="q" data-q="5">5</span> ml</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter and sugar on medium-high about 3 minutes until light and fluffy.</li><li>Mix in the vanilla and salt.</li><li>Add the flour gradually on low, just until combined.</li><li>Halve the dough, flatten each into a disk, wrap and chill at least 2 hours.</li><li>Roll to about 1/4 inch on a floured surface and cut shapes.</li><li>Bake on ungreased sheets at 350F for 12 to 15 minutes, edges lightly golden, centres still pale.</li><li>Cool 5 minutes on the sheet. They crisp as they cool.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Won The Kitchn&#x27;s shortbread comparison outright, which is why it was collected.</li><li>More front-loaded work than the pan shortbreads, since it wants chilling, rolling and cutting.</li><li>Hotter than most shortbread recipes, which is what gives the crisp.</li><li>Best within a few days for crispness, though the flavour keeps improving.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

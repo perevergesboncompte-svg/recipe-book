@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Scottish Shortbread <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd>12-16 pieces</dd><dt>Oven</dt><dd>375F, 25-30 min</dd><dt>Source</dt><dd>Christina&#x27;s Cucina, christinascucina.com</dd></dl></section><section class="block"><h2>Ingredients</h2><ul><li>Salted butter, softened: 225 g</li><li>Granulated sugar: 100 g</li><li>All-purpose flour: 310 g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Mix the butter and sugar together but do NOT cream them. Amalgamate only, a few minutes, until it looks like sandy crumbs.</li><li>Add the flour and mix to a stiff consistency. Stop as soon as it comes together.</li><li>Roll out on a lightly floured surface to the shape of the pan.</li><li>Transfer to a lightly greased 8x8 pan or a sheet, trim the edges. For fingers, cut 3/4 inch strips.</li><li>Prick about halfway through with a fork.</li><li>Bake at 375F for 25 to 30 minutes, only very slightly browned at the edges. It should not go dark.</li><li>Cool in the pan before moving.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Three ingredients, and the refusal to cream is the entire technique. Creaming aerates, which is wrong for this texture.</li><li>Highest oven of the shortbreads at 375F, yet the target is pale, so watch it rather than trusting the clock.</li><li>Nothing to hide behind, so butter quality decides the result.</li><li>Weigh rather than measure by cup.</li><li>Keeps for weeks in a sealed tin and freezes well.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Scottish Shortbread <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd><span class="q" data-q="12">12</span>-<span class="q" data-q="16">16</span> pieces</dd><dt>Oven</dt><dd>375F, 25-30 min</dd><dt>Source</dt><dd>Christina&#x27;s Cucina, christinascucina.com</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>Salted butter, softened: <span class="q" data-q="225">225</span> g</li><li>Granulated sugar: <span class="q" data-q="100">100</span> g</li><li>All-purpose flour: <span class="q" data-q="310">310</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Mix the butter and sugar together but do NOT cream them. Amalgamate only, a few minutes, until it looks like sandy crumbs.</li><li>Add the flour and mix to a stiff consistency. Stop as soon as it comes together.</li><li>Roll out on a lightly floured surface to the shape of the pan.</li><li>Transfer to a lightly greased 8x8 pan or a sheet, trim the edges. For fingers, cut 3/4 inch strips.</li><li>Prick about halfway through with a fork.</li><li>Bake at 375F for 25 to 30 minutes, only very slightly browned at the edges. It should not go dark.</li><li>Cool in the pan before moving.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Three ingredients, and the refusal to cream is the entire technique. Creaming aerates, which is wrong for this texture.</li><li>Highest oven of the shortbreads at 375F, yet the target is pale, so watch it rather than trusting the clock.</li><li>Nothing to hide behind, so butter quality decides the result.</li><li>Weigh rather than measure by cup.</li><li>Keeps for weeks in a sealed tin and freezes well.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

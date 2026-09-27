@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html" class="here">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Doughs</p><section class="lede"><h1>Cocoa Dough <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Makes</dt><dd>954 g</dd><dt>Active Time</dt><dd>8-10 min kneading</dd><dt>Rest</dt><dd>30 min minimum, wrapped</dd><dt>Source</dt><dd>Pasta, Missy Robbins</dd></dl></section><section class="block"><h2>Ingredients</h2><ul><li>Tipo 00 flour: 470 g</li><li>Natural cocoa powder, sifted: 30 g</li><li>Egg yolks: 454 g</li><li>Extra 00 flour for kneading: as needed</li><li>Room-temperature water: up to 1 tbsp, only if dry</li></ul></section><section class="block"><h2>Method</h2><ol><li>Stir the sifted cocoa into the flour until evenly coloured.</li><li>Mound on a wooden surface with a well 5 to 6 inches across.</li><li>Mix the yolks lightly, add half to the well, drawing in flour from the inner wall with a fork.</li><li>Add the rest the same way, scraping back any escapes.</li><li>Knead 8 to 10 minutes until smooth and firm.</li><li>Add water by the tablespoon only if it stays dry.</li><li>Wrap and rest at least 30 minutes.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Egg dough with 30 g of the flour swapped for cocoa, so 6% of the dry weight. Same yolk quantity.</li><li>Natural cocoa, not Dutch-process.</li><li>Keeps 24 hours. Chilled overnight, pull it out 20 minutes before rolling.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Doughs</p><section class="lede"><h1>Cocoa Dough <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Makes</dt><dd><span class="q" data-q="954">954</span> g</dd><dt>Active Time</dt><dd>8-10 min kneading</dd><dt>Rest</dt><dd>30 min minimum, wrapped</dd><dt>Source</dt><dd>Pasta, Missy Robbins</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>Tipo 00 flour: <span class="q" data-q="470">470</span> g</li><li>Natural cocoa powder, sifted: <span class="q" data-q="30">30</span> g</li><li>Egg yolks: <span class="q" data-q="454">454</span> g</li><li>Extra 00 flour for kneading: as needed</li><li>Room-temperature water: up to <span class="q" data-q="1">1</span> tbsp, only if dry</li></ul></section><section class="block"><h2>Method</h2><ol><li>Stir the sifted cocoa into the flour until evenly coloured.</li><li>Mound on a wooden surface with a well 5 to 6 inches across.</li><li>Mix the yolks lightly, add half to the well, drawing in flour from the inner wall with a fork.</li><li>Add the rest the same way, scraping back any escapes.</li><li>Knead 8 to 10 minutes until smooth and firm.</li><li>Add water by the tablespoon only if it stays dry.</li><li>Wrap and rest at least 30 minutes.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Egg dough with 30 g of the flour swapped for cocoa, so 6% of the dry weight. Same yolk quantity.</li><li>Natural cocoa, not Dutch-process.</li><li>Keeps 24 hours. Chilled overnight, pull it out 20 minutes before rolling.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section><section class="block"><h2>Preserving</h2><p>Make the full batch, then freeze whatever you will not roll out. Refrigerated dough is only good for about 24 hours, so freezing is the answer past that rather than trying to stretch it.</p><ul><li>Divide into portions before freezing, sized to one meal, so you thaw only what you need.</li><li>Flatten each portion into a disc rather than a ball. It freezes faster and thaws evenly.</li><li>Wrap tight in plastic, then bag it. Exposed dough dries and picks up freezer burn.</li><li>Thaw overnight in the fridge, then leave it out 20 minutes to come back to room temperature before rolling.</li><li>Do not refreeze thawed dough.</li></ul></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

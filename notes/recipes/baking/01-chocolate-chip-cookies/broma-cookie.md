@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: house
+- Image: images/broma-cookie.jpg
 - Yield: 14 cookies
 - Unit weight: 50 g
 - Oven: 350F, 11-12 min

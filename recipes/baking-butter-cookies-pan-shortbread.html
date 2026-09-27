@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Pan Shortbread <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd>16 pieces</dd><dt>Oven</dt><dd>325F, 35-40 min</dd><dt>Source</dt><dd>King Arthur Baking, kingarthurbaking.com</dd></dl></section><section class="block"><h2>Ingredients</h2><ul><li>Salted butter, cool room temperature: 227 g</li><li>Powdered sugar: 113 g</li><li>Vanilla extract: 7.5 ml</li><li>Table salt: 1 g</li><li>All-purpose flour: 240 g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Beat the butter, sugar, vanilla and salt together.</li><li>Beat in the flour. It looks dry at first, so keep going until a stiff dough forms. Up to a tablespoon of water will bring it together if needed.</li><li>Press into a greased and parchment-lined 9 inch round or 8 inch square pan, smoothing the top.</li><li>Dock all over with a fork so steam escapes and it does not bubble.</li><li>Bake at 325F for 35 to 40 minutes, light golden on top and deeper at the edges.</li><li>Cool in the pan 5 to 10 minutes, cut while still slightly warm, then cool on a rack.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Pressed into a pan, so no rolling, cutting or chilling. The simplest route to shortbread here.</li><li>Salted butter plus added salt is deliberate. With unsalted, raise salt to about 1/2 tsp.</li><li>Flavour improves with age.</li><li>Takes additions well: crystallized ginger, or dip half in chocolate.</li><li>Keeps a week wrapped, freezes longer.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Pan Shortbread <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd><span class="q" data-q="16">16</span> pieces</dd><dt>Oven</dt><dd>325F, 35-40 min</dd><dt>Source</dt><dd>King Arthur Baking, kingarthurbaking.com</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>Salted butter, cool room temperature: <span class="q" data-q="227">227</span> g</li><li>Powdered sugar: <span class="q" data-q="113">113</span> g</li><li>Vanilla extract: <span class="q" data-q="7.5">7.5</span> ml</li><li>Table salt: <span class="q" data-q="1">1</span> g</li><li>All-purpose flour: <span class="q" data-q="240">240</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Beat the butter, sugar, vanilla and salt together.</li><li>Beat in the flour. It looks dry at first, so keep going until a stiff dough forms. Up to a tablespoon of water will bring it together if needed.</li><li>Press into a greased and parchment-lined 9 inch round or 8 inch square pan, smoothing the top.</li><li>Dock all over with a fork so steam escapes and it does not bubble.</li><li>Bake at 325F for 35 to 40 minutes, light golden on top and deeper at the edges.</li><li>Cool in the pan 5 to 10 minutes, cut while still slightly warm, then cool on a rack.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Pressed into a pan, so no rolling, cutting or chilling. The simplest route to shortbread here.</li><li>Salted butter plus added salt is deliberate. With unsalted, raise salt to about 1/2 tsp.</li><li>Flavour improves with age.</li><li>Takes additions well: crystallized ginger, or dip half in chocolate.</li><li>Keeps a week wrapped, freezes longer.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

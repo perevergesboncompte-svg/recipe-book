@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: stub
+- Image: images/whole-grain-sourdough.jpg
 - Unit weight: 600 g
 - Price: $9
 - Tags: vegan

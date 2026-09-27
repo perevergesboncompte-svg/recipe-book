@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pâte Brisée | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1790549959">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Tarts / Dough</p><section class="lede"><h1>Pâte Brisée <span class="badge s-draft" title="written down but not yet made">drafted</span></h1><dl><dt>Yield</dt><dd><span class="q" data-q="1">1</span> x 23cm tart base, serves 6</dd><dt>Active Time</dt><dd>10 min</dd><dt>Rest</dt><dd>30 min to 1 h</dd><dt>Source</dt><dd>French Pâtisserie, Ferrandi Paris (Flammarion, 2017)</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>All-purpose flour, sifted: <span class="q" data-q="125">125</span> g</li><li>Unsalted butter, diced and well chilled: <span class="q" data-q="75">75</span> g</li><li>Egg, lightly beaten: <span class="q" data-q="40">40</span> g</li><li>Sugar: <span class="q" data-q="6">6</span> g</li><li>Salt: <span class="q" data-q="2.5">2.5</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Paddle the sifted flour, diced butter, sugar and salt on low 30 to 45 seconds, to the texture of coarse sand with the butter evenly coated.</li><li>Scrape the bowl down.</li><li>Add the beaten egg in a steady stream on low, mixing only until it gathers into a smooth mass. This takes 15 to 20 seconds.</li><li>Stop the moment it is smooth. Overworking makes it elastic and tough.</li><li>Shape into a disk by hand, handling it as little as possible.</li><li>Wrap tight and chill at least 30 minutes.</li><li>Let it sit 2 to 3 minutes before rolling so it does not crack. Roll to an even 3 mm, rotating and dusting as needed.</li><li>Line the ring, pressing gently into the flutes.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Only 6 g of sugar, so this is the savoury-capable one. Use it where the filling carries the sweetness.</li><li>The butter wants to be well chilled but not frozen, unlike pâte sablée.</li><li>Keeps 3 days refrigerated, well covered.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
+</body></html>

@@ -92,7 +92,8 @@ QTY = re.compile(
     r"|(?P<fn>\d+)/(?P<fd>\d+)\s*(?P<u2>" + UNITS + r")\b"
     r"|(?P<n>\d+(?:\.\d+)?)\s*(?P<u3>" + UNITS + r")\b"
     r")", re.I)
-COUNT = re.compile(r"(?<![\d./%])(?P<c>\d+(?:\.\d+)?)(?![\d.])(?!\s*%)(?=\s+[A-Za-z])")
+COUNT = re.compile(r"(?<![\d./%])(?P<c>\d+(?:\.\d+)?)(?![\d.])(?!\s*%)"
+                   r"(?!\s*" + UNITS + r"\b)")
 
 
 def qspan(value, suffix):
@@ -125,6 +126,37 @@ def mark_qty(text):
     if not n:
         out = COUNT.sub(lambda m: qspan(float(m.group("c")), ""), body)
     return head + out
+
+
+SCALER = """<div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script>"""
 
 
 def mark_lead(text):
@@ -295,9 +327,14 @@ def parse_profile():
     return groups
 
 
-def render_md(lines):
-    """The markdown subset recipes are written in: lists, tables, paragraphs."""
+def render_md(lines, mark=None):
+    """The markdown subset recipes are written in: lists, tables, paragraphs.
+
+    `mark` rewrites list-item text, which is how ingredient quantities pick up
+    the spans the scale control multiplies.
+    """
     out, buf, kind = [], [], None
+    item = mark or inline
 
     def flush():
         nonlocal buf, kind
@@ -305,9 +342,9 @@ def render_md(lines):
             kind = None
             return
         if kind == "ul":
-            out.append("<ul>" + "".join(f"<li>{inline(x)}</li>" for x in buf) + "</ul>")
+            out.append("<ul>" + "".join(f"<li>{item(x)}</li>" for x in buf) + "</ul>")
         elif kind == "ol":
-            out.append("<ol>" + "".join(f"<li>{inline(x)}</li>" for x in buf) + "</ol>")
+            out.append("<ol>" + "".join(f"<li>{item(x)}</li>" for x in buf) + "</ol>")
         elif kind == "table":
             rows = [[c.strip() for c in r.strip().strip("|").split("|")] for r in buf]
             rows = [r for r in rows if not all(set(c) <= set("-: ") for c in r)]
@@ -500,7 +537,9 @@ def build_recipe(r):
                 or not r["meta"].get(k)):
             continue
         seen.add(k)
-        rows.append(f"<dt>{esc(k.title())}</dt><dd>{inline(r['meta'][k])}</dd>")
+        val = (mark_lead(r["meta"][k]) if k in ("yield", "makes", "serves")
+               else inline(r["meta"][k]))
+        rows.append(f"<dt>{esc(k.title())}</dt><dd>{val}</dd>")
     facts = f"<dl>{''.join(rows)}</dl>" if rows else ""
 
     img = ""
@@ -526,7 +565,11 @@ def build_recipe(r):
         body_parts.append('<section class="block"><h2>Scorecard</h2>'
                           f'<div class="score">{"".join(cells)}</div></section>')
     for b in blocks:
-        inner = render_md(b["lines"]) or '<p class="empty">Not recorded yet.</p>'
+        ing = b["heading"].lower() == "ingredients"
+        inner = (render_md(b["lines"], mark_qty if ing else None)
+                 or '<p class="empty">Not recorded yet.</p>')
+        if ing and 'class="q"' in inner:
+            inner = SCALER + inner
         body_parts.append(f'<section class="block"><h2>{esc(b["heading"])}</h2>'
                           f"{inner}</section>")
 

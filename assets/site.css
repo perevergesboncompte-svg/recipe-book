@@ -235,6 +235,49 @@ dt {
 }
 dd.empty, .empty { color: var(--dim); font-style: italic; }
 
+.scaler {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -0.25rem 0 1rem;
+}
+.slab {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+  margin-right: 0.15rem;
+}
+.scaler button {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.scaler button:hover { border-color: var(--accent); }
+.scaler button.on {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.scaler label { font-size: 0.75rem; color: var(--dim); }
+.scaler input {
+  font: inherit;
+  font-size: 0.8rem;
+  width: 4.2rem;
+  padding: 0.2rem 0.4rem;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.q { font-variant-numeric: tabular-nums; }
+
 .score {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));

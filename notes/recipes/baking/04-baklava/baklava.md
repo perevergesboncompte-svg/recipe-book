@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: stub
+- Image: images/baklava.jpg
 - Unit weight: 80 g
 - Price: $4
 - Tags: vegetarian

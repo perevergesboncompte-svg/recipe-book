@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Chocolate chip cookies</p><section class="lede"><h1>Professional Chocolate Chip <span class="badge s-tested" title="made at least once and it worked">tested</span></h1><dl><dt>Yield</dt><dd>18 cookies</dd><dt>Rest</dt><dd>1 h after scooping</dd><dt>Oven</dt><dd>325F, 15-18 min</dd><dt>Source</dt><dd>Anna Olson</dd></dl></section><section class="block"><h2>Scorecard</h2><div class="score"><div class="sc"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Appearance</span></div><div class="sc"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Texture</span></div><div class="sc"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Flavor</span></div><div class="sc"><span class="scv">easy</span><span class="scl">Technique</span></div><div class="sc big"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Overall</span></div></div></section><section class="block"><h2>Ingredients</h2><ul><li>Unsalted butter, room temperature: 115 g</li><li>Light brown sugar, packed: 100 g</li><li>Granulated sugar: 100 g</li><li>Egg, room temperature: 1</li><li>Vanilla extract: 5 ml</li><li>All-purpose flour: 185 g</li><li>Cornstarch: 7.5 g</li><li>Baking soda: 2.5 g</li><li>Salt: 2.5 g</li><li>Chocolate chips: 262 g</li><li>Pecans, toasted and chopped: 100 g, optional</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter with both sugars 3 to 4 minutes until light and fluffy.</li><li>Beat in the egg and vanilla.</li><li>Sift together flour, cornstarch, baking soda and salt, then stir in until just blended.</li><li>Fold in the chips and toasted pecans.</li><li>Scoop about 2 tbsp portions, roll into balls.</li><li>Chill the scooped dough at least 1 hour, which is what stops them spreading.</li><li>Bake at 325F for 15 to 18 minutes, 7.5 cm apart, until browned at the edges.</li><li>Cool completely on the tray.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Lowest oven of the set at 325F, so the edges do not run ahead of the centres.</li><li>Freezes scooped. Thaw 20 minutes before baking.</li></ul></section><section class="block"><h2>Learnings</h2><p>Lowest scoring of the five made, a flat 3 on all of appearance, texture and flavor. Easy to make, but nothing here beats the higher-rated ones, so this is the one to drop first.</p></section></main>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Chocolate chip cookies</p><section class="lede"><h1>Professional Chocolate Chip <span class="badge s-tested" title="made at least once and it worked">tested</span></h1><dl><dt>Yield</dt><dd><span class="q" data-q="18">18</span> cookies</dd><dt>Rest</dt><dd>1 h after scooping</dd><dt>Oven</dt><dd>325F, 15-18 min</dd><dt>Source</dt><dd>Anna Olson</dd></dl></section><section class="block"><h2>Scorecard</h2><div class="score"><div class="sc"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Appearance</span></div><div class="sc"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Texture</span></div><div class="sc"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Flavor</span></div><div class="sc"><span class="scv">easy</span><span class="scl">Technique</span></div><div class="sc big"><span class="scv">3<span class='den'>/5</span></span><span class="scl">Overall</span></div></div></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>Unsalted butter, room temperature: <span class="q" data-q="115">115</span> g</li><li>Light brown sugar, packed: <span class="q" data-q="100">100</span> g</li><li>Granulated sugar: <span class="q" data-q="100">100</span> g</li><li>Egg, room temperature: <span class="q" data-q="1">1</span></li><li>Vanilla extract: <span class="q" data-q="5">5</span> ml</li><li>All-purpose flour: <span class="q" data-q="185">185</span> g</li><li>Cornstarch: <span class="q" data-q="7.5">7.5</span> g</li><li>Baking soda: <span class="q" data-q="2.5">2.5</span> g</li><li>Salt: <span class="q" data-q="2.5">2.5</span> g</li><li>Chocolate chips: <span class="q" data-q="262">262</span> g</li><li>Pecans, toasted and chopped: <span class="q" data-q="100">100</span> g, optional</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter with both sugars 3 to 4 minutes until light and fluffy.</li><li>Beat in the egg and vanilla.</li><li>Sift together flour, cornstarch, baking soda and salt, then stir in until just blended.</li><li>Fold in the chips and toasted pecans.</li><li>Scoop about 2 tbsp portions, roll into balls.</li><li>Chill the scooped dough at least 1 hour, which is what stops them spreading.</li><li>Bake at 325F for 15 to 18 minutes, 7.5 cm apart, until browned at the edges.</li><li>Cool completely on the tray.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Lowest oven of the set at 325F, so the edges do not run ahead of the centres.</li><li>Freezes scooped. Thaw 20 minutes before baking.</li></ul></section><section class="block"><h2>Learnings</h2><p>Lowest scoring of the five made, a flat 3 on all of appearance, texture and flavor. Easy to make, but nothing here beats the higher-rated ones, so this is the one to drop first.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

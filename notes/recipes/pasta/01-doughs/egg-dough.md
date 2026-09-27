@@ -32,6 +32,18 @@
 - Dry winter air is the usual reason it will not come together. Flour the board sparingly, since excess dries it out.
 - Keeps 24 hours. Chilled overnight, pull it out 20 minutes before rolling.
 
+## Preserving
+
+Make the full batch, then freeze whatever you will not roll out. Refrigerated dough
+is only good for about 24 hours, so freezing is the answer past that rather than
+trying to stretch it.
+
+- Divide into portions before freezing, sized to one meal, so you thaw only what you need.
+- Flatten each portion into a disc rather than a ball. It freezes faster and thaws evenly.
+- Wrap tight in plastic, then bag it. Exposed dough dries and picks up freezer burn.
+- Thaw overnight in the fridge, then leave it out 20 minutes to come back to room temperature before rolling.
+- Do not refreeze thawed dough.
+
 ## Learnings
 
 Not made yet.

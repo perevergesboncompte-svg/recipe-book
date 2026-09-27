@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Tarts / Dish</p><section class="lede"><h1>Caramel Walnut Tart <span class="badge s-stub" title="incomplete, no method recorded">stub</span></h1><p class="warn">No method recorded yet. The ingredients and weights are here, the steps are not, so this is a formula rather than something to cook from.</p><dl><dt>Unit Weight</dt><dd>150 g</dd><dt>Price</dt><dd>$6</dd><dt>Tags</dt><dd>vegetarian</dd><dt>Source</dt><dd>bakery site recipes.html</dd></dl></section><section class="block"><h2>Ingredients</h2><ul><li>200 g flour</li><li>150 g butter</li><li>200 g walnuts</li><li>200 g caramel</li><li>100 ml cream</li><li>3 eggs</li></ul></section><section class="block"><h2>Method</h2><p>Not recorded yet.</p></section></main>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Tarts / Dish</p><section class="lede"><h1>Caramel Walnut Tart <span class="badge s-stub" title="incomplete, no method recorded">stub</span></h1><p class="warn">No method recorded yet. The ingredients and weights are here, the steps are not, so this is a formula rather than something to cook from.</p><dl><dt>Unit Weight</dt><dd>150 g</dd><dt>Price</dt><dd>$6</dd><dt>Tags</dt><dd>vegetarian</dd><dt>Source</dt><dd>bakery site recipes.html</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li><span class="q" data-q="200">200</span> g flour</li><li><span class="q" data-q="150">150</span> g butter</li><li><span class="q" data-q="200">200</span> g walnuts</li><li><span class="q" data-q="200">200</span> g caramel</li><li><span class="q" data-q="100">100</span> ml cream</li><li><span class="q" data-q="3">3</span> eggs</li></ul></section><section class="block"><h2>Method</h2><p>Not recorded yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

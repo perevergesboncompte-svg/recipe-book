@@ -7,10 +7,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790548226">
+<link rel="stylesheet" href="../site.css?v=1790549959">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../journal.html">Journal</a> <a href="../kitchen.html">Kitchen</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Old-Fashioned Butter Cookies <span class="badge s-tested" title="made at least once and it worked">tested</span></h1><dl><dt>Yield</dt><dd>50 cookies</dd><dt>Rest</dt><dd>1 h chill after pressing</dd><dt>Oven</dt><dd>350F, 13-16 min</dd><dt>Source</dt><dd>Divas Can Cook, divascancook.com</dd></dl></section><section class="block"><h2>Scorecard</h2><div class="score"><div class="sc"><span class="scv">4<span class='den'>/5</span></span><span class="scl">Appearance</span></div><div class="sc"><span class="scv">3.5<span class='den'>/5</span></span><span class="scl">Texture</span></div><div class="sc"><span class="scv">4<span class='den'>/5</span></span><span class="scl">Flavor</span></div><div class="sc"><span class="scv">easy</span><span class="scl">Technique</span></div><div class="sc big"><span class="scv">4<span class='den'>/5</span></span><span class="scl">Overall</span></div></div></section><section class="block"><h2>Ingredients</h2><ul><li>Unsalted butter, softened: 113 g</li><li>Butter-flavored shortening: 113 g</li><li>Granulated sugar: 150 g</li><li>Sea salt: 2 g</li><li>Egg yolks: 2</li><li>Vanilla extract: 7.5 ml</li><li>All-purpose flour: 250 g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter and shortening smooth.</li><li>Add sugar and salt, beat about 2 minutes until fluffy and uniform.</li><li>Mix in the yolks and vanilla, scraping down.</li><li>Stir in the flour a little at a time with a spatula to a soft uniform dough.</li><li>Knead lightly by hand to pick up the last of the flour.</li><li>Press through a cookie press, or pipe with an open star tip, packed close since the tray is going in the fridge.</li><li>Chill 1 hour, then space them 1 to 2 inches apart on a fresh lined sheet.</li><li>Bake at 350F for 13 to 16 minutes until the edges are golden. Watch them from 13.</li><li>Leave on the pan until cool. They are fragile warm and crisp up as they cool.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Half the fat is shortening, which is what holds the pressed shape.</li><li>Highest yield of the butter cookies at 50, so it is the one for volume.</li><li>Overbaking dries them out. Golden edges means stop.</li><li>Keeps for weeks airtight.</li></ul></section><section class="block"><h2>Learnings</h2><p>4 overall. Appearance and flavor both 4 but texture only 3.5, the weakest texture of the five made, which is the shortening trade-off for holding shape. Easy, and the 50-cookie yield is the real argument for it.</p></section></main>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Butter cookies</p><section class="lede"><h1>Old-Fashioned Butter Cookies <span class="badge s-tested" title="made at least once and it worked">tested</span></h1><dl><dt>Yield</dt><dd><span class="q" data-q="50">50</span> cookies</dd><dt>Rest</dt><dd>1 h chill after pressing</dd><dt>Oven</dt><dd>350F, 13-16 min</dd><dt>Source</dt><dd>Divas Can Cook, divascancook.com</dd></dl></section><section class="block"><h2>Scorecard</h2><div class="score"><div class="sc"><span class="scv">4<span class='den'>/5</span></span><span class="scl">Appearance</span></div><div class="sc"><span class="scv">3.5<span class='den'>/5</span></span><span class="scl">Texture</span></div><div class="sc"><span class="scv">4<span class='den'>/5</span></span><span class="scl">Flavor</span></div><div class="sc"><span class="scv">easy</span><span class="scl">Technique</span></div><div class="sc big"><span class="scv">4<span class='den'>/5</span></span><span class="scl">Overall</span></div></div></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('[data-scaler]'); if(!box) return;
+  var qs=[].slice.call(document.querySelectorAll('.q'));
+  qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+  function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+    return parseFloat(v.toFixed(d)).toString(); }
+  function apply(f){
+    if(!(f>0)) return;
+    qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+    box.querySelectorAll('button').forEach(function(b){
+      b.classList.toggle('on', parseFloat(b.dataset.f)===f); });
+  }
+  box.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f=parseFloat(b.dataset.f);
+      box.querySelector('input').value=f; apply(f); }); });
+  box.querySelector('input').addEventListener('input', function(){
+    apply(parseFloat(this.value)); });
+})();
+</script><ul><li>Unsalted butter, softened: <span class="q" data-q="113">113</span> g</li><li>Butter-flavored shortening: <span class="q" data-q="113">113</span> g</li><li>Granulated sugar: <span class="q" data-q="150">150</span> g</li><li>Sea salt: <span class="q" data-q="2">2</span> g</li><li>Egg yolks: <span class="q" data-q="2">2</span></li><li>Vanilla extract: <span class="q" data-q="7.5">7.5</span> ml</li><li>All-purpose flour: <span class="q" data-q="250">250</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cream the butter and shortening smooth.</li><li>Add sugar and salt, beat about 2 minutes until fluffy and uniform.</li><li>Mix in the yolks and vanilla, scraping down.</li><li>Stir in the flour a little at a time with a spatula to a soft uniform dough.</li><li>Knead lightly by hand to pick up the last of the flour.</li><li>Press through a cookie press, or pipe with an open star tip, packed close since the tray is going in the fridge.</li><li>Chill 1 hour, then space them 1 to 2 inches apart on a fresh lined sheet.</li><li>Bake at 350F for 13 to 16 minutes until the edges are golden. Watch them from 13.</li><li>Leave on the pan until cool. They are fragile warm and crisp up as they cool.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Half the fat is shortening, which is what holds the pressed shape.</li><li>Highest yield of the butter cookies at 50, so it is the one for volume.</li><li>Overbaking dries them out. Golden edges means stop.</li><li>Keeps for weeks airtight.</li></ul></section><section class="block"><h2>Learnings</h2><p>4 overall. Appearance and flavor both 4 but texture only 3.5, the weakest texture of the five made, which is the shortening trade-off for holding shape. Easy, and the 50-cookie yield is the real argument for it.</p></section></main>
 <footer><div class="bar">Built 2026-09-27 from the recipes skill.</div></footer>
 </body></html>

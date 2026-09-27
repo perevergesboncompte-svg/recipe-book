@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: stub
+- Image: images/sourdough.jpg
 - Unit weight: 600 g
 - Price: $8
 - Tags: vegan

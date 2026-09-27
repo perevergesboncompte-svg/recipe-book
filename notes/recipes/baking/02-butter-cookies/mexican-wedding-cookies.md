@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: drafted
+- Image: images/mexican-wedding-cookies.jpg
 - Yield: 48 cookies
 - Unit weight: 15 g
 - Oven: 325°F, 15-20 min
