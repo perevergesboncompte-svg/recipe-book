@@ -1,7 +1,6 @@
 # Oxtail Ravioli
-
 - Section: pasta
-- Status: stub
+- Status: drafted
 - Shape: ravioli
 - Filling: oxtail-and-celeriac-filling
 - Chef: Andy McLeish
@@ -12,10 +11,23 @@
 - Serves: 6
 - Source: Great British Chefs
 
+## Ingredients
+
+Not recorded in the source.
+
 ## Method
 
-Not recorded yet.
+1. Braise oxtail: 120°C oven, 4-5 hours with wine, stock, vegetables until tender.
+2. Make filling: Pick meat, mix with braised celeriac, form into 6 balls. Chill overnight.
+3. Pasta: 125g flour + 125g semolina + 125g egg. Rest overnight.
+4. Form: Roll thin, place ball, seal, cut 8cm rounds.
+5. Serve: Boil 6 min, spinach base, oxtail jus.
 
 ## Notes
 
-Index entry only, carrying the comparison data. No quantities or method recorded.
+- This sumptuous oxtail ravioli demonstrates perfectly how cheaper cuts of meat can be transformed to a thing of beauty with time and patience. Each raviolo is served on a bed of spinach, drizzled with jus made from the braising liquid.
+- Chef's Tips: Must be done a day ahead - the filling needs time to set. The oxtail jus is the key - reduce until intensely flavored.
+
+## Learnings
+
+Not made yet.

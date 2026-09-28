@@ -7,10 +7,45 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=1790570503">
+<link rel="stylesheet" href="../site.css?v=1790570759">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html" class="here">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Dishes</p><section class="lede"><h1>Prawn and Smoked Salmon Ravioli</h1><p class="warn">No method recorded yet. The ingredients and weights are here, the steps are not, so this is a formula rather than something to cook from.</p><dl><dt>Filling</dt><dd><a href="../recipes/pasta-fillings-prawn-and-smoked-salmon-filling.html">Prawn and Smoked Salmon Filling</a></dd><dt>Shape</dt><dd><a href="../recipes/pasta-shapes-filled-ravioli.html">Ravioli</a></dd><dt>Serves</dt><dd><span class="q" data-q="2">2</span></dd><dt>Total Time</dt><dd>1 h 30 min</dd><dt>Source</dt><dd>Great British Chefs</dd><dt>Chef</dt><dd>Georgina Auterac</dd><dt>Filling Note</dt><dd>Prawn and smoked salmon</dd><dt>Pasta Colour</dt><dd>Yellow</dd><dt>Difficulty</dt><dd>Easy</dd></dl></section><section class="block"><h2>Method</h2><p>Not recorded yet.</p></section><section class="block"><h2>Notes</h2><p>Index entry only, carrying the comparison data. No quantities or method recorded.</p></section></main>
+<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Dishes</p><section class="lede"><h1>Prawn and Smoked Salmon Ravioli</h1><dl><dt>Filling</dt><dd><a href="../recipes/pasta-fillings-prawn-and-smoked-salmon-filling.html">Prawn and Smoked Salmon Filling</a></dd><dt>Shape</dt><dd><a href="../recipes/pasta-shapes-filled-ravioli.html">Ravioli</a></dd><dt>Serves</dt><dd><span class="q" data-q="2">2</span></dd><dt>Total Time</dt><dd>1 h 30 min</dd><dt>Source</dt><dd>Great British Chefs</dd><dt>Chef</dt><dd>Georgina Auterac</dd><dt>Filling Note</dt><dd>Prawn and smoked salmon</dd><dt>Pasta Colour</dt><dd>Yellow</dd><dt>Difficulty</dt><dd>Easy</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Pasta — 00 flour: <span class="q" data-q="200">200</span> g</li><li>Pasta — eggs: <span class="q" data-q="2">2</span></li><li>Pasta — olive oil: <span class="q" data-q="0.5">0.5</span> tbsp</li><li>Filling — smoked salmon: <span class="q" data-q="100">100</span> g</li><li>Filling — double cream: <span class="q" data-q="50">50</span> ml</li><li>Filling — cooked prawns: <span class="q" data-q="180">180</span> g</li><li>Filling — dill, chopped: <span class="q" data-q="1">1</span> tsp</li><li>Filling — salt and black pepper: to taste</li><li>Filling — semolina: for dusting</li><li>To Serve — butter: to taste</li><li>To Serve — dill, chopped: <span class="q" data-q="1">1</span> tbsp</li><li>To Serve — lemon (juice): <span class="q" data-q="1">1</span></li></ul></section><section class="block"><h2>Method</h2><ol><li>Make pasta dough: In a food processor combine the flour, eggs and olive oil and blend until a coarse crumb has been formed. Pour out onto the work surface and work it into a dough. Leave to rest for at least 30 minutes at room temperature.</li><li>Prepare filling: Add half of the smoked salmon and cream to a blender and blend to form a paste. Roughly chop the remaining smoked salmon and add to a bowl with the prawns and dill. Season with salt and pepper, mix well and chill in the fridge for 20 minutes.</li><li>Roll pasta: Divide the pasta dough into workable pieces. Using a pasta machine, roll out the pasta, beginning with the widest setting and finishing with the second narrowest. When not using dough, make sure that it remains covered to avoid drying out.</li><li>Form ravioli: Spoon about ½ teaspoon of filling at intervals along the length of the pasta. Brush a little water around each filling and lay a second rolled piece of pasta on top. Seal the pasta tightly around the filling and using a stencil cut through the pasta. Make sure your stencil is lightly floured to prevent it from sticking.</li><li>Cook: Add each ravioli to a baking tray which has been lightly coated with semolina. Bring a large pot of salted water to the boil. Cook the ravioli for 4-5 minutes.</li><li>Serve: Gently toss in melted butter, a squeeze of lemon juice, a sprinkle of dill and season with salt and pepper.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Georgina shares her ideas for a romantic meal and how to make the classic Italian dish of ravioli which she stuffs with prawn and smoked salmon. The extra effort put into a home-made delicious dinner is worth more than any over-priced flowers and elaborate gifts - the way to the heart is through the stomach!</li><li>Chef&#x27;s Tips: Never overfill the ravioli - however nice the filling is! It isn&#x27;t worth it when they burst when cooking. Another way to prevent the ravioli &#x27;erupting&#x27; in the water is to make sure when sealing that there is no air bubbles between the pasta and filling.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
 <footer><div class="bar">Built 2026-09-28 from the recipes skill.</div></footer>
 </body></html>
