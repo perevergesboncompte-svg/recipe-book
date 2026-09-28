@@ -401,7 +401,12 @@ def card(r, depth=""):
     if n:
         bits2.append(f'{n} ingredient{"s" if n != 1 else ""}')
     tail = f'<p class="count">{" · ".join(bits2)}</p>' if bits2 else ""
-    return (f'<a class="card" href="{depth}{r["url"]}">'
+    thumb = ""
+    if r["meta"].get("image"):
+        thumb = (f'<span class="thumb"><img src="{depth}{esc(r["meta"]["image"])}"'
+                 f' alt="" loading="lazy"></span>')
+    cls = "card has-thumb" if thumb else "card"
+    return (f'<a class="{cls}" href="{depth}{r["url"]}">{thumb}'
             f'<h3>{esc(r["name"])}</h3>{sub}{tail}</a>')
 
 
@@ -550,10 +555,6 @@ def export_notes():
     if NOTES.exists():
         shutil.rmtree(NOTES)
     NOTES.mkdir(parents=True, exist_ok=True)
-    for name in ("profile.md", "journal.md"):
-        src = SKILL / name
-        if src.exists():
-            shutil.copy2(src, NOTES / name)
     src = SKILL / "recipes"
     if src.is_dir():
         shutil.copytree(src, NOTES / "recipes",
