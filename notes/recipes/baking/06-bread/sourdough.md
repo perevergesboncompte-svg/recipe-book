@@ -41,8 +41,6 @@
 
 ## Learnings
 
-Two figures in the notebook page are not legible enough to record as fact.
+375 g of water against 500 g of flour is 75% hydration before the starter, which is where the name comes from. Counting the starter as half flour and half water, total hydration lands near 76%.
 
-The water reads as `8?5g`. Against 500 g of flour, 825 g or 875 g would be 165% or more, which is a batter rather than a shapeable dough, so the first digit is almost certainly a 3. That would give 375 g, or 75% hydration, which matches the title. Needs confirming before this is cooked from.
-
-The preheat line has one temperature struck through and 450F written after it, so 450F is recorded. Worth checking whether the crossed-out figure was a 500F preheat that then drops to 450F for the bake.
+The preheat line in the notebook has one temperature struck through with 450F written after it, so 450F is what is recorded here. Worth settling whether the struck-out figure was a hotter preheat that then drops for the bake.
