@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: tested
+- Image: images/professional.jpg
 - Yield: 18 cookies
 - Oven: 325F, 15-18 min
 - Rest: 1 h after scooping

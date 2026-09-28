@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: house
+- Image: images/milk-powder.jpg
 - Yield: 40 cookies
 - Oven: 350F, 15 min
 - Rest: 30 min chill after piping
