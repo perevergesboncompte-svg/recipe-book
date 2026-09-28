@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: stub
+- Image: images/chocolate-tart.jpg
 - Unit weight: 150 g
 - Price: $6
 - Tags: vegetarian
