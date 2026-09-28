@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: oxtail-and-celeriac-filling
 - Chef: Andy McLeish
 - Filling note: Oxtail and celeriac
 - Pasta colour: Yellow

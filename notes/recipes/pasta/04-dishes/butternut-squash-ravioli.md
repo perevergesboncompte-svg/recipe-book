@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: butternut-squash-and-truffle-filling
 - Chef: Andrew MacKenzie
 - Filling note: Butternut squash and truffle
 - Pasta colour: Saffron

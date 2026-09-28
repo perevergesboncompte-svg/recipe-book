@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: aubergine-and-ricotta-filling
 - Chef: Emily Roux and Diego Ferrari
 - Filling note: Aubergine, ricotta and red prawns
 - Pasta colour: Yellow

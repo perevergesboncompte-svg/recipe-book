@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: crab-and-salmon-mousse-filling
 - Chef: Dominic Chapman
 - Filling note: Crab and salmon mousse
 - Pasta colour: Yellow

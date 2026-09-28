@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: king-prawn-filling
 - Chef: Great British Chefs Kitchen
 - Filling note: King prawns
 - Pasta colour: Pink, from beetroot

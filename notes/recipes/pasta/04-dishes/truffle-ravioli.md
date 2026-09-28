@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: truffle-filling
 - Chef: Steve Drake
 - Filling note: Truffle gel
 - Pasta colour: White

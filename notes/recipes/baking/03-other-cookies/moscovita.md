@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: house
+- Image: images/moscovita.jpg
 - Yield: 30-35 cookies
 - Unit weight: 40 g
 - Oven: 180C / 356F, about 10 min

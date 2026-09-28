@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Image: images/fettuccine.jpg
 - Formed: ribbon
 - Dough: egg-dough
 - Region: Central Italy, mainly Lazio

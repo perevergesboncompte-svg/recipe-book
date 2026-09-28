@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: pulled-pork-and-chorizo-filling
 - Chef: Chantelle Nicholson
 - Filling note: Pork belly and chorizo
 - Pasta colour: Gyoza wrappers, no fresh sheet

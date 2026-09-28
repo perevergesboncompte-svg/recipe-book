@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: goat-s-cheese-and-cream-cheese-filling
 - Chef: Andy Waters
 - Filling note: Goat's cheese and cream cheese
 - Pasta colour: White

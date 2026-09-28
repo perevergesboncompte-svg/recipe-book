@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: smoked-potato-and-egg-yolk-filling
 - Chef: Ben Waugh
 - Filling note: Potato, egg yolk and truffle
 - Pasta colour: Grey, from smoked potato water

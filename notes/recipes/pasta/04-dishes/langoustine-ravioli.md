@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: langoustine-filling
 - Chef: Martin Wishart
 - Filling note: Langoustine
 - Pasta colour: Yellow

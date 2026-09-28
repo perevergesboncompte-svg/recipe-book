@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: butternut-squash-and-marjoram-filling
 - Chef: Theo Randall
 - Filling note: Butternut squash and mascarpone
 - Pasta colour: Yellow

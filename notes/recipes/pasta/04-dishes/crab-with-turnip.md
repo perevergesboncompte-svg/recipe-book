@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: dressed-crab-filling
 - Chef: Xavier Boyer
 - Filling note: Crab and turnip
 - Pasta colour: Turnip slices instead of pasta

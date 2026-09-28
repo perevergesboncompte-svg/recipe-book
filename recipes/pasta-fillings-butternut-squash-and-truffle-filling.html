@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Butternut Squash and Truffle Filling | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1790566670">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html" class="here">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Fillings</p><section class="lede"><h1>Butternut Squash and Truffle Filling</h1><dl><dt>Source</dt><dd>Great British Chefs</dd><dt>Chef</dt><dd>Andrew MacKenzie</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Butternut squash, peeled and diced: <span class="q" data-q="1">1</span></li><li>Black truffle, grated: <span class="q" data-q="1">1</span></li><li>Pecorino cheese: <span class="q" data-q="50">50</span> g</li><li>Salt: to taste</li><li>Butter, for cooking the squash: a little</li></ul></section><section class="block"><h2>Method</h2><ol><li>Cook the diced squash in a pan with a little butter until very soft.</li><li>Blend in a food processor and pass through a sieve.</li><li>Hang in muslin in the fridge overnight to drain.</li><li>Once thoroughly strained, mix in the grated truffle and pecorino and season with salt.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Used in Butternut Squash Ravioli.</li><li>No sub-components.</li><li>The overnight drain is the step that matters. A wet mix bursts the ravioli in the water.</li><li>A heaped tablespoon per raviolo, between 20 cm circles pressed into a flying-saucer shape.</li><li>The source calls truffle the star of the dish and says to buy the best you can afford.</li><li>Butter is called for in the method but carries no quantity beyond &quot;a little&quot; and does not appear in the source&#x27;s ingredient list.</li></ul></section><section class="block"><h2>Used in</h2><ul><li><a href="../recipes/pasta-dishes-butternut-squash-ravioli.html">Butternut Squash Ravioli</a></li></ul></section></main>
+<footer><div class="bar">Built 2026-09-28 from the recipes skill.</div></footer>
+</body></html>

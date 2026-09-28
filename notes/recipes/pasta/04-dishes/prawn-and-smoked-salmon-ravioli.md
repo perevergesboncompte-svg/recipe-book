@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: prawn-and-smoked-salmon-filling
 - Chef: Georgina Auterac
 - Filling note: Prawn and smoked salmon
 - Pasta colour: Yellow

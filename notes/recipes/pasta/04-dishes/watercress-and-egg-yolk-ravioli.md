@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: watercress-and-egg-yolk-filling
 - Chef: Ruth Hansom
 - Filling note: Watercress with a raw egg yolk
 - Pasta colour: Yellow

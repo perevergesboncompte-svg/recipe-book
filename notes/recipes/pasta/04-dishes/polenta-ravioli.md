@@ -3,6 +3,7 @@
 - Section: pasta
 - Status: stub
 - Shape: ravioli
+- Filling: polenta-filling
 - Chef: Luke Holder
 - Filling note: Polenta, artichoke and truffle
 - Pasta colour: Yellow
