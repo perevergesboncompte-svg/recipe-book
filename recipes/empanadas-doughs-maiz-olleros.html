@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Masa de Maíz, Olleros | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1790570759">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html" class="here">Empanadas</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../empanadas.html">Empanadas</a> / Doughs</p><section class="lede"><h1>Masa de Maíz, Olleros</h1><dl><dt>Yield</dt><dd><span class="q" data-q="1">1</span> large rustic cereal empanada</dd><dt>Active Time</dt><dd>20 min</dd><dt>Rest</dt><dd>1 to 2 h ferment</dd><dt>Oven</dt><dd>230 °C, about 25 min</dd><dt>Source</dt><dd>Javier Olleros, Culler de Pau, O Grove, presented at Madrid Fusión</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Precooked corn flour (harina de maíz precocida, P.A.N.): <span class="q" data-q="700">700</span> g</li><li>Galician rye flour: <span class="q" data-q="300">300</span> g</li><li>Liquid sourdough starter (masa madre líquida): <span class="q" data-q="200">200</span> g</li><li>Water: <span class="q" data-q="900">900</span> g</li><li>Fresh yeast: <span class="q" data-q="10">10</span> g</li><li>Salt: <span class="q" data-q="20">20</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Mix the corn and rye flours with the salt in a wide bowl.</li><li>Dissolve the yeast and the starter in warm water.</li><li>Bring liquids and flours together and work to a dense, homogeneous dough. Corn and rye drink a lot of water and barely develop gluten.</li><li>Rest 1 to 2 h to ferment and come to temperature. It rises very little, which is expected — this is rustic, not a springy bread dough.</li><li>Spread it over the tray, fill, and cover. It will not roll as thin as a wheat dough.</li><li>Brush the surface with sofrito oil and bake at 230 °C for about 25 min.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>The odd one out: a cereal dough, rustic and aromatic, closer to corn bread. Do not expect fineness or crispness. It is the empanada de millo.</li><li>900 g water against 1000 g flour is 90% before the 200 g of liquid starter is counted. The source calls the hydration ~95-100%. It only works because precooked corn and rye absorb that much water without going claggy.</li><li>No fat inside the dough at all, the only one here like that. The oil is brushed on the outside purely to brown it.</li><li>The corn flour has to be precooked, P.A.N. type. Not cornstarch, not raw polenta.</li><li>Galician rye brings flavour and colour and can be swapped for wholegrain rye.</li><li>Hot and short: 230 °C seals the surface and cooks the inside fast.</li><li>Javier Olleros, Culler de Pau, O Grove, 2 Michelin stars.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<footer><div class="bar">Built 2026-09-28 from the recipes skill.</div></footer>
+</body></html>

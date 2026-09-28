@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Empanada de Zorza / Raxo | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1790570759">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html" class="here">Empanadas</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../empanadas.html">Empanadas</a> / Dishes</p><section class="lede"><h1>Empanada de Zorza / Raxo</h1><dl><dt>Yield</dt><dd>Filling for 1 large empanada (tin of about 32 cm)</dd><dt>Rest</dt><dd>36-48 h (marinating the zorza)</dd><dt>Oven</dt><dd>195 °C, 45-50 min</dd><dt>Source</dt><dd>Traditional Galician matanza cooking — La Cocina de Frabisa, La Voz de Galicia</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Lean pork (aguja or raxo), in small pieces: <span class="q" data-q="500">500</span> g</li><li>Garlic cloves: <span class="q" data-q="2">2</span>-<span class="q" data-q="3">3</span></li><li>Sweet pimentón de la Vera: <span class="q" data-q="5">5</span> g</li><li>Hot pimentón: <span class="q" data-q="3">3</span> g</li><li>Dried oregano: <span class="q" data-q="1">1</span> tsp</li><li>Coarse salt: no quantity given</li><li>Extra virgin olive oil for the majado: <span class="q" data-q="2">2</span>-<span class="q" data-q="3">3</span> tbsp</li><li>Large onions: 2 (about <span class="q" data-q="400">400</span> g), with <span class="q" data-q="1">1</span> tsp sweet pimentón</li><li>Piquillo or roasted peppers (optional): to taste</li></ul></section><section class="block"><h2>Method</h2><ol><li>Make the zorza 36-48 h ahead: pound oil, garlic, salt, oregano and both pimentóns into a majado, mix it through the meat, cover and refrigerate, stirring every 8-10 h. It goes into the empanada RAW.</li><li>Sweat the onion with salt. Off the heat stir in 1 tsp sweet pimentón, then cool completely.</li><li>Spread the cold onion over the dough base.</li><li>Scatter the raw zorza and the peppers over the top.</li><li>Cover, seal, cut a chimney, prick the top and brush with egg.</li><li>Bake at 195 °C for 45-50 min, then cool on a rack before cutting.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>The trick: the meat goes in raw but already marinated, and cooks inside the dough in its own juices, so it comes out extremely tender instead of drying out.</li><li>Marinate well ahead, 36-48 h. That is what turns plain lean pork into real Galician zorza.</li><li>Cut the meat into small, even pieces so it distributes properly.</li><li>Add the pimentón to the onion off the heat so it does not turn bitter.</li><li>The onion must be cold before assembling. Warm onion softens the dough.</li><li>Cool the baked empanada on a rack before cutting so it sets.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<footer><div class="bar">Built 2026-09-28 from the recipes skill.</div></footer>
+</body></html>

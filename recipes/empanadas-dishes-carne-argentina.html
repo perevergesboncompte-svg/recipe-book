@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Empanada de Carne Argentina | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1790570759">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html" class="here">Empanadas</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../empanadas.html">Empanadas</a> / Dishes</p><section class="lede"><h1>Empanada de Carne Argentina</h1><dl><dt>Yield</dt><dd>Filling for 1 large empanada (or about 12 individual ones)</dd><dt>Active Time</dt><dd>15 min</dd><dt>Rest</dt><dd>Overnight (chill before assembling)</dd><dt>Oven</dt><dd>200 °C, about 25 min</dd><dt>Source</dt><dd>Traditional Argentine empanada criolla — no chef or publication credited</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Minced beef: <span class="q" data-q="600">600</span> g</li><li>Large onions, finely chopped: <span class="q" data-q="3">3</span></li><li>Hard-boiled eggs, chopped: <span class="q" data-q="2">2</span></li><li>Green olives, pitted and cut into pieces: <span class="q" data-q="12">12</span></li><li>Ground cumin: <span class="q" data-q="1">1</span> tsp</li><li>Sweet pimentón (plus a pinch of hot): <span class="q" data-q="1">1</span> tsp</li><li>Oregano: <span class="q" data-q="1">1</span> tsp</li><li>Salt and pepper: no quantity given</li><li>Oil (or fat): <span class="q" data-q="3">3</span> tbsp</li><li>Stock: if needed</li></ul></section><section class="block"><h2>Method</h2><ol><li>Sweat the onion in oil over medium heat until translucent and soft. Do not let it brown.</li><li>Raise the heat, add the beef and break it up until it loses its red colour.</li><li>Season with cumin, pimentón, oregano, salt and pepper. Add a little stock if it runs dry.</li><li>Off the heat, cool completely — ideally overnight in the fridge.</li><li>Fold in the chopped egg and olives just before assembling.</li><li>Fill, seal with a repulgue and bake at 200 °C for about 25 min until golden.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Stovetop cook time is 20 min.</li><li>Resting the filling cold overnight is the Argentine trick. The flavour settles and it handles better.</li><li>Cumin is the aroma that defines an empanada criolla. Do not leave it out.</li><li>Lots of onion relative to the meat is what keeps it juicy.</li><li>Egg and olives go in at the end, not while cooking, so they stay whole.</li><li>Some cooks add raisins for the traditional sweet-savoury note.</li><li>Filling always goes on cold.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<footer><div class="bar">Built 2026-09-28 from the recipes skill.</div></footer>
+</body></html>
