@@ -3,20 +3,33 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: All over Italy but particularly in Emilia-Romagna and Lombardy
+- Dough: egg-dough
+- Region: Across Italy, particularly Emilia-Romagna and Lombardy
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay one sheet of pasta on the work surface. Using a fluted dough divider, cut your pasta sheet into 2½-inch squares. (Alternatively, use a fluted pastry cutter and a ruler or a knife and a ruler.) Cover the squares with plastic wrap or a kitchen towel.
-4. Spoon your filling into a pastry bag. Cut a ½-inch hole in the tip of your pastry bag and pipe a small circle of filling about the diameter of a quarter in the center of each square.
-5. Evaluate your dough. If it feels moderately tacky, you can eliminate this next step. If it feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the squares. This will help you securely seal the pasta.
-6. Lift a square off the work surface and hold it in the palm of your nondominant hand. Using your dominant hand, fold one corner to meet the opposite corner just below the top edge so the ruffled edges appear tiered.
-7. Using your thumb and index finger, pinch the edges closed around the filling, making sure to force out any air. Go back and forth a few times, pinching to make sure it is sealed well.
-8. While holding the piece in your nondominant hand, make a dimple in the center of the filled side of the pasta with your index finger.
-9. Then, holding both ends of the triangle with the dimple side closest to you, gently bring the edges of the pasta together and ever so slightly cross the ends over each other to form a canoe shape with the filling at the center. Pinch the ends closed well.
-10. Place the finished pasta on the prepared sheet pan. Repeat with all of the squares, arranging them in a single layer on the prepared pan. Give the pan an extra dusting of semolina to prevent sticking.
+1. Make your chosen egg-based dough, then roll and sheet it.
+2. Line a sheet pan with parchment and dust it with semolina.
+3. Lay one sheet out. Cut it into 2 1/2-inch squares with a fluted dough divider. A fluted pastry cutter with a ruler, or a knife with a ruler, works too. Keep the squares under plastic wrap or a towel.
+4. Load the filling into a pastry bag cut to a 1/2-inch opening. Pipe a quarter-sized dab of filling into the middle of each square.
+5. If the dough feels dry rather than moderately tacky, mist the squares with a spray bottle held 8 to 10 inches above the work surface. Skip this if the dough is already tacky.
+6. Hold a square in your palm and fold one corner across toward its opposite, stopping a little short of the far edge so the two ruffled edges sit tiered rather than flush.
+7. Pinch the edges shut around the filling with thumb and index finger. Work back and forth a few times and push all the air out.
+8. Press a dimple into the center of the filled side with your index finger.
+9. Hold both ends of the triangle with the dimple facing you, bring the ends together, and cross them over each other very slightly so the piece takes a canoe shape with the filling in the middle. Pinch the ends closed firmly.
+10. Set the piece on the prepared pan. Fill and fold the rest of the squares, keeping them in a single layer, and dust the pan again with semolina.
 11. Repeat with the remaining sheets.
-12. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+12. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Sheet is cut into 2 1/2-inch squares with a fluted dough divider, so the edges are ruffled.
+- Filling per piece: a quarter-sized circle piped through a 1/2-inch opening.
+- The fold deliberately stops short of the far corner, landing a little below it, so the two fluted edges tier instead of lining up. That offset is part of the look.
+- Seal geometry: fold corner to corner into a triangle, pinch the edges, dimple the filled side, then bring the two ends together and cross them slightly into a canoe or boat. Crossing the ends in front, rather than closing them into a ring underneath, is the difference from tortellini.
+- Air must be forced out of the edges as you pinch.
+- This step list omits the 00 flour dusting of the work surface that the other shapes call for. Only the sheet pan gets prepared.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Filled with squash flavored with mostarda, or with cheese and greens and sauced with restraint. Close cousin of cappellacci di zucca from Ferrara.

@@ -3,20 +3,33 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
+- Dough: egg-dough
 - Region: Liguria
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay one sheet of pasta on the work surface. Using a straight-edged dough divider, cut your pasta sheet into 4 by 3½-inch rectangles. (Alternatively, use a plain pastry cutter and a ruler or a knife and a ruler.) Cover the rectangles with plastic wrap or a kitchen towel.
-4. Spoon your filling into a pastry bag. Cut a 1-inch hole in the tip of your pastry bag and pipe a generous circle of filling about the size of an unshelled walnut in the center of each circle.
-5. Evaluate your dough. If it feels moderately tacky, you can eliminate this next step. If it feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the pasta. This will help you securely seal the pasta.
-6. Fold one long side over the filling to meet the other long side, lining up the edges.
-7. Using your thumb and index finger, pinch the edge closed around the filling, making sure to force out any air. Go back and forth a few times, pinching to make sure it is sealed well.
-8. While holding the piece in your nondominant hand, make a dimple in the center of the filled side of the pasta with your thumb.
-9. Grasp the bottom tips of the rectangle with your thumbs and index fingers. Pull one side around to join it to the other side in front of the filling, forming a collar around the filling. Pinch the ends together firmly to close.
-10. Place the finished pasta on the prepared sheet pan. Repeat with all of the rectangles, arranging them in a single layer on the prepared pan. Give the pan an extra dusting of semolina to prevent sticking.
+1. Make your chosen egg-based dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Lay one sheet on the board. Using a straight-edged dough divider, cut it into 4 by 3 1/2-inch rectangles. A plain pastry cutter with a ruler, or a knife with a ruler, works too. Keep the rectangles under plastic wrap or a towel.
+4. Load the filling into a pastry bag cut to a 1-inch opening. Pipe a generous mound of filling, roughly the size of a walnut still in its shell, into the middle of each rectangle.
+5. If the dough feels dry rather than moderately tacky, mist it with a spray bottle held 8 to 10 inches above the board. Skip this if the dough is already tacky.
+6. Bring one long side up over the filling until it meets the opposite long side, edges aligned.
+7. Pinch the edge shut around the filling with thumb and index finger. Work back and forth a few times and push all the air out.
+8. Press a dimple into the center of the filled side with your thumb.
+9. Grip the two bottom tips of the rectangle between thumbs and index fingers. Draw one tip around to join the other in front of the filling, so the dough forms a collar across it, then pinch the pair shut.
+10. Set the piece on the prepared pan. Fill and fold the rest of the rectangles, keeping them in a single layer, and dust the pan again with semolina.
 11. Repeat with the remaining sheets.
-12. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+12. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Sheet is cut into 4 by 3 1/2-inch rectangles with a straight-edged dough divider, so the edges are plain.
+- Filling per piece: a generous mound, roughly the size of a walnut still in its shell, piped through a 1-inch opening. That volume is what gives the shape its paunch.
+- Seal geometry: fold long side to long side rather than corner to corner, pinch the edge, dimple the filled side, then pull the bottom tips around to join in front of the filling as a collar. The book gives that front closure as the difference from tortelli, which folds to a triangle instead.
+- Air must be forced out of the edge before the collar is formed.
+- Traditional filling is prescinsêua, a sour Ligurian cheese, or ricotta with parmigiano, mixed with preboggion, a foraged blend of wild greens and herbs. Usual candidates include nettle, chard, borage, parsley, poppy, wild chicory, and anise. Aim for herbal, bitter, and aromatic in combination.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Served in salsa di noci, the Ligurian walnut sauce. Butter and pasta water also works, since the filling carries the dish.
+- Source note: the book's piping step says to place filling in the center of each circle, but the pieces cut in the previous step are rectangles.

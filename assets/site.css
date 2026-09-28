@@ -172,26 +172,6 @@ main > .cards { margin-bottom: 1.5rem; }
 }
 .peek { font-size: 0.875rem; color: var(--dim); margin-top: 0.3rem; }
 
-.badge {
-  display: inline-block;
-  vertical-align: middle;
-  font-family: var(--sans);
-  font-size: 0.625rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  color: var(--dim);
-  cursor: help;
-}
-.s-house { border-color: var(--accent); color: var(--accent); }
-.s-tested { border-color: #7A9E7E; color: #7A9E7E; }
-.s-draft { border-color: #D4A574; color: #D4A574; }
-.s-stub { border-style: dashed; }
-.s-retired { opacity: 0.6; }
-
 .block {
   background: var(--card);
   border: 1px solid var(--border);

@@ -3,18 +3,30 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: Across Italy, with a particular concentration in the Alps
+- Dough: egg-dough
+- Region: Across Italy, most concentrated in the Alps and over the border into German-speaking neighbors
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay one sheet of pasta on the work surface. Using your #70 (2¾-inch) fluted pastry cutter, cut circles ⅛ inch apart.
-4. Spoon your filling into a pastry bag. Cut a ½-inch hole in the tip of your pastry bag and pipe a small circle of filling about the diameter of a quarter in the center of each circle.
-5. Evaluate your dough. If it feels tacky, you can eliminate this next step. If your pasta feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the circles. This will help you securely seal the pasta.
-6. Lift a circle off the table and hold it in the palm of your nondominant hand. With your dominant hand, fold the top half of the circle over the bottom half to create a half-moon, lining up the edges.
-7. Using your thumb and index finger, pinch the edge closed around the filling, making sure to force out any air. Go back and forth a few times, pinching to make sure it is sealed well.
-8. Place the finished pasta on the prepared sheet pan. Repeat with all of the circles, arranging them in a single layer on the prepared pan. Give the pan an extra dusting of semolina to prevent sticking.
-9. Repeat with the remaining sheets.
-10. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+1. Make your chosen egg-based dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Lay one sheet on the board. Cut rounds with a #70 (2 3/4-inch) fluted pastry cutter, leaving 1/8 inch between them.
+4. Load the filling into a pastry bag cut to a 1/2-inch opening. Pipe a quarter-sized dab of filling into the middle of each round.
+5. If the dough feels dry rather than tacky, mist the rounds with a spray bottle held 8 to 10 inches above the board. Skip this if the dough is already tacky.
+6. Hold a round in your palm and fold the top half over the bottom half, lining up the edges, to make a half-moon.
+7. Pinch the edge shut around the filling with thumb and index finger. Work back and forth a few times and push all the air out.
+8. Set the piece on the prepared pan. Fill and fold the rest of the rounds, keeping them in a single layer, and dust the pan again with semolina.
+9. Do the same with the remaining sheets.
+10. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Cut from 2 3/4-inch rounds (#70 cutter), spaced 1/8 inch apart on the sheet.
+- Filling per piece: a quarter-sized circle piped through a 1/2-inch opening.
+- Seal geometry: a single fold into a half-moon and a pinched edge, with the air pushed out. Nothing else. It is among the easiest filled shapes to learn.
+- Cutter choice is the only stylistic variable besides the filling. A fluted cutter is preferred for the look.
+- Functionally a subgenre of ravioli sealed as a half-moon. Schlutzkrapfen in Alto Adige and casunziei in the Veneto are the same idea under other names.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Sauced any way you like. Best used when the filling is bold and does not need the interior volume that ravioli offer.

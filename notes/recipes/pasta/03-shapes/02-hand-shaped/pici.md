@@ -3,18 +3,29 @@
 - Section: pasta
 - Status: drafted
 - Formed: strand
-- Region: Tuscany, particularly in the areas surrounding Siena and Grosseto; around Arezzo as bringoli; in Umbria as umbrici, umbricelli, or umbrichelli; and in Lazio as umbrichelli or lombrichetti
 - Dough: egg-dough
+- Region: Tuscany around Siena and Grosseto; bringoli near Arezzo; umbrici, umbricelli, or umbrichelli in Umbria; umbrichelli or lombrichetti in Lazio
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-2. Divide your dough into quarters. Place one piece of dough on your work surface and cover the other pieces with plastic wrap or a kitchen towel.
-3. Lightly dust the dough with 00 flour. Using your rolling pin, roll the dough out to an oval about 5 inches long by ¼ inch thick.
-4. Position the oval of dough horizontally on your work surface with the longer side parallel to you. Beginning at the edge and working in, use your knife to cut strips of dough ¼ inch wide. (Note that not all the pieces will be 5 inches long. Not to worry. Part of the charm of pici, like that of all handmade pastas, is its imperfection.)
-5. Position one strip of dough horizontally on your work surface with the longer side parallel to you. Place all four fingertips of both hands next to one another at the center of the strip and begin rolling the dough back and forth on the work surface, moving both hands outward, away from each other, toward the ends of the dough. As you go along, you may need to add a bit more 00 flour to your board to ensure the dough does not stick. Be careful not to add too much, however, or you’ll end up with the opposite issue: not enough friction on the board to roll easily.
-6. Repeat this motion, gently applying pressure as you go, to elongate the strip of dough to a strand of thick spaghetti 16 to 18 inches in length. (As you’re learning this shape, it’s not uncommon to apply a bit too much pressure and accidentally sever the strand in the center. Simply cut it in half and roll out two pieces instead of one. Again, this pasta is forgiving.)
-7. Generously dust your strands of pici with 00 flour and gently shake to separate. Lay them on the prepared sheet pan. Repeat with each strip of dough from the batch.
-8. Repeat steps 3 through 7 with the remaining dough. (Because pici take time to roll out, no additional drying time is needed before cooking.)
-9. If not using right away, cover the sheet pan with plastic wrap and refrigerate for up to 24 hours.
+1. Make an egg-based dough. Dust a wooden board with a little 00 flour. Line a sheet pan with parchment, then dust the parchment with semolina.
+2. Quarter the dough. Work one piece and keep the rest under plastic wrap or a towel.
+3. Dust the piece with 00 flour and roll it out with a rolling pin into an oval about 5 inches long and 1/4 inch thick.
+4. Turn the oval so its long side faces you. Starting at the near edge and working back, cut it into strips 1/4 inch wide. The strips will not all be 5 inches long, which is fine.
+5. Lay one strip with its long side facing you. Set the fingertips of both hands together at its midpoint and roll back and forth, walking your hands apart toward the ends. Add 00 flour to the board as needed, but sparingly, or you lose the friction the roll depends on.
+6. Keep rolling under light pressure until the strand is 16 to 18 inches long, about the gauge of thick spaghetti. If you snap it in the middle, cut it clean and roll the two halves separately.
+7. Dust the strands generously with 00 flour, shake them loose, and lay them on the sheet pan. Work through the rest of the strips.
+8. Repeat from step 3 with the remaining dough.
+9. To hold it, wrap the pan in plastic and refrigerate up to 24 hours.
+
+## Notes
+
+- Dimensions run a 5-inch by 1/4-inch-thick oval, cut into 1/4-inch strips, each rolled out to a 16-to-18-inch strand.
+- No special tool. A rolling pin, a knife, and hands.
+- No drying time. Rolling the strands takes long enough that they are ready to cook straight off the board.
+- Work slowly and keep the board barely floured. Too much flour and too fast a hand both break the strand mid-roll.
+- The strands come out irregular, which is the point. This is a thick hand-rolled spaghetti, not an extruded one.
+- Traditionally 00 flour, water, oil, and salt; a northern-style egg dough is now common and gives a chewier, more flavorful strand.
+- Refrigerator limit is 24 hours.
+- Sturdy enough for minimal sauces, but best with a heavy ragù.

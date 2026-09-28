@@ -3,16 +3,27 @@
 - Section: pasta
 - Status: drafted
 - Formed: sheet
-- Region: Liguria, particularly around Genoa
+- Dough: egg-dough
+- Region: Liguria, especially around Genoa
+- Rest: 20-30 min at room temperature
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay your sheet(s) of pasta on the work surface. Use a knife to cut 4 by 4½-inch sheets, removing the scraps from the unclean edges (save them for soup). Cover the sheets with plastic wrap or a kitchen towel.
-4. This step, which calls for a cavarola board, adds texture and further thins out and lengthens the pasta. If you don’t have a cavarola board, feed your sheets through the sheeter one more time at the same setting and move ahead to step 5. Lightly dust your cavarola board with 00 flour and lay an individual sheet on it with the longer side vertical. Applying moderate pressure, roll your rolling pin over the sheet two or three times until the pattern from the board has indented the pasta.
-5. Generously dust each sheet with 00 flour and group them in stacks of 8 to 10 on the prepared sheet pan.
-6. Repeat steps 3 through 5 with the remaining sheets.
-7. Let dry for 20 to 30 minutes at room temperature.
-8. If not using right away, cover the sheet pan with plastic wrap and refrigerate for up to 24 hours.
+1. Make an egg-based dough, then roll and sheet it.
+2. Give a wooden work surface a light dusting of 00 flour. Line a sheet pan with parchment, then dust the parchment with semolina.
+3. Knife the sheets into 4 by 4 1/2-inch rectangles and trim the ragged edges off. Save the trim for soup. Keep the rectangles under plastic or a towel.
+4. Texture each rectangle on a cavarola board. Dust the board with 00 flour, lay one sheet on it with the long side running vertically, and roll a pin over it two or three times under moderate pressure until the board's pattern is pressed into the pasta. The pass also thins and lengthens the sheet.
+5. Dust every sheet generously with 00 flour, then pile them on the pan 8 to 10 sheets deep.
+6. Repeat the cutting, texturing, and stacking with the rest of the sheets.
+7. Dry 20 to 30 minutes at room temperature.
+8. To hold, cover the pan with plastic and refrigerate up to 24 hours.
+
+## Notes
+
+- Cut size is 4 by 4 1/2-inch rectangles. There is no strand width here, since these are sheets rather than ribbons.
+- A cavarola board is the tool for step 4. Without one, run the sheets through the sheeter once more at the same setting and skip straight to dusting and stacking.
+- Stack 8 to 10 sheets per pile on the pan.
+- These are essentially extra-thin lasagna sheets. Boil them fast and coat them fast, or the layers fuse into accidental lasagna.
+- Refrigerated shelf life is 24 hours.
+- Pesto Genovese is the main pairing. Fresh tomato or a light vegetable such as zucchini also works.

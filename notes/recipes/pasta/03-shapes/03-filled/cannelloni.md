@@ -3,19 +3,30 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: All over Italy but particularly in Emilia-Romagna, where it’s filled with meat and smothered in béchamel, and in Abruzzo, Tuscany, and farther south, in Campania
+- Dough: egg-dough
+- Region: Found across Italy, most notably Emilia-Romagna (meat filling under béchamel), Abruzzo, Tuscany, and Campania
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay your sheet(s) of pasta on the work surface. Use a plain pastry cutter to cut 5 by 7-inch sheets, removing the scraps from the unclean edges (save them for soup). (Alternatively, use a knife and a ruler.)
-4. Separate the pieces, dust each one lightly with 00 flour, and stack in groups on the prepared sheet pan. Give the pan an extra dusting of semolina to prevent sticking.
-5. Bring a large pot of water to a boil over high heat. Generously salt the water. Line another sheet pan with parchment paper and brush the paper with a tiny bit of olive oil.
-6. Blanch the pasta sheets for about 1 minute, until tender but not soft. Using a spider, remove from the water and lay flat in a single layer on the prepared pan, using sheets of lightly oiled parchment to separate the layers.
-7. Line another sheet pan with parchment paper and brush with a tiny bit of olive oil. Spoon your filling into a pastry bag. Cut a 1-inch hole in the tip of your pastry bag. Clean off your wooden work surface. Select one of your cooked sheets and position it lengthwise parallel to you. Pipe your filling in a line ½ inch from either side and 1 inch from the bottom of the sheet.
-8. Gently flip the bottom edge of the pasta sheet over the filling, using your thumbs to ensure that it hugs the filling. Roll the pasta over itself again to create a cylinder.
-9. Place the finished pasta, seam side down, on the second oiled sheet pan.
-10. Fill and roll the remaining sheets, adding them to the oiled sheet pan.
-11. If not using right away, cover the cannelloni with plastic wrap and refrigerate for up to 24 hours.
+1. Make your chosen egg-based dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Cut the sheets into 5 by 7-inch rectangles with a plain pastry cutter, trimming away the ragged edges. Save the scraps for soup. A knife and ruler work too.
+4. Separate the rectangles, give each a light dusting of 00 flour, and stack them in groups on the prepared pan. Dust the pan again with semolina.
+5. Boil a large pot of water and salt it generously. Line a second sheet pan with parchment and brush the paper with a little olive oil.
+6. Blanch the sheets about 1 minute, so they turn tender without going soft. Lift them out with a spider and lay them flat in a single layer on the oiled pan, separating layers with lightly oiled parchment.
+7. Line and oil a third sheet pan the same way. Clean off the board. Put one cooked sheet down lengthwise in front of you. Using a pastry bag cut to a 1-inch opening, pipe a line of filling 1/2 inch in from either side and 1 inch up from the bottom edge.
+8. Fold the bottom edge over the filling, pressing with your thumbs so the pasta hugs it, then roll the sheet over itself again into a cylinder.
+9. Set the finished tube seam side down on the oiled pan.
+10. Work through the remaining sheets the same way, setting each finished tube on that oiled pan.
+11. To hold, cover with plastic wrap and refrigerate up to 24 hours.
+
+## Notes
+
+- Sheets are cut 5 by 7 inches with a plain pastry cutter, one tube per rectangle.
+- The sheets get blanched for roughly a minute before filling, then held flat on lightly oiled parchment with more oiled parchment between the layers.
+- Filling per piece: one line piped through a 1-inch opening, inset 1/2 inch from each side and 1 inch up from the bottom edge.
+- Seal: no crimp or pinch at all. The bottom edge folds over the filling and the sheet rolls over itself once more, and the tube rests seam side down.
+- No drying step and no dusting of the finished tubes. They sit on oiled parchment, covered, for up to 24 hours in the refrigerator.
+- This is a baked pasta. It gets assembled in a pan and finished in the oven rather than boiled and sauced.
+- Served Italian American style, filled with cheese and spinach and topped with red sauce and more cheese.

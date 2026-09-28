@@ -3,21 +3,30 @@
 - Section: pasta
 - Status: drafted
 - Formed: rolled
-- Region: Calabria, specifically near Tropea
 - Dough: semolina-dough
+- Region: Calabria, near Tropea
+- Rest: 1 to 2 hours
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your semolina dough. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-2. Divide your dough into quarters. Place one piece of dough on your work surface and cover the other pieces with plastic wrap or a kitchen towel.
-3. Use your hands to form the dough into a large rope. Place all four fingertips of both hands next to one another at the center of the rope and begin rolling the dough back and forth on the work surface, moving both hands outward, away from each other, toward the ends of the dough.
-4. Repeat this motion, gently applying pressure as you go, to elongate the dough into a rope about ½ inch in diameter —about the thickness of a Sharpie. (If your rope gets too long to manage easily, cut it in half and roll out each half separately.)
-5. Using a knife or bench scraper, divide the rope(s) into 1-inch-long pieces. Cover any pieces you are not forming with plastic wrap or a kitchen towel.
-6. Using one 1-inch piece of dough, repeat steps 3 and 4, rolling a smaller rope about 5 inches long and the thickness of a pencil.
-7. Position the rope lengthwise parallel to you. Using your iron, shape your pasta by pressing the iron into the right edge of your rope, angling its left end beneath the rope. Place all four fingers of each hand at opposite ends of the iron and roll the iron upward and away from your body, pressing down lightly to flatten the rope as you go along. The rope will wrap around the iron in a wide coil.
-8. Once the rope has fully wrapped around the iron, position it lengthwise parallel to you and gently roll it back and forth on the board to ensure it is of even thickness. (Make sure to do this gently; if you push too hard, the shape will stick to the iron and will uncoil when you remove it.)
-9. Gently pull the finished pasta off the iron and place it on the prepared sheet pan. Repeat with the remaining pieces from the batch.
-10. Repeat steps 3 through 9 with the remaining dough.
-11. Let the pasta dry for 1 to 2 hours, until it just begins to harden and hold its shape when handling.
-12. If not using right away, cover the sheet pan with plastic wrap and refrigerate for up to 24 hours.
+1. Make semolina dough. Dust a wooden board with a little 00 flour. Line a sheet pan with parchment, then dust the parchment with semolina.
+2. Quarter the dough. Work one piece and keep the rest under plastic wrap or a towel.
+3. Press the piece into a thick rope by hand. Set the fingertips of both hands together at its midpoint, then roll back and forth while walking your hands apart toward the ends.
+4. Keep rolling under light pressure until the rope is about 1/2 inch across, roughly as thick as a Sharpie. Cut it in half and roll the halves separately if it gets too long to handle.
+5. Cut the rope into 1-inch lengths with a knife or bench scraper. Cover the pieces you are not shaping.
+6. Take one 1-inch piece and roll it out the same way into a thinner rope, pencil-thick and about 5 inches long.
+7. Lay the rope parallel to the edge of the board. Press the iron into its right end with the iron's left end angled underneath, spread four fingers of each hand along the iron, and roll it up and away from you, flattening the rope lightly as it winds into a wide coil.
+8. Turn the coil back parallel to you and roll it gently on the board to even out the thickness. Push too hard and the pasta grips the iron, then unwinds as you pull it off.
+9. Ease the shape off the iron onto the sheet pan. Work through the rest of the cut pieces.
+10. Repeat from step 3 with the remaining dough.
+11. Dry 1 to 2 hours, until the pasta stiffens slightly and holds its shape when handled.
+12. To hold it, wrap the pan in plastic and refrigerate up to 24 hours.
+
+## Notes
+
+- Dimensions run 1/2-inch rope, cut at 1 inch, then each piece re-rolled pencil-thin and 5 inches long before shaping.
+- Needs a ferretto, or maccheroni iron: a thin rod about the gauge of a knitting needle, which will substitute. It comes round or square, and square is preferred.
+- The coil is wide and open, which is what separates fileja from the tight spiral of busiate.
+- Refrigerator limit is 24 hours.
+- Classically sauced with tomato and 'nduja, Calabria's soft spicy sausage. The shape is chewy and holds up to heavy sauces.

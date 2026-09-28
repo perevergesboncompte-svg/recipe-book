@@ -3,21 +3,33 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: Emilia-Romagna, particularly in the city of Bologna
-- Dough: egg-dough, green-dough
+- Dough: green-dough
+- Region: Emilia-Romagna, city of Bologna
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your green dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay one sheet of pasta on the work surface. Use a plain-edged or fluted dough divider to cut 2½-inch squares. (Alternatively, use a plain or fluted pastry cutter and a ruler or a knife and a ruler.) Cover the squares with plastic wrap or a kitchen towel.
-4. Spoon your filling into a pastry bag. Cut a ½-inch hole in the tip of your pastry bag and pipe a circle of filling about the size of a quarter in the center of each square.
-5. Evaluate your dough. If it feels moderately tacky, you can eliminate this next step. If it feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the squares. This will help you securely seal the pasta.
-6. Lift a square off the work surface and hold it in the palm of your nondominant hand. With your dominant hand, fold one corner over to the opposite corner to create a triangle, lining up the edges.
-7. Using your thumb and index finger, pinch the edge closed around the filling, making sure to force out any air. Go back and forth a few times, pinching to make sure it is sealed well.
-8. While holding the piece in your nondominant hand, make a dimple in the center of the filled side of the pasta with your index finger.
-9. Then, holding the bottom points of the triangle with both thumbs and index fingers, bring the two points together at the underside of the filling, forming a large ring (there should be space between the filling and the closure). Pinch the ends together firmly to close and flatten to about the thickness of the rest of the shape, which will ensure more even cooking.
-10. Place the finished pasta on the prepared sheet pan. Repeat with all of the squares, arranging them in a single layer on the prepared pan. Give the pan an extra dusting of semolina to prevent sticking.
-11. Repeat this process with the remaining portion of the sheet and then with all the remaining sheets.
-12. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+1. Make the green dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Cut one sheet into 2 1/2-inch squares with a plain-edged or fluted dough divider. A plain or fluted pastry cutter with a ruler, or a knife with a ruler, does the same job. Keep the squares under plastic wrap or a towel.
+4. Load the filling into a pastry bag cut to a 1/2-inch opening. Pipe a quarter-sized circle of filling into the middle of each square.
+5. If the dough feels dry rather than moderately tacky, mist the squares with a spray bottle held 8 to 10 inches above the board so the seal will hold. Skip this if the dough is already tacky.
+6. Hold a square in your palm and bring one corner across to its opposite, edges aligned, making a triangle.
+7. Pinch the edge shut around the filling with thumb and index finger. Work back and forth a few times and push all the air out.
+8. Press a dimple into the center of the filled side with your index finger.
+9. Hold the two bottom points of the triangle and bring them together underneath the filling to form a wide ring, leaving a gap between filling and closure. Pinch that joint tight, then flatten it to roughly the thickness of the rest of the piece so it cooks evenly.
+10. Set the piece on the prepared pan. Fill and fold the rest of the squares, keeping them in a single layer, and dust the pan again with semolina.
+11. Work through the remainder of the sheet, then the rest of the sheets.
+12. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Sheet is cut into 2 1/2-inch squares, one piece per square.
+- Filling per piece: a quarter-sized circle, piped through a 1/2-inch pastry-bag opening.
+- Cutter: plain-edged or fluted dough divider.
+- Seal geometry: fold to a triangle, pinch the edge closed, dimple the filled side, then join the two bottom points beneath the filling into a wide ring. The book specifies a gap between filling and closure, where tortellini are drawn tight against the filling.
+- Air must be forced out of the edge as you pinch, and the finished joint gets flattened to the thickness of the rest of the piece for even cooking.
+- Needs the green (spinach) egg dough rather than a plain egg dough.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Served with a simple butter-based sauce. The classic Bolognese treatment is butter, sage, and parmigiano.

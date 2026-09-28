@@ -3,20 +3,30 @@
 - Section: pasta
 - Status: drafted
 - Formed: shaped
-- Region: Puglia, primarily, but also in Calabria, Basilicata, Molise, and as far north as Abruzzo
 - Dough: semolina-dough
+- Region: Mostly Puglia; also Calabria, Basilicata, Molise, reaching north into Abruzzo
+- Rest: 1 to 2 hours at room temperature
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your semolina dough. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-2. Divide your dough into quarters. Place one piece of dough on your work surface and cover the other pieces with plastic wrap or a kitchen towel.
-3. Use your hands to form the dough into a large rope. Place all four fingertips of both hands next to one another at the center of the rope and begin rolling the dough back and forth on the work surface, moving both hands outward, away from each other, toward the ends of the dough.
-4. Repeat this motion, gently applying pressure as you go, to elongate the dough into a rope about ½ inch in diameter —the thickness of a Sharpie—and about 18 inches in length. (If your rope gets too long to manage easily, cut it in half and roll out each half separately.)
-5. Using a knife or bench scraper, divide the rope(s) into ½-inch-long pieces. (When you’re first starting out, you can cut them a bit bigger to make shaping them easier.) Cover any pieces you are not forming with plastic wrap or a kitchen towel.
-6. Using the serrated edge of a butter knife, shape your pasta by positioning the top of your knife, serrated edge down, at a 30-degree angle to the edge of the piece of dough. Drag the dough along your work surface toward you. (Make sure you don’t have too much flour on your work surface, or there will not be enough friction to complete this step.) Don’t be afraid to apply a good amount of pressure; semolina dough can take it, and you want the center of the shape to be relatively thin. If you stopped here, you’d essentially have a cavatello. It’s the next step that sets orecchiette apart.
-7. Using your first two fingers, pull the dough off the knife and over your thumb, essentially turning that cavatello- like shape inside out while pressing upward with your thumb to form a dome. (If this sounds challenging, it’s because it’s about as easy to describe as it is to make. Repeat with the remaining pieces from the batch.)
-8. Place the finished pasta in a single layer on the prepared sheet pan.
-9. Repeat steps 3 through 8 with the remaining dough.
-10. Let the pasta dry for 1 to 2 hours at room temperature, until it just begins to harden and hold its shape when handling.
-11. If not using right away, cover the sheet pan with plastic wrap and refrigerate for up to 24 hours.
+1. Make semolina dough. Dust a wooden board with a little 00 flour. Line a sheet pan with parchment, then dust the parchment with semolina.
+2. Quarter the dough. Work one piece and keep the rest under plastic wrap or a towel.
+3. Press the piece into a thick rope by hand. Set the fingertips of both hands together at its midpoint, then roll back and forth while walking your hands apart toward the ends.
+4. Keep rolling under light pressure until the rope is about 1/2 inch across, roughly as thick as a Sharpie, and about 18 inches long. Cut it in half and roll the halves separately if it gets too long to handle.
+5. Cut the rope into 1/2-inch lengths with a knife or bench scraper. Cut them longer while you are learning, since bigger pieces are easier to shape. Cover the pieces you are not shaping.
+6. Hold a butter knife serrated-edge-down with its tip against the edge of a piece at a 30-degree angle, then drag the dough toward you across the board. Lean into it. Semolina dough takes real pressure, and you want the middle of the shape thin. Stopping here gives you a cavatello.
+7. Use your first two fingers to pull the dough off the knife and up over your thumb, turning it inside out while your thumb pushes up to form a dome. Work through the rest of the cut pieces.
+8. Lay the finished pasta on the sheet pan in a single layer.
+9. Repeat from step 3 with the remaining dough.
+10. Dry 1 to 2 hours at room temperature, until the pasta stiffens slightly and holds its shape when handled.
+11. To hold it, wrap the pan in plastic and refrigerate up to 24 hours.
+
+## Notes
+
+- Dimensions run 1/2-inch rope, about 18 inches long, cut into 1/2-inch pieces. Finished size ranges from a quarter down to a dime, smallest around Bari.
+- The tool is the serrated edge of an ordinary butter knife. There are two gestures: the drag, then the flip off the knife tip onto the thumb. The flip is what makes an orecchietta instead of a cavatello, and it is the hardest gesture in the book to get right. Expect hundreds of edible failures first.
+- Keep the board only lightly floured. Too much flour kills the friction and the drag will not take.
+- Traditionally a water dough built on semolina, durum wheat flour, grano arso, or a blend of two of the three.
+- Refrigerator limit is 24 hours.
+- Sauced with tomato and ricotta salata, or with broccoli rabe cooked down with garlic and anchovy.

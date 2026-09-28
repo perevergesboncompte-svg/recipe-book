@@ -3,20 +3,33 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: Piedmont mostly but also Lombardy, Tuscany, and farther south
+- Dough: egg-dough
+- Region: Piedmont mainly, also Lombardy, Tuscany, and farther south
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay your sheet(s) of pasta on the work surface. Use a knife to cut 18-inch-long sheets, removing the scraps from the unclean edges (save them for soup). Cover the sheets with plastic wrap or a kitchen towel.
-4. Place one sheet on the work surface lengthwise parallel to you. Spoon your filling into a pastry bag. Cut a ½-inch hole in the tip of your pastry bag and pipe a thick rope of filling—about the thickness of a Sharpie—½ inch from the bottom edge of your sheet.
-5. Evaluate your dough. If it feels moderately tacky, you can eliminate this next step. If it feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the pasta. This will help you securely seal the pasta.
-6. Flip the bottom edge of the sheet up and around the filling so the pasta hugs the filling. Seal the dough to the bottom sheet, rolling the filled side over itself just slightly and taking care to force out any air so you have a continuous tube of tightly filled pasta.
-7. Using your two index fingers spaced about 3 inches apart, press and seal the agnolotti, starting from the left edge and working your way right to yield 3-inch-wide pillows. Go back over the areas you pressed to make sure they are well sealed.
-8. Along the seam where the pasta meets, use your fluted pastry cutter to cut away the unfilled pasta sheet, getting as close to the seam as you can. Detach and reserve the remainder of the sheet (you will use it to form another line of pasta just like this one).
-9. Using the pastry cutter, separate the pillows by cutting between them, positioning the cutter exactly in the center of where you have made your finger depression to seal.
-10. Separate the pieces and carefully transfer them in a single layer to your prepared sheet pan. Give the pan an extra dusting of semolina to prevent sticking.
-11. Repeat this process with the remaining portion of the sheet and then with all of the remaining sheets.
-12. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+1. Make your chosen egg-based dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Trim the sheets to 18-inch lengths with a knife and cut away the ragged edges. Save the scraps for soup. Keep the sheets under plastic wrap or a towel.
+4. Lay one sheet lengthwise in front of you. Using a pastry bag cut to a 1/2-inch opening, pipe a rope of filling about as thick as a Sharpie, 1/2 inch in from the bottom edge.
+5. If the dough feels dry rather than moderately tacky, mist it with a spray bottle held 8 to 10 inches above the board. Skip this if the dough is already tacky.
+6. Fold the bottom edge up and over the filling so the dough hugs it. Press the edge onto the sheet below, rolling the filled side slightly over itself, and force the air out so you end up with a continuous, tightly packed tube.
+7. Working left to right, press down with both index fingers held roughly 3 inches apart to seal off pillows 3 inches wide. Go back over every press to confirm the seal.
+8. Run a fluted pastry cutter along the seam to shave off the empty sheet, staying as tight to the seam as possible. Pull off the leftover strip and save it for another row.
+9. With the same cutter, separate the pillows by cutting between them, centering each cut on a finger depression.
+10. Move the pieces to the prepared pan in a single layer and dust the pan again with semolina.
+11. Repeat with the rest of that sheet, then with the remaining sheets.
+12. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Sheets are trimmed to 18 inches long. Finished pillows are 3 inches wide.
+- Filling per piece: a continuous rope about the thickness of a Sharpie, laid 1/2 inch from the bottom edge and piped through a 1/2-inch opening. Because the filling runs in one line, the quantity per piece is set by pillow width rather than by portioning.
+- Spacing is set by your hands: two index fingers about 3 inches apart define each pillow.
+- Cutter: fluted pastry cutter, used both to trim the seam and to separate the pieces.
+- Seal geometry: the sheet folds up over the filling and rolls slightly onto itself, then gets pressed to the sheet below. Air has to be forced out during the fold so the tube stays tight.
+- The lumbar-pillow form holds more filling than tortelli or ravioli.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Treated interchangeably with other robust filled shapes. Suits a delicate whipped cheese filling meant to be the focus of the dish.

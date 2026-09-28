@@ -3,15 +3,26 @@
 - Section: pasta
 - Status: drafted
 - Formed: stamped
+- Dough: egg-dough
 - Region: Liguria
+- Rest: 15 to 20 minutes at room temperature
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden cutting board with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay a sheet of pasta on the work surface. Using the hollow side of your corzetti stamp, cut circles ⅛ inch apart.
-4. Flip the stamp to the patterned side and press it into each circle, pressing hard enough to make it textured, but not so hard that it flattens the shape too much. You may need to use additional 00 flour to dust one or both sides of your corzetti so they press and release more easily from your stamp. Repeat with all of the circles.
-5. Place the finished pasta on the prepared sheet pan, arranging them in a single layer and separating the layers with parchment dusted with semolina.
-6. Repeat with the remaining sheets.
-7. Let dry for 15 to 20 minutes at room temperature. If not using right away, cover the sheet pan with plastic wrap and refrigerate for up to 24 hours.
+1. Make an egg-based dough, then roll and sheet it.
+2. Dust a wooden cutting board lightly with 00 flour. Set out a parchment-lined sheet pan, dusted lightly with semolina.
+3. Lay a sheet on the board. Cut coins with the hollow side of the corzetti stamp, spacing the cuts 1/8 inch apart.
+4. Turn the stamp over to the carved side and press it onto each coin. Press hard enough to leave a clear impression without flattening the disc. Dust one or both faces of the coin with 00 flour if it sticks in the stamp.
+5. Lay the stamped coins in a single layer on the pan. Separate additional layers with semolina-dusted parchment.
+6. Work through the remaining sheets the same way.
+7. Dry 15 to 20 minutes at room temperature. To hold, wrap the pan and refrigerate up to 24 hours.
+
+## Notes
+
+- Requires a corzetti stamp — a carved wooden stamp, hollow on one face to cut the coin and carved on the other to imprint it.
+- Coins are cut 1/8 inch apart on the sheet.
+- If the stamp's cutting edge has dulled and no longer cuts cleanly, cut the coins with the ring from a set of round pastry cutters, then imprint with the stamp.
+- Two shapes share the name. The other is a figure-eight gnocco pressed with two fingers, called croset, crosit, or crosetti. This entry is the stamped coin, also called croxetti or corzetti stampati.
+- Keeps refrigerated up to 24 hours.
+- Served with herb sauces such as pesto, or with vegetables in season. A chestnut dough version is paired with mushrooms and parmigiano in winter.

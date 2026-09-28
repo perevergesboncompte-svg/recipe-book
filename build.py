@@ -49,23 +49,12 @@ PART_TYPES = {"doughs": "Dough", "fillings": "Filling", "shapes": "Shape",
               "dishes": "Dish", "bases": "Base", "coatings": "Coating"}
 
 STATUS_ORDER = ["house", "tested", "drafted", "stub", "retired"]
-STATUS_CLASS = {
-    "house": "s-house", "tested": "s-tested", "drafted": "s-draft",
-    "stub": "s-stub", "retired": "s-retired",
-}
-STATUS_HELP = {
-    "house": "the settled formula, cook from this one",
-    "tested": "made at least once and it worked",
-    "drafted": "written down but not yet made",
-    "stub": "incomplete, no method recorded",
-    "retired": "superseded, kept for reference",
-}
 
 META_ORDER = ["yield", "makes", "serves", "unit weight", "active time",
               "rest", "total time", "oven", "price", "tags", "source"]
 LINK_KEYS = ["dough", "filling", "shape", "base", "coating"]
 SCORE_KEYS = ["appearance", "texture", "flavor", "technique", "overall"]
-BODY_ORDER = ["ingredients", "method", "notes", "learnings"]
+BODY_ORDER = ["ingredients", "method", "notes", "preserving", "learnings"]
 HIDE_META = {"section", "status", "image", "category", "group"}
 
 CSSVER = ""
@@ -300,40 +289,6 @@ def link_parts(recipes):
                     target["used_in"].append(r)
 
 
-def parse_journal():
-    p = SKILL / "journal.md"
-    if not p.exists():
-        return []
-    days, cur = [], None
-    for line in p.read_text(encoding="utf-8").splitlines():
-        if line.startswith("## "):
-            cur = {"date": line[3:].strip(), "lines": []}
-            days.append(cur)
-        elif cur is not None:
-            cur["lines"].append(line)
-    return days
-
-
-def parse_profile():
-    p = SKILL / "profile.md"
-    if not p.exists():
-        return []
-    groups, cur = [], None
-    for line in p.read_text(encoding="utf-8").splitlines():
-        if line.startswith("## "):
-            cur = {"heading": line[3:].strip(), "rows": [], "notes": []}
-            groups.append(cur)
-            continue
-        if cur is None:
-            continue
-        m = re.match(r"^- ([A-Za-z][A-Za-z ]*?):\s*(.*)$", line)
-        if m:
-            cur["rows"].append((m.group(1).strip(), m.group(2).strip()))
-        else:
-            cur["notes"].append(line)
-    return groups
-
-
 def render_md(lines, mark=None):
     """The markdown subset recipes are written in: lists, tables, paragraphs.
 
@@ -398,19 +353,11 @@ def render_md(lines, mark=None):
     return "".join(out)
 
 
-def badge(status):
-    cls = STATUS_CLASS.get(status, "s-stub")
-    title = STATUS_HELP.get(status, "")
-    t = f' title="{esc(title)}"' if title else ""
-    return f'<span class="badge {cls}"{t}>{esc(status)}</span>'
-
-
 def page(title, body, here="", depth=""):
     def link(key, label):
         c = ' class="here"' if key == here else ""
         return f'<a href="{depth}{key}.html"{c}>{esc(label)}</a>'
-    nav = " ".join([link(k, label) for k, label in SECTIONS]
-                   + [link("journal", "Journal"), link("kitchen", "Kitchen")])
+    nav = " ".join(link(k, label) for k, label in SECTIONS)
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -455,7 +402,7 @@ def card(r, depth=""):
         bits2.append(f'{n} ingredient{"s" if n != 1 else ""}')
     tail = f'<p class="count">{" · ".join(bits2)}</p>' if bits2 else ""
     return (f'<a class="card" href="{depth}{r["url"]}">'
-            f'<h3>{esc(r["name"])} {badge(r["status"])}</h3>{sub}{tail}</a>')
+            f'<h3>{esc(r["name"])}</h3>{sub}{tail}</a>')
 
 
 def build_section(key, label, groups):
@@ -593,41 +540,9 @@ def build_recipe(r):
                 'something to cook from.</p>')
 
     body = (f'<p class="crumb">{" / ".join(crumb)}</p>'
-            f'<section class="lede"><h1>{esc(r["name"])} {badge(r["status"])}</h1>'
+            f'<section class="lede"><h1>{esc(r["name"])}</h1>'
             f'{note}{img}{facts}</section>{"".join(body_parts)}')
     return page(f"{r['name']} | Vergés Recipes", body, here=r["section"], depth="../")
-
-
-def build_journal(days):
-    if not days:
-        body = ('<section class="lede"><h1>Journal</h1>'
-                "<p>Nothing logged yet.</p></section>")
-    else:
-        items = "".join(f'<section class="block"><h2>{esc(d["date"])}</h2>'
-                        f'{render_md(d["lines"])}</section>' for d in days)
-        body = (f'<section class="lede"><h1>Journal</h1>'
-                f'<p>{len(days)} day{"s" if len(days) != 1 else ""} logged, '
-                f"newest first.</p></section>{items}")
-    return page("Journal | Vergés Recipes", body, here="journal")
-
-
-def build_kitchen(groups):
-    parts = []
-    for g in groups:
-        rows = "".join(
-            f"<dt>{esc(k)}</dt><dd" + (' class="empty"' if v.lower() == "unknown" else "")
-            + f">{inline(v)}</dd>" for k, v in g["rows"])
-        notes = render_md(g.get("notes") or [])
-        if rows or notes:
-            parts.append(f'<section class="block"><h2>{esc(g["heading"])}</h2>'
-                         f"{notes}{f'<dl>{rows}</dl>' if rows else ''}</section>")
-    unknown = sum(1 for g in groups for _, v in g["rows"] if v.lower() == "unknown")
-    lede = "<p>Oven, equipment and defaults the recipes assume."
-    if unknown:
-        lede += f" {unknown} value{'s' if unknown != 1 else ''} still unrecorded."
-    lede += "</p>"
-    body = f'<section class="lede"><h1>Kitchen</h1>{lede}</section>{"".join(parts)}'
-    return page("Kitchen | Vergés Recipes", body, here="kitchen")
 
 
 def export_notes():
@@ -694,8 +609,6 @@ def main():
         pages[f"{key}.html"] = build_section(key, label, sections[key])
     for r in allitems:
         pages[r["url"]] = build_recipe(r)
-    pages["journal.html"] = build_journal(parse_journal())
-    pages["kitchen.html"] = build_kitchen(parse_profile())
 
     privacy_check(pages)
 

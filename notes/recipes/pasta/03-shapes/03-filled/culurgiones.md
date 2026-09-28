@@ -3,20 +3,32 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: Sardinia
 - Dough: semolina-dough
+- Region: Sardinia, with the braided teardrop form centered on the mountainous east near Nuoro
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your semolina dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay one sheet of pasta on the work surface. Using your #90 (3½-inch) fluted pastry cutter, cut circles ⅛ inch apart.
-4. Spoon about 16g of filling in the center of each circle.
-5. Evaluate your dough. If it feels tacky, you can eliminate this next step. If your pasta feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the circles. This will help you securely seal the pasta.
-6. Lift a circle off the table and cup it in the palm of your nondominant hand. With your dominant hand, bring the sides of the pasta up to form a taco-like shape.
-7. Starting at the left or right end of the circle, use your index finger to fold the end of the circle in onto the filling.
-8. Using your middle finger and your thumb, pinch the sides of the dough together over the end that has been folded in, creating a triangular closure. Use your index finger to press the top of the closure into the filling. Repeat the process of pinching and folding to create a braided closure that resembles a fishtail braid. Pinch the end of the shape closed to create a small tail.
-9. Place the finished pasta on the prepared sheet pan. Repeat with all of the circles, arranging them in a single layer on the prepared pan. Give the pan an extra dusting of semolina to prevent sticking.
+1. Make the semolina dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Lay one sheet on the board. Cut rounds with a #90 (3 1/2-inch) fluted pastry cutter, leaving 1/8 inch between them.
+4. Spoon about 16 g of filling into the center of each round.
+5. If the dough feels dry rather than tacky, mist the rounds with a spray bottle held 8 to 10 inches above the board. Skip this if the dough is already tacky.
+6. Cup a round in your palm and bring the sides up with your other hand so it takes a taco-like form.
+7. Starting at one end, use your index finger to fold that end of the circle in over the filling.
+8. With your middle finger and thumb, squeeze the two sides of dough closed over that folded end into a triangular closure, then push the top of the closure down into the filling with your index finger. Keep repeating the fold and pinch down the length of the seam to build a fishtail braid, and pinch the far end closed into a small tail.
+9. Set the piece on the prepared pan. Fill and braid the rest of the rounds, keeping them in a single layer, and dust the pan again with semolina.
 10. Repeat with the remaining sheets.
-11. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+11. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Cut from 3 1/2-inch rounds (#90 fluted cutter), spaced 1/8 inch apart. That is the largest round called for among these shapes.
+- Filling per piece: about 16 g, spooned rather than piped. This is the only shape in the group with the filling given as a weight.
+- Seal geometry: no fold-and-pinch edge. The round is cupped into a taco, one end is folded in over the filling, and then alternating pinches up the seam build a fishtail braid that finishes in a small pinched tail.
+- Needs the semolina dough, not an egg dough.
+- The sheets and the filling both soften as they sit out. Keep them in the refrigerator and pull them in batches.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Filling is usually greens or fresh herbs with potato and both fresh and aged pecorino sardo.
+- Served in a simple tomato sauce, finished with mint and fiore sardo.

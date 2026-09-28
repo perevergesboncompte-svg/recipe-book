@@ -3,20 +3,33 @@
 - Section: pasta
 - Status: drafted
 - Formed: stuffed
-- Region: Piedmont, particularly the Langhe and Monferrato
+- Dough: egg-dough
+- Region: Piedmont, the Langhe and Monferrato
+- Rest: 45 minutes to 1 hour uncovered in the refrigerator
 - Source: Pasta, Missy Robbins
 
 ## Method
 
-1. Prepare your selected egg-based dough and follow the instructions for rolling and sheeting.
-2. Lightly dust a wooden work surface with 00 flour. Line a sheet pan with parchment paper and lightly dust with semolina.
-3. Lay your sheet(s) of pasta on the work surface. Use a knife to cut 18-inch-long sheets, removing the scraps from the unclean edges (save them for soup). Cover the sheets with plastic wrap or a kitchen towel.
-4. Place one sheet on the work surface lengthwise. Spoon your filling into a pastry bag. Cut a ¼-inch hole in the tip of your pastry bag and pipe beads of filling—about the size of a hazelnut—½ inch from the bottom edge of your sheet and about 1 inch apart. If your filling is dense, such as a meat filling, pinch off each piece of filling and place it by hand.
-5. Evaluate your dough. If it feels moderately tacky, you can eliminate this next step. If it feels a bit dry, hold your spray bottle 8 to 10 inches above the work surface and spray the pasta. This will help you securely seal the pasta.
-6. Flip the bottom edge of the sheet up and around the filling so the pasta hugs the filling. Seal the top edge to the bottom sheet of pasta.
-7. Using your thumb and index finger, pinch the dough on either side of each bead of filling to seal it. (You may want to go back over the areas you pinched to make sure they are well sealed.)
-8. Along the seam where the top edge and bottom sheet meet, use your fluted pastry cutter to cut away the sheet, getting as close to the seam as you can. Detach and reserve the remainder of the sheet (you will use it to form another line of pasta just like this one).
-9. Using the pastry cutter, separate the pieces by cutting between them, positioning the cutter exactly in the center of where you pinched to seal the dough. As you cut, each piece should roll over onto itself to form an envelope.
-10. Separate the pieces and carefully transfer them in a single layer to your prepared sheet pan. Give the pan an extra dusting of semolina to prevent sticking.
-11. Repeat this process with the remaining portion of the sheet and then with all the remaining sheets.
-12. Place in the refrigerator uncovered (if they are covered, they will sweat and become too wet) to dry for 45 minutes to 1 hour. If not using right away, remove from the refrigerator, loosely cover the sheet pan with plastic wrap, and return to the refrigerator for up to 8 hours.
+1. Make your chosen egg-based dough, then roll and sheet it.
+2. Dust a wooden board with 00 flour. Cover a sheet pan with parchment, then dust the parchment with semolina.
+3. Trim the sheets to 18-inch lengths with a knife and cut away the ragged edges. Save the scraps for soup. Keep the sheets under plastic wrap or a towel.
+4. Lay one sheet lengthwise. Using a pastry bag cut to a 1/4-inch opening, pipe hazelnut-sized beads of filling 1/2 inch in from the bottom edge, spaced about 1 inch apart. With a dense filling such as meat, pinch off each portion and place it by hand instead.
+5. If the dough feels dry rather than moderately tacky, mist it with a spray bottle held 8 to 10 inches above the board. Skip this if the dough is already tacky.
+6. Fold the bottom edge up and over the beads so the dough hugs them, and press the top edge down onto the sheet beneath.
+7. Pinch the dough closed on both sides of every bead with thumb and index finger, then go back over each pinch to confirm the seal.
+8. Run a fluted pastry cutter along the seam where the top edge meets the sheet, shaving the empty pasta away as tight to that seam as possible. Pull off the leftover strip and save it for another row.
+9. With the same cutter, cut between the pieces, centering each cut on a pinch. Each piece rolls over onto itself into an envelope as it separates.
+10. Move the pieces to the prepared pan in a single layer and dust the pan again with semolina.
+11. Repeat with the rest of that sheet, then with the remaining sheets.
+12. Refrigerate uncovered for 45 minutes to 1 hour to dry. Covered pieces sweat and get too wet. To hold longer, lay plastic wrap loosely over the pan and refrigerate up to 8 hours.
+
+## Notes
+
+- Sheets are trimmed to 18 inches long. Each finished piece is about the size of a postage stamp, and a single serving runs 25 to 30 of them.
+- Filling per piece: one hazelnut-sized bead, piped through a 1/4-inch opening (half the opening used for the full-size agnolotti).
+- Spacing: beads sit 1/2 inch from the bottom edge and 1 inch apart. That 1-inch interval is the pinch interval and sets the finished size.
+- Each bead is piped separately rather than as one continuous rope. Individual beads give a cleaner cut and a better closure, which matters with a meat filling that would otherwise burst when you cut through it. A continuous line works with a looser filling such as sunchoke.
+- Cutter: fluted pastry cutter, for both the seam trim and the separating cuts.
+- Seal geometry: pinch on both sides of every bead, trim the seam, then cut through the center of each pinch so the piece folds itself into an envelope. The pinch is what the name refers to.
+- Storage: 45 minutes to 1 hour uncovered to dry, then up to 8 hours refrigerated under loose plastic.
+- Classically finished in a pan sauce of butter and the juices from roasted meat. The shape also suits fillings that do not need volume to register, such as sunchoke or fonduta.
