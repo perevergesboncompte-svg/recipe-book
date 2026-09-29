@@ -11,6 +11,41 @@
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html" class="here">Baking</a> <a href="../pasta.html">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a></nav></div></header>
-<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Bread</p><section class="lede"><h1>Sourdough Concha</h1><p class="warn">No method recorded yet. The ingredients and weights are here, the steps are not, so this is a formula rather than something to cook from.</p><p class="shot"><img src="../images/sourdough-concha.jpg" alt="Sourdough Concha" loading="lazy"></p><dl><dt>Source</dt><dd>mine</dd></dl></section><section class="block"><h2>Ingredients</h2><p>Not recorded yet.</p></section><section class="block"><h2>Method</h2><p>Not recorded yet.</p></section><section class="block"><h2>Notes</h2><ul><li>The crackled sugar topping is the concha shell, scored over an enriched sourdough base.</li><li>Leavened with starter rather than commercial yeast, so it shares the starter with the breads.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not written down yet.</p></section></main>
-<footer><div class="bar">Built 2026-09-28 from the recipes skill.</div></footer>
+<main id="main"><p class="crumb"><a href="../baking.html">Baking</a> / Bread</p><section class="lede"><h1>Sourdough Concha</h1><p class="shot"><img src="../images/sourdough-concha.jpg" alt="Sourdough Concha" loading="lazy"></p><dl><dt>Yield</dt><dd><span class="q" data-q="14">14</span> conchas</dd><dt>Unit Weight</dt><dd>about 85 g each</dd><dt>Rest</dt><dd>4-5 h levain, 5 h bulk, overnight to 2 days chilled, then 4-5 h final proof</dd><dt>Oven</dt><dd>350F / 177C, 18 min</dd><dt>Source</dt><dd>Sourdough Brandon, sourdoughbrandon.com/sourdough-conchas</dd></dl></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Sourdough starter, for the levain: <span class="q" data-q="50">50</span> g</li><li>Bread flour, for the levain: <span class="q" data-q="50">50</span> g</li><li>Water, for the levain: <span class="q" data-q="50">50</span> g</li><li>Bread flour: <span class="q" data-q="570">570</span> g</li><li>Granulated sugar: <span class="q" data-q="62">62</span> g</li><li>Sea salt: <span class="q" data-q="11">11</span> g</li><li>Eggs: <span class="q" data-q="3">3</span></li><li>Whole milk, room temperature: <span class="q" data-q="125">125</span> g</li><li>Vanilla extract: <span class="q" data-q="1">1</span> tsp</li><li>Unsalted butter, softened: <span class="q" data-q="113">113</span> g</li><li>Orange zest: from <span class="q" data-q="1">1</span> orange, optional</li><li>All-purpose flour, for the topping: <span class="q" data-q="120">120</span> g</li><li>Powdered sugar, sifted, for the topping: <span class="q" data-q="113">113</span> g</li><li>Unsalted butter, softened, for the topping: <span class="q" data-q="113">113</span> g</li><li>Kosher salt, for the topping: a pinch</li><li>Flavouring or colouring, for the topping: as needed</li></ul></section><section class="block"><h2>Method</h2><ol><li>Levain: stir starter, flour and water together, cover, and leave 4 to 5 hours at 75-80F until doubled and bubbly. Or skip it and use 150 g of active starter.</li><li>If using orange zest, rub it into the granulated sugar until it smells of orange and looks like wet sand.</li><li>Mix the flour, salt, sugar, eggs, milk, vanilla and all the levain until the flour is hydrated, a couple of minutes.</li><li>Work the softened butter in.</li><li>Bulk ferment in a covered bowl at 75-80F for about 5 hours, until doubled, airy and domed.</li><li>Refrigerate overnight, up to 2 days.</li><li>Punch down, weigh the dough, divide by 14, and roll each portion into a ball. About 85 g each.</li><li>Topping: bring the flour, sifted powdered sugar, butter and salt together to a Play-Doh consistency. Divide and colour or flavour it now if you want more than one.</li><li>Press the topping into rounds and drape one over each ball.</li><li>Score the shell pattern with a lame, sharp knife or concha cutter.</li><li>Cover and proof 4 to 5 hours somewhere warm, until doubled, airy, and wobbling when you shake the tray.</li><li>Bake one tray at a time at 350F for 18 minutes, until lightly golden. Cool completely.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>Sourdough rather than commercial yeast, so the timeline runs across two days and the flavour is the point.</li><li>The topping is equal butter and powdered sugar at 113 g each against 120 g flour, which is why it stays pliable enough to drape and score.</li><li>Bulk at 75-80F. Cooler and the 5 hour figure stops applying.</li><li>Wobble when you shake the pan is the proof test, not the clock.</li><li>Divide the actual dough weight by 14 rather than trusting 85 g, since egg sizes vary.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<footer><div class="bar">Built 2026-09-29 from the recipes skill.</div></footer>
 </body></html>
