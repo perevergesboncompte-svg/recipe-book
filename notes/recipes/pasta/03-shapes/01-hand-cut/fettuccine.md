@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Image: images/fettuccine.jpg
 - Thumb: images/shapes/fettuccine-4.jpg
 - Formed: ribbon
 - Dough: egg-dough

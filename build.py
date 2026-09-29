@@ -418,9 +418,9 @@ def card(r, depth=""):
         bits2.append(f'{n} ingredient{"s" if n != 1 else ""}')
     tail = f'<p class="count">{" · ".join(bits2)}</p>' if bits2 else ""
     thumb = ""
-    src = r["meta"].get("image") or r["meta"].get("thumb")
+    src = r["meta"].get("thumb") or r["meta"].get("image")
     if src:
-        cls = "thumb" if r["meta"].get("image") else "thumb line"
+        cls = "thumb line" if r["meta"].get("thumb") else "thumb"
         thumb = (f'<span class="{cls}"><img src="{depth}{esc(src)}"'
                  f' alt="" loading="lazy"></span>')
     cls = "card has-thumb" if thumb else "card"
@@ -534,6 +534,11 @@ def build_recipe(r):
             f'<figure><img src="../images/shapes/{esc(n)}" alt="{esc(r["name"])}'
             f' step {i}" loading="lazy"><figcaption>{i}</figcaption></figure>'
             for i, n in enumerate(art, 1))
+        if r["meta"].get("image"):
+            figs += (f'<figure class="shot-fig"><img src="../{esc(r["meta"]["image"])}"'
+                     f' alt="{esc(r["name"])}" loading="lazy">'
+                     f"<figcaption>made</figcaption></figure>")
+            img = ""
         body_parts.append('<section class="block"><h2>Shaping</h2>'
                           f'<div class="art">{figs}</div></section>')
     if any(r["meta"].get(k) for k in SCORE_KEYS):

@@ -262,6 +262,8 @@ dd.empty, .empty { color: var(--dim); font-style: italic; }
   border-radius: 6px;
 }
 .art img { width: 100%; height: auto; display: block; mix-blend-mode: multiply; }
+.art .shot-fig { grid-column: span 2; }
+.art .shot-fig img { mix-blend-mode: normal; border-radius: 4px; }
 .art figcaption {
   margin-top: 0.3rem;
   font-size: 0.625rem;

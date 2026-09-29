@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Image: images/caramelle.jpg
 - Thumb: images/shapes/caramelle-5.jpg
 - Formed: stuffed
 - Dough: egg-dough
