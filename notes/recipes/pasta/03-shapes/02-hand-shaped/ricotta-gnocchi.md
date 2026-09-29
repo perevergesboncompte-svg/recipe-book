@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/ricotta-gnocchi-4.jpg
 - Formed: dumpling
 - Region: Not specific to one region; most common in central Italy, especially Umbria and Lazio
 - Rest: chilled at least 30 minutes, up to 24 hours

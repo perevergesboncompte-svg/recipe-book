@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/mandilli-di-seta-4.jpg
 - Formed: sheet
 - Dough: egg-dough
 - Region: Liguria, especially around Genoa

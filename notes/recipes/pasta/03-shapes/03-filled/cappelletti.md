@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/cappelletti-6.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Emilia-Romagna, particularly Reggio Emilia

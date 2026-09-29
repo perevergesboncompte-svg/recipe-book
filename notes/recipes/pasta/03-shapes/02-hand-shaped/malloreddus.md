@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/malloreddus-3.jpg
 - Formed: shaped
 - Dough: egg-dough, semolina-dough
 - Region: Sardinia, in the south near Cagliari

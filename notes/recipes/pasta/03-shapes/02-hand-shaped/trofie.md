@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/trofie-3.jpg
 - Formed: rolled
 - Dough: semolina-dough
 - Region: Liguria, on the eastern Riviera around Recco and Camogli

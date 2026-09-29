@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/gnudi-3.jpg
 - Formed: dumpling
 - Region: Tuscany around Arezzo, and Lombardy near Brescia
 - Rest: chilled at least 1 hour, up to 24 hours

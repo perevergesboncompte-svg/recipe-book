@@ -55,7 +55,7 @@ META_ORDER = ["yield", "makes", "serves", "unit weight", "active time",
 LINK_KEYS = ["dough", "filling", "shape", "base", "coating"]
 SCORE_KEYS = ["appearance", "texture", "flavor", "technique", "overall"]
 BODY_ORDER = ["ingredients", "method", "notes", "preserving", "learnings"]
-HIDE_META = {"section", "status", "image", "category", "group"}
+HIDE_META = {"section", "status", "image", "thumb", "category", "group"}
 
 CSSVER = ""
 
@@ -418,8 +418,10 @@ def card(r, depth=""):
         bits2.append(f'{n} ingredient{"s" if n != 1 else ""}')
     tail = f'<p class="count">{" · ".join(bits2)}</p>' if bits2 else ""
     thumb = ""
-    if r["meta"].get("image"):
-        thumb = (f'<span class="thumb"><img src="{depth}{esc(r["meta"]["image"])}"'
+    src = r["meta"].get("image") or r["meta"].get("thumb")
+    if src:
+        cls = "thumb" if r["meta"].get("image") else "thumb line"
+        thumb = (f'<span class="{cls}"><img src="{depth}{esc(src)}"'
                  f' alt="" loading="lazy"></span>')
     cls = "card has-thumb" if thumb else "card"
     return (f'<a class="{cls}" href="{depth}{r["url"]}">{thumb}'

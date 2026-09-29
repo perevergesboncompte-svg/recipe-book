@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/ravioli-7.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: All of Italy, north to south, and worldwide

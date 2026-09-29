@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/orecchiette-4.jpg
 - Formed: shaped
 - Dough: semolina-dough
 - Region: Mostly Puglia; also Calabria, Basilicata, Molise, reaching north into Abruzzo

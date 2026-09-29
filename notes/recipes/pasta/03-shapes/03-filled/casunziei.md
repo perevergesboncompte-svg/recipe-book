@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/casunziei-4.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Veneto, in Cortina d'Ampezzo, a ski town in the Dolomite range

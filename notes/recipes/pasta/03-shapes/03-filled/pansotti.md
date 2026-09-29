@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/pansotti-5.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Liguria

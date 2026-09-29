@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/tajarin-4.jpg
 - Formed: ribbon
 - Dough: egg-dough
 - Region: Piedmont, particularly the Langhe hills south of Turin

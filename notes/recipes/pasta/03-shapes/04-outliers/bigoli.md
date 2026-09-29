@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/bigoli-4.jpg
 - Formed: extruded
 - Region: The Veneto, especially Venice; Istria; southeastern Lombardy around Mantua
 - Rest: 20 to 30 minutes at room temperature

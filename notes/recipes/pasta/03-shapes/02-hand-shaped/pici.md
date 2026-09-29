@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/pici-4.jpg
 - Formed: strand
 - Dough: egg-dough
 - Region: Tuscany around Siena and Grosseto; bringoli near Arezzo; umbrici, umbricelli, or umbrichelli in Umbria; umbrichelli or lombrichetti in Lazio

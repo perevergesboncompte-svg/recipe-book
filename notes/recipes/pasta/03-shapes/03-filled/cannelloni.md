@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/cannelloni-4.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Found across Italy, most notably Emilia-Romagna (meat filling under béchamel), Abruzzo, Tuscany, and Campania

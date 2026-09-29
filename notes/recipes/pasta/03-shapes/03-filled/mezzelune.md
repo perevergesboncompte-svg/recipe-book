@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/mezzelune-4.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Across Italy, most concentrated in the Alps and over the border into German-speaking neighbors

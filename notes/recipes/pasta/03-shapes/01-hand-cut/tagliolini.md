@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/tagliolini-4.jpg
 - Formed: ribbon
 - Dough: egg-dough
 - Region: Widespread across Italy under various local names, as far south as Molise and as far north as Trentino-Alto Adige

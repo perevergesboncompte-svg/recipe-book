@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/fileja-4.jpg
 - Formed: rolled
 - Dough: semolina-dough
 - Region: Calabria, near Tropea

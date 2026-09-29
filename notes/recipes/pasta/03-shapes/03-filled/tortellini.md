@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/tortellini-6.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Emilia-Romagna, primarily Modena and Bologna

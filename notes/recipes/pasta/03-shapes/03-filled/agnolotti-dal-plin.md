@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/agnolotti-dal-plin-6.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Piedmont, the Langhe and Monferrato

@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/agnolotti-6.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Piedmont mainly, also Lombardy, Tuscany, and farther south

@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/strangozzi-3.jpg
 - Formed: strand
 - Dough: egg-dough
 - Region: Umbria, chiefly around Spoleto, where it is also called stringozzi

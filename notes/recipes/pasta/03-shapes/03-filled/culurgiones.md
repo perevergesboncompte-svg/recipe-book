@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/culurgiones-6.jpg
 - Formed: stuffed
 - Dough: semolina-dough
 - Region: Sardinia, with the braided teardrop form centered on the mountainous east near Nuoro

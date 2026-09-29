@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/cjalsons-4.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Friuli, the Carnic Alps

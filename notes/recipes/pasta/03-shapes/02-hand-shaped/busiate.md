@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/busiate-4.jpg
 - Formed: rolled
 - Dough: semolina-dough
 - Region: Western Sicily, and Sardinia, where it is called busa

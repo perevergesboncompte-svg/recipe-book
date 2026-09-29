@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/tagliatelle-4.jpg
 - Formed: ribbon
 - Dough: egg-dough
 - Region: Emilia-Romagna and neighboring regions. Called fettuccine in Lazio

@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/spaghetti-alla-chitarra-4.jpg
 - Formed: strand
 - Dough: egg-dough
 - Region: Abruzzo, where it goes by maccheroni alla chitarra, spaghetti alla chitarra, and pasta alla chitarra; Lazio, as tonnarelli

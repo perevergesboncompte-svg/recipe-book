@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/tortelli-5.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Across Italy, particularly Emilia-Romagna and Lombardy

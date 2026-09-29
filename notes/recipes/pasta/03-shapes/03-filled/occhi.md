@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/occhi-6.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: New York City. The author's own shape, with no confirmed Italian original

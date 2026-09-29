@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/stricchetti-4.jpg
 - Formed: shaped
 - Dough: egg-dough
 - Region: Emilia-Romagna, and across the rest of Italy under other names

@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/corzetti-3.jpg
 - Formed: stamped
 - Dough: egg-dough
 - Region: Liguria

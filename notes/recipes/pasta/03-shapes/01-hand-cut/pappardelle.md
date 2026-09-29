@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/pappardelle-4.jpg
 - Formed: ribbon
 - Dough: egg-dough
 - Region: Found throughout Italy, densest in Tuscany

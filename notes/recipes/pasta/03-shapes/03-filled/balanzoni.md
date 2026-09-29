@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/balanzoni-6.jpg
 - Formed: stuffed
 - Dough: green-dough
 - Region: Emilia-Romagna, city of Bologna

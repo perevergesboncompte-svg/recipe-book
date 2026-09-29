@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Thumb: images/shapes/caramelle-5.jpg
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Emilia-Romagna, and widely made in the United States

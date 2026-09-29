@@ -148,6 +148,14 @@ main {
   width: auto;
   height: auto;
 }
+/* Line drawings arrive on their own white ground, so blend it into the card
+   and let them sit smaller than a photograph would. */
+.thumb.line { background: #fff; }
+.thumb.line img {
+  max-width: 78%;
+  max-height: 78%;
+  mix-blend-mode: multiply;
+}
 .card h2, .card h3 {
   font-family: var(--serif);
   font-size: 1.15rem;
