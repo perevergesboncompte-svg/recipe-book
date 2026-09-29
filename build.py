@@ -89,6 +89,21 @@ def qspan(value, suffix):
     return f'<span class="q" data-q="{value:g}">{value:g}</span>{suffix}'
 
 
+def shape_art(stem):
+    """Ordered shaping drawings for a shape, matched on a digit-anchored name so
+    `agnolotti` never picks up `agnolotti-dal-plin`."""
+    d = SKILL / "images" / "shapes"
+    if not d.is_dir():
+        return []
+    pat = re.compile(rf"^{re.escape(stem)}-(\d+)\.(jpg|jpeg|png)$", re.I)
+    hits = []
+    for f in d.iterdir():
+        m = pat.match(f.name)
+        if m:
+            hits.append((int(m.group(1)), f.name))
+    return [n for _, n in sorted(hits)]
+
+
 def mark_qty(text):
     """Wrap scalable quantities so the page can multiply them client-side.
 
@@ -218,6 +233,7 @@ def parse_recipe(path, section, group, part):
         "order": order,
         "blocks": blocks,
         "url": "recipes/" + "-".join(bits) + ".html",
+        "stem": path.stem,
         "used_in": [],
     }
 
@@ -510,6 +526,14 @@ def build_recipe(r):
         BODY_ORDER.index(b["heading"].lower())
         if b["heading"].lower() in BODY_ORDER else 50))
     body_parts = []
+    art = shape_art(r["stem"])
+    if art:
+        figs = "".join(
+            f'<figure><img src="../images/shapes/{esc(n)}" alt="{esc(r["name"])}'
+            f' step {i}" loading="lazy"><figcaption>{i}</figcaption></figure>'
+            for i, n in enumerate(art, 1))
+        body_parts.append('<section class="block"><h2>Shaping</h2>'
+                          f'<div class="art">{figs}</div></section>')
     if any(r["meta"].get(k) for k in SCORE_KEYS):
         cells = []
         for k in SCORE_KEYS:
