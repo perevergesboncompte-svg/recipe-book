@@ -8,7 +8,7 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Costco, per the store split for this collection.
+- No price recorded yet. Buy at Costco under the store split for this collection.
 
 ## Used in
 

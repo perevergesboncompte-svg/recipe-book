@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: all-purpose flour, flour, pasta flour, plain flour, unbleached all-purpose flour, wheat flour.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: all-purpose flour, flour, pasta flour, plain flour, unbleached all-purpose flour, wheat flour.
 
 ## Used in
 

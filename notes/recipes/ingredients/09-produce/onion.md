@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: cebolleta, chopped onion, large onion, large onions, leek, medium onion and others.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: cebolleta, chopped onion, large onion, large onions, leek, medium onion and others.
 
 ## Used in
 

@@ -8,7 +8,7 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
 
 ## Used in
 

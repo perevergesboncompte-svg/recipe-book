@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: brown sugar, dark brown sugar, light brown sugar, soft light brown sugar.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: brown sugar, dark brown sugar, light brown sugar, soft light brown sugar.
 
 ## Used in
 

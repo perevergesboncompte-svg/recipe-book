@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: confectioners' sugar, icing sugar, powdered sugar.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: confectioners' sugar, icing sugar, powdered sugar.
 
 ## Used in
 

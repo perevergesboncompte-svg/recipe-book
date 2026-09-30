@@ -4,19 +4,20 @@
 - Status: drafted
 - Unit price: $4.37 per lb
 - Store: Costco
-- Used in: 13 recipes
-- Source: profile.md, recorded April 2026
+- Used in: 14 recipes
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: double cream, heavy cream.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: cream, double cream, heavy cream.
 
 ## Used in
 
 - moscovita (baking)
 - basque cheesecake (baking)
 - ganache miel ron (baking)
+- caramel walnut tart (baking)
 - chocolate tart (baking)
 - maritozzo (baking)
 - crab and salmon mousse filling (pasta)

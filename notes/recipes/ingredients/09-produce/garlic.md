@@ -4,12 +4,12 @@
 - Status: stub
 - Unit price: not recorded
 - Store: Albertsons
-- Used in: 31 recipes
+- Used in: 32 recipes
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: garlic, garlic clove, garlic cloves.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: bulb garlic, bulb of garlic, garlic, garlic clove, garlic cloves.
 
 ## Used in
 
@@ -33,4 +33,4 @@
 - pollo (empanadas)
 - ternera pimientos (empanadas)
 - vieiras jamon (empanadas)
-- and 11 more
+- and 12 more

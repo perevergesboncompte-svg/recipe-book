@@ -4,12 +4,12 @@
 - Status: stub
 - Unit price: not recorded
 - Store: Albertsons
-- Used in: 57 recipes
+- Used in: 58 recipes
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: salt, table salt.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: coarse salt, salt, table salt.
 
 ## Used in
 
@@ -33,4 +33,4 @@
 - basque cheesecake (baking)
 - maritozzo (baking)
 - sourdough baguette (baking)
-- and 37 more
+- and 38 more

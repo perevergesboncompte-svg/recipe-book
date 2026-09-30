@@ -5,12 +5,12 @@
 - Unit price: $1.28 per lb
 - Store: Costco
 - Used in: 9 recipes
-- Source: profile.md, recorded April 2026
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: lemon, lemon juice, lemon zest, lemons.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: lemon, lemon juice, lemon zest, lemons.
 
 ## Used in
 

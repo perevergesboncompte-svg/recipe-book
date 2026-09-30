@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: cane sugar, caster sugar, granulated sugar, sugar.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: cane sugar, caster sugar, granulated sugar, sugar.
 
 ## Used in
 

@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Trader Joe's, per the store split for this collection.
-- Written in recipes as: cocoa powder, natural cocoa powder, unsweetened cocoa powder.
+- No price recorded yet. Buy at Trader Joe's under the store split for this collection.
+- Appears in recipes as: cocoa powder, natural cocoa powder, unsweetened cocoa powder.
 
 ## Used in
 

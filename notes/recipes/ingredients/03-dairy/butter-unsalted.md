@@ -5,12 +5,12 @@
 - Unit price: $4.82 per lb
 - Store: Costco
 - Used in: 61 recipes
-- Source: profile.md, recorded April 2026
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: butter, butter-flavored shortening, cold butter, cold unsalted butter, unsalted butter.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: butter, cold butter, cold unsalted butter, unsalted butter.
 
 ## Used in
 

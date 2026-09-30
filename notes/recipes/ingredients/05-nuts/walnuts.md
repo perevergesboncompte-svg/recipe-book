@@ -5,12 +5,12 @@
 - Unit price: $15.00 per kg
 - Store: Costco
 - Used in: 6 recipes
-- Source: profile.md, recorded April 2026
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: walnut halves, walnuts.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: walnut halves, walnuts.
 
 ## Used in
 

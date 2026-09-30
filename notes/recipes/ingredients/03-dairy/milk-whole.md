@@ -5,12 +5,12 @@
 - Unit price: $3.91 per gal
 - Store: Costco
 - Used in: 19 recipes
-- Source: profile.md, recorded April 2026
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: milk, whole milk.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: milk, whole milk.
 
 ## Used in
 

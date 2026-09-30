@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Albertsons, per the store split for this collection.
-- Written in recipes as: baking soda, bicarbonate of soda.
+- No price recorded yet. Buy at Albertsons under the store split for this collection.
+- Appears in recipes as: baking soda, bicarbonate of soda.
 
 ## Used in
 

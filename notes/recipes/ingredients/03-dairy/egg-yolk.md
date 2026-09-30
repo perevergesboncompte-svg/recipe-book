@@ -5,12 +5,12 @@
 - Unit price: $2.76 per dozen
 - Store: Costco
 - Used in: 25 recipes
-- Source: profile.md, recorded April 2026
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: egg yolk, egg yolks.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: egg yolk, egg yolks.
 
 ## Used in
 

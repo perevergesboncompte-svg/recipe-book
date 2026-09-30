@@ -4,13 +4,13 @@
 - Status: drafted
 - Unit price: $1.84 per dozen
 - Store: Costco
-- Used in: 46 recipes
-- Source: profile.md, recorded April 2026
+- Used in: 52 recipes
+- Source: profile.md, Costco, recorded April 2026
 
 ## Notes
 
-- Price is a Costco unit price recorded April 2026. Re-check before costing a batch.
-- Written in recipes as: beaten egg, beaten eggs, egg, eggs, large eggs, whole egg.
+- Costco unit price recorded April 2026. Re-check before costing a batch.
+- Appears in recipes as: beaten egg, beaten eggs, egg, eggs, hard-boiled egg, hard-boiled eggs and others.
 
 ## Used in
 
@@ -34,4 +34,4 @@
 - zucchini galette (baking)
 - brioche burger buns (baking)
 - maritozzo (baking)
-- and 26 more
+- and 32 more

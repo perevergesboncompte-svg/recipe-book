@@ -8,8 +8,8 @@
 
 ## Notes
 
-- No price recorded yet. Buy at Costco, per the store split for this collection.
-- Written in recipes as: bread flour, strong wheat flour.
+- No price recorded yet. Buy at Costco under the store split for this collection.
+- Appears in recipes as: bread flour, strong wheat flour.
 
 ## Used in
 
