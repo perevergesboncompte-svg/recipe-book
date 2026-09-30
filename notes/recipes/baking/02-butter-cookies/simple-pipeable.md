@@ -4,6 +4,7 @@
 - Status: tested
 - Yield: 26 cookies
 - Oven: 375F, 10-12 min
+- Energy cost: $1.45 (12 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Appearance: 4
 - Texture: 4
 - Flavor: 4.25

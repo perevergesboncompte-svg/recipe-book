@@ -6,6 +6,7 @@
 - Makes: 1 loaf
 - Rest: 2 h at room temperature after shaping
 - Oven: 475F, 55-60 min total
+- Energy cost: $3.10 (60 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $9
 - Tags: vegan
 - Source: mine, kitchen notebook

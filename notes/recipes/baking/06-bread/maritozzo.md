@@ -9,6 +9,7 @@
 - Rest: 1 h at room temperature, then several hours or overnight chilled, then 2.5-3 h final rise
 - Total time: about 7 h
 - Oven: 375F, 15-20 min
+- Energy cost: $1.72 (20 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: King Arthur Baking, kingarthurbaking.com/recipes/maritozzi-recipe
 
 ## Ingredients

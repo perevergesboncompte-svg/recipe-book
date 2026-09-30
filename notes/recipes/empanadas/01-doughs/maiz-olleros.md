@@ -6,6 +6,7 @@
 - Active time: 20 min
 - Rest: 1 to 2 h ferment
 - Oven: 230 °C, about 25 min
+- Energy cost: $1.89 (25 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Javier Olleros, Culler de Pau, O Grove, presented at Madrid Fusión
 
 ## Ingredients

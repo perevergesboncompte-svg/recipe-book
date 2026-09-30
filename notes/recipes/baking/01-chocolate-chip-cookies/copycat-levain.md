@@ -5,6 +5,7 @@
 - Yield: 8 cookies
 - Unit weight: 170 g
 - Oven: 375F, 26 min
+- Energy cost: $1.93 (26 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 90 min in the freezer
 - Appearance: 3
 - Texture: 4

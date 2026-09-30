@@ -6,6 +6,7 @@
 - Active time: 20 min
 - Rest: 12-18 h bulk, then 2 h in the pan
 - Oven: 425F, 25-30 min
+- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Tags: vegetarian
 - Source: mine, kitchen notebook
 

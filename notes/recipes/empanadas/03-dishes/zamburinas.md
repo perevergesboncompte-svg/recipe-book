@@ -8,6 +8,7 @@
 - Active time: 30 min
 - Rest: 30 min
 - Oven: 200 °C, 30-40 min, with a 15 min preheat
+- Energy cost: $2.93 (55 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: El Comidista style — Pablo Gallego, A Coruña, elpais.com/gastronomia
 
 ## Ingredients

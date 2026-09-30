@@ -5,6 +5,7 @@
 - Yield: 100 cookies
 - Unit weight: 11 g
 - Oven: 350F, 18-20 min
+- Energy cost: $1.72 (20 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Reddit / YouTube
 
 ## Ingredients

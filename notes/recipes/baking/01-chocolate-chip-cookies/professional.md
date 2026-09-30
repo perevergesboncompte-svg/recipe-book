@@ -5,6 +5,7 @@
 - Image: images/professional.jpg
 - Yield: 18 cookies
 - Oven: 325F, 15-18 min
+- Energy cost: $1.65 (18 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 1 h after scooping
 - Appearance: 3
 - Texture: 3

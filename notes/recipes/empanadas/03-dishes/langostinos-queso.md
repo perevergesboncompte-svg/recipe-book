@@ -5,6 +5,7 @@
 - Yield: Filling for 1 large empanada
 - Active time: 20 min
 - Oven: 180 °C, 25-30 min
+- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Langostino and leek empanada, based on Beatriz Córdoba (oipacyl)
 
 ## Ingredients

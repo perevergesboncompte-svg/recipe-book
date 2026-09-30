@@ -7,6 +7,7 @@
 - Unit weight: 80 g
 - Active time: 45 min
 - Oven: 320F / 160C, 1 h 30 min
+- Energy cost: $5.16 (120 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $4
 - Tags: vegetarian
 - Source: Real Greek Recipes, realgreekrecipes.com/walnut-baklava

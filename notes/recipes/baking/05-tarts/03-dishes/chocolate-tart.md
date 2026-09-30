@@ -9,6 +9,7 @@
 - Unit weight: 150 g
 - Rest: 8 h for the dough, 1 h lined, then chill to set the ganache
 - Oven: 160C for 35 min, then 140C for 5 min
+- Energy cost: $2.41 (40 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $6
 - Tags: vegetarian
 - Source: Chocolate Cacao, youtube.com/@chocolate_cacao

@@ -6,6 +6,7 @@
 - Active time: 20 min
 - Rest: 1 to 1½ h ferment
 - Oven: 190 °C fan, or 210 °C without fan, about 30 min
+- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Miriam García, "El invitado de invierno", contributor to El Comidista
 
 ## Ingredients

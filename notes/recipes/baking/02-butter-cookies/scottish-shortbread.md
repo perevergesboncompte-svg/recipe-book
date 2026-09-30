@@ -4,6 +4,7 @@
 - Status: drafted
 - Yield: 12-16 pieces
 - Oven: 375F, 25-30 min
+- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Christina's Cucina, christinascucina.com
 
 ## Ingredients

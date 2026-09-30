@@ -4,6 +4,7 @@
 - Status: drafted
 - Yield: 24 cookies
 - Oven: 350F, 12-15 min
+- Energy cost: $1.55 (15 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 2 h minimum
 - Source: Ina Garten, via The Kitchn
 

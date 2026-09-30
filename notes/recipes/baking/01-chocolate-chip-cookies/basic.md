@@ -4,6 +4,7 @@
 - Status: drafted
 - Yield: 12 cookies
 - Oven: 350F, 12-15 min
+- Energy cost: $1.55 (15 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 30 min, better overnight
 - Price: $3
 - Tags: vegetarian

@@ -7,6 +7,7 @@
 - Yield: 1 x 20 cm cake, 8 servings
 - Active time: 20-30 min depending on the crust
 - Oven: 320F, 40 min
+- Energy cost: $2.41 (40 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 8 h chill
 - Source: Alex Cordobes, Madrid, alexcordobes.es
 

@@ -6,6 +6,7 @@
 - Yield: 14 cookies
 - Unit weight: 50 g
 - Oven: 350F, 11-12 min
+- Energy cost: $1.45 (12 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 10 min at room temperature
 - Appearance: 4
 - Texture: 5

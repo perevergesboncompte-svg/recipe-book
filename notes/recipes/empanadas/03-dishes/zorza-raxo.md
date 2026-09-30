@@ -5,6 +5,7 @@
 - Yield: Filling for 1 large empanada (tin of about 32 cm)
 - Rest: 36-48 h (marinating the zorza)
 - Oven: 195 °C, 45-50 min
+- Energy cost: $2.75 (50 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Traditional Galician matanza cooking — La Cocina de Frabisa, La Voz de Galicia
 
 ## Ingredients

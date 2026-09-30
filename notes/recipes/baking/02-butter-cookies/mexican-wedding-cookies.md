@@ -6,6 +6,7 @@
 - Yield: 48 cookies
 - Unit weight: 15 g
 - Oven: 325°F, 15-20 min
+- Energy cost: $1.72 (20 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $2.50
 - Tags: vegetarian
 - Source: bakery site recipes.html

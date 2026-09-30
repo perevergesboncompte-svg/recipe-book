@@ -6,6 +6,7 @@
 - Active time: 25 min
 - Rest: 30 min (chill before assembling)
 - Oven: 180 °C, 30-35 min
+- Energy cost: $2.24 (35 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Traditional Galician cooking, Rías Baixas — lomejordegalicia.com
 
 ## Ingredients

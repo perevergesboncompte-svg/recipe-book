@@ -5,6 +5,7 @@
 - Yield: Filling for 1 large empanada
 - Active time: 15 min
 - Oven: 180 °C, 20-25 min
+- Energy cost: $1.89 (25 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Yucatecan cooking (Mexico) — pineapple variant from Nati Recetas Caseras
 
 ## Ingredients

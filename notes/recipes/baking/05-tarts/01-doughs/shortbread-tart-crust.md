@@ -5,6 +5,7 @@
 - Yield: 1 x 20cm base, 4-5mm thick
 - Active time: 15 min
 - Oven: 320F, 10-12 min blind
+- Energy cost: $1.45 (12 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Classic shortbread, as paired with the Alex Cordobés cheesecake
 
 ## Ingredients

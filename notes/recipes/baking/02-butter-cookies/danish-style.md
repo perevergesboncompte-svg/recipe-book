@@ -4,6 +4,7 @@
 - Status: tested
 - Yield: 34 cookies
 - Oven: 340F, 12-15 min
+- Energy cost: $1.55 (15 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 20-30 min chill after piping
 - Appearance: 3.5
 - Texture: 3.5

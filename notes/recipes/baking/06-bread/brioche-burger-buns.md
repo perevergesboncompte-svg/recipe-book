@@ -8,6 +8,7 @@
 - Active time: 5 h including rises
 - Rest: 1-1.5 h first rise, then 1-2 h after shaping
 - Oven: 375F / 190C, 16-18 min
+- Energy cost: $1.65 (18 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Joshua Weissman, joshuaweissman.com/recipes/best-burger-buns-recipe
 
 ## Ingredients

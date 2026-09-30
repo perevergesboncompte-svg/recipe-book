@@ -6,6 +6,7 @@
 - Yield: 30-35 cookies
 - Unit weight: 40 g
 - Oven: 180C / 356F, about 10 min
+- Energy cost: $1.38 (10 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Appearance: 5
 - Texture: 5
 - Flavor: 5

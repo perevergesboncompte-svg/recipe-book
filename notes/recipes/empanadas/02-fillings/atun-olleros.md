@@ -6,6 +6,7 @@
 - Active time: 20 min
 - Cook: 35 min sofrito
 - Oven: 160 °C, 40 to 50 min
+- Energy cost: $2.75 (50 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Javier Olleros, Culler de Pau, via RTVE
 
 ## Ingredients

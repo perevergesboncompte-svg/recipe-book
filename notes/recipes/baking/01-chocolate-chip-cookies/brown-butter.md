@@ -5,6 +5,7 @@
 - Yield: 26-28 cookies
 - Unit weight: 45 g
 - Oven: 375F, 12-14 min
+- Energy cost: $1.51 (14 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 90 min to resolidify, then 2 h minimum chill
 - Appearance: 4.5
 - Texture: 4

@@ -1,0 +1,15 @@
+# Chocolate
+
+- Section: ingredients
+- Status: stub
+- Unit price: not recorded
+- Store: Trader Joe's
+- Used in: 1 recipe
+
+## Notes
+
+- No price recorded yet. Buy at Trader Joe's, per the store split for this collection.
+
+## Used in
+
+- moscovita (baking)

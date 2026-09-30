@@ -7,6 +7,7 @@
 - Active time: 30 min
 - Rest: 8-10 h bulk, then 1-6 h cold
 - Oven: 450F, 60 min total
+- Energy cost: $3.10 (60 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $8
 - Tags: vegan
 - Source: mine, kitchen notebook

@@ -5,6 +5,7 @@
 - Image: images/milk-powder.jpg
 - Yield: 40 cookies
 - Oven: 350F, 15 min
+- Energy cost: $1.55 (15 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 30 min chill after piping
 - Appearance: 4.5
 - Texture: 4.75

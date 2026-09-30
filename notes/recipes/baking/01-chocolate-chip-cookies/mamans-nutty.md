@@ -5,6 +5,7 @@
 - Yield: 14 cookies
 - Unit weight: 100 g
 - Oven: 350F, 12-13 min
+- Energy cost: $1.48 (13 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 1 h minimum, up to 7 days
 - Source: Vogue / Maman Bakery, vogue.com
 

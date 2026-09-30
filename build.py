@@ -43,6 +43,7 @@ SECTIONS = [
     ("pasta", "Pasta"),
     ("croquetas", "Croquetas"),
     ("empanadas", "Empanadas"),
+    ("ingredients", "Ingredients"),
 ]
 
 PART_TYPES = {"doughs": "Dough", "fillings": "Filling", "shapes": "Shape",
@@ -481,10 +482,13 @@ def build_index(sections):
         cards.append(f'<a class="card" href="{key}.html"><h2>{esc(label)}</h2>'
                      f"{inner}</a>")
 
-    allitems = [r for key, _ in SECTIONS for r in flatten(sections[key])]
+    cook = [key for key, _ in SECTIONS if key != "ingredients"]
+    allitems = [r for key in cook for r in flatten(sections[key])]
     done, total = counts(allitems)
-    lede = (f"{total} recipe{'s' if total != 1 else ''} across four sections, "
-            f"{done} with a method written up.")
+    pantry = len(flatten(sections.get("ingredients", [])))
+    lede = (f"{total} recipe{'s' if total != 1 else ''} across {len(cook)} sections, "
+            f"{done} with a method written up")
+    lede += f", and {pantry} ingredients listed." if pantry else "."
     return page("Vergés Recipes", f"""
 <section class="lede"><h1>Recipes</h1><p>{esc(lede)}</p></section>
 <section class="cards">{''.join(cards)}</section>

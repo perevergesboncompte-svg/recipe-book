@@ -6,6 +6,7 @@
 - Active time: 15 min
 - Rest: 30 min (chill before assembling)
 - Oven: 190-200 °C, about 35 min
+- Energy cost: $2.24 (35 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Traditional northern Spanish bonito empanada — no chef or publication credited
 
 ## Ingredients

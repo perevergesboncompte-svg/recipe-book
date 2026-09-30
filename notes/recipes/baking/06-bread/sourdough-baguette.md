@@ -8,6 +8,7 @@
 - Rest: 1.5 h bulk, then 1.5-2 h shaped
 - Total time: about 4 h 45 min
 - Oven: 450F, about 25 min
+- Energy cost: $1.89 (25 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: King Arthur Baking, kingarthurbaking.com/recipes/sourdough-baguettes-recipe
 
 ## Ingredients

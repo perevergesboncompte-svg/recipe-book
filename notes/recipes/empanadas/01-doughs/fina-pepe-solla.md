@@ -6,6 +6,7 @@
 - Active time: 15 min
 - Rest: 30 min chilled
 - Oven: 180 °C, 45 to 50 min
+- Energy cost: $2.75 (50 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Pepe Solla, Casa Solla, Poio
 
 ## Ingredients

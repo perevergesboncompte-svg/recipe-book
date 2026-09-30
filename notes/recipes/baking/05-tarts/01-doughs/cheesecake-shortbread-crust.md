@@ -5,6 +5,7 @@
 - Yield: base for 1 x 20 cm cake
 - Active time: 15 min
 - Oven: 320F for 10-12 min, blind
+- Energy cost: $1.45 (12 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: classic shortbread, as paired with the Alex Cordobes filling
 
 ## Ingredients

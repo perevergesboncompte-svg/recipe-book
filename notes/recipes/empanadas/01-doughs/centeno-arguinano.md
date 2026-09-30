@@ -6,6 +6,7 @@
 - Active time: 15 min
 - Rest: 45 to 60 min prove
 - Oven: 180 °C, about 40 min
+- Energy cost: $2.41 (40 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Karlos Arguiñano, Hogarmania
 
 ## Ingredients

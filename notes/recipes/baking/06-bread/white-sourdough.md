@@ -9,6 +9,7 @@
 - Rest: 4-18 h bulk, then 5-6 h in the pan
 - Total time: about 24 h
 - Oven: 425F for 20 min, then 375F for 20-25 min
+- Energy cost: $2.58 (45 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $8
 - Tags: vegan
 - Source: Alexandra Cooks, alexandracooks.com/2019/04/17/easy-sourdough-sandwich-or-toasting-bread/

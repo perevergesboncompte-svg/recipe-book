@@ -4,6 +4,7 @@
 - Status: drafted
 - Yield: 16 cookies
 - Oven: 350F, 13-15 min
+- Energy cost: $1.55 (15 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: I Am Baker, iambaker.net
 
 ## Ingredients

@@ -6,6 +6,7 @@
 - Active time: 15 min
 - Rest: 20 min (chill before assembling)
 - Oven: 190-200 °C, about 30 min
+- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Traditional Mediterranean vegetarian spinach empanada — no chef or publication credited
 
 ## Ingredients

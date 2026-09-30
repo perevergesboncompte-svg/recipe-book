@@ -4,6 +4,7 @@
 - Status: tested
 - Yield: 50 cookies
 - Oven: 350F, 13-16 min
+- Energy cost: $1.58 (16 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 1 h chill after pressing
 - Appearance: 4
 - Texture: 3.5

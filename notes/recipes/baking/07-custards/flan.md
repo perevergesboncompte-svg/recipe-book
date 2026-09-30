@@ -6,6 +6,7 @@
 - Yield: 8 servings
 - Active time: 15 min
 - Oven: 350F, 40-45 min in a water bath
+- Energy cost: $2.58 (45 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 4 h chill, or overnight
 - Source: A Cozy Kitchen, acozykitchen.com/classic-flan
 

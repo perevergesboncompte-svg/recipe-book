@@ -6,6 +6,7 @@
 - Active time: 20 min
 - Rest: 20 min (chill before assembling)
 - Oven: 180 °C, about 30 min
+- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Spanish home cooking, based on andococinando.com
 
 ## Ingredients

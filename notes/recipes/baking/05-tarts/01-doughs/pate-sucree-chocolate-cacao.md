@@ -5,6 +5,7 @@
 - Yield: 1 x 18 cm tart shell
 - Rest: 8 h wrapped, then 1 h in the tin
 - Oven: preheat 170C, bake 160C for 35 min, then 140C for 5 min after the yolk wash
+- Energy cost: $2.41 (40 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Chocolate Cacao, youtube.com/@chocolate_cacao
 
 ## Ingredients

@@ -7,6 +7,7 @@
 - Unit weight: about 85 g each
 - Rest: 4-5 h levain, 5 h bulk, overnight to 2 days chilled, then 4-5 h final proof
 - Oven: 350F / 177C, 18 min
+- Energy cost: $1.65 (18 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Sourdough Brandon, sourdoughbrandon.com/sourdough-conchas
 
 ## Ingredients

@@ -5,6 +5,7 @@
 - Yield: Filling for 1 large empanada
 - Active time: 15 min
 - Oven: Air fryer at 200 °C for 8-10 min, or oven at 180 °C for about 25 min
+- Energy cost: $2.24 (35 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Nestlé Cocina (Buitoni) — a nod to the Argentine roquefort empanada and to cabrales
 
 ## Ingredients

@@ -4,6 +4,7 @@
 - Status: drafted
 - Yield: 16 pieces
 - Oven: 325F, 35-40 min
+- Energy cost: $2.41 (40 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: King Arthur Baking, kingarthurbaking.com
 
 ## Ingredients
