@@ -345,6 +345,20 @@ dd.empty, .empty { color: var(--dim); font-style: italic; }
   color: var(--dim);
 }
 
+.getpdf { margin-top: 1.25rem; }
+.getpdf a {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+  text-decoration: none;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.getpdf a:hover { color: var(--text); border-color: var(--accent); }
+
 .warn {
   font-size: 0.875rem;
   background: rgba(196, 167, 125, 0.14);

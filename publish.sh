@@ -2,6 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+"${PY:-python3}" make_pdfs.py pdf
 "${PY:-python3}" build.py
 
 if [ -n "$(git status --porcelain)" ]; then

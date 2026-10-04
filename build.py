@@ -579,9 +579,15 @@ def build_recipe(r):
                 'are here, the steps are not, so this is a formula rather than '
                 'something to cook from.</p>')
 
+    card = ""
+    if r["section"] != "ingredients":
+        slug = r["url"][len("recipes/"):-len(".html")]
+        card = (f'<p class="getpdf"><a href="../pdf/{slug}.pdf" '
+                f'download>Print card (PDF)</a></p>')
+
     body = (f'<p class="crumb">{" / ".join(crumb)}</p>'
             f'<section class="lede"><h1>{esc(r["name"])}</h1>'
-            f'{note}{img}{facts}</section>{"".join(body_parts)}')
+            f'{note}{img}{facts}{card}</section>{"".join(body_parts)}')
     return page(f"{r['name']} | Vergés Recipes", body, here=r["section"], depth="../")
 
 
