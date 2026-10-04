@@ -19,8 +19,8 @@ SKIP = {"section", "status", "image", "thumb", "category", "group",
         "flavor", "technique", "overall", "formed", "used in", "unit price",
         "store", "filling note", "pasta colour", "difficulty", "source",
         "chef", *LINKS}
-GRID = ["yield", "makes", "serves", "active time", "rest", "total time", "oven",
-        "unit weight", "energy cost", "price"]
+GRID = ["region", "yield", "makes", "serves", "active time", "rest", "total time",
+        "oven", "unit weight", "energy cost", "price"]
 ORDER = ["ingredients", "method", "notes", "preserving", "learnings"]
 PART_ORDER = ["ingredients", "method", "notes"]
 PLACEHOLDER = {"not made yet.", "not written down yet."}

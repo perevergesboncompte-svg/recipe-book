@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Parmigiano Fonduta Filling | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1791149455">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html" class="here">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../ingredients.html">Ingredients</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Fillings</p><section class="lede"><h1>Parmigiano Fonduta Filling</h1><dl><dt>Source</dt><dd>Missy Robbins, Pasta</dd></dl><p class="getpdf"><a href="../pdf/pasta-fillings-parmigiano-fonduta-filling.pdf" download>Print card (PDF)</a></p></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Heavy cream: <span class="q" data-q="474">474</span> g</li><li>Parmigiano-reggiano, finely grated: <span class="q" data-q="225">225</span> g</li><li>Egg yolks, stirred: <span class="q" data-q="27">27</span> g</li><li>Salt: quantity not given</li></ul></section><section class="block"><h2>Method</h2><ol><li>Bring the cream to a bare simmer in a saucepan over medium heat.</li><li>Drop the heat to low and hold it there until the cream has reduced by a third, 1 to 1½ hours. Watch the bottom of the pan, it scorches easily.</li><li>Let the cream stand 5 minutes.</li><li>Pour it into a high-speed blender. Run the blender on low to medium and rain the parmigiano in slowly, until the mixture emulsifies. Taste before you salt, because the cheese brings a lot of salinity already.</li><li>With the blender still turning, trickle the yolks in so they temper instead of splitting the mixture.</li><li>Cover and refrigerate at least 1 hour before piping.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>No wine and no flour. This fonduta is cheese, reduced cream and enough yolk to bind.</li><li>It is piped cold and melts in the pot, finishing with the texture of a runny egg yolk.</li><li>The yolks go in as a thin drizzle with the blender running. Dumped in, they break the emulsion.</li><li>Filling held several hours or overnight needs 30 minutes out of the refrigerator before it will pipe.</li><li>Reducing the cream slowly over 1 to 1½ hours is deliberate. A scorched pan bottom carries straight into the filling.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section><section class="block"><h2>Used in</h2><ul><li><a href="../recipes/pasta-dishes-modern-classics-parmigiano-fonduta-tortellini-in-brodo.html">Parmigiano Fonduta-Filled Tortellini in Brodo</a></li></ul></section></main>
+<footer><div class="bar">Built 2026-10-04 from the recipes skill.</div></footer>
+</body></html>

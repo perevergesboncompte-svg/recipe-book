@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Fettuccine Alfredo | Vergés Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1791149455">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="brand" href="../index.html">Verg&eacute;s <span>Recipes</span></a><nav><a href="../baking.html">Baking</a> <a href="../pasta.html" class="here">Pasta</a> <a href="../croquetas.html">Croquetas</a> <a href="../empanadas.html">Empanadas</a> <a href="../ingredients.html">Ingredients</a></nav></div></header>
+<main id="main"><p class="crumb"><a href="../pasta.html">Pasta</a> / Dishes</p><section class="lede"><h1>Fettuccine Alfredo</h1><dl><dt>Shape</dt><dd><a href="../recipes/pasta-shapes-hand-cut-fettuccine.html">Fettuccine</a></dd><dt>Serves</dt><dd><span class="q" data-q="4">4</span>-<span class="q" data-q="6">6</span></dd><dt>Total Time</dt><dd>1 h plus the dough rest</dd><dt>Source</dt><dd>Missy Robbins, Pasta</dd></dl><p class="getpdf"><a href="../pdf/pasta-dishes-italian-american-fettuccine-alfredo.pdf" download>Print card (PDF)</a></p></section><section class="block"><h2>Ingredients</h2><div class="scaler" data-scaler>
+<span class="slab">Batch</span>
+<button type="button" data-f="0.5">&frac12;&times;</button>
+<button type="button" data-f="1" class="on">1&times;</button>
+<button type="button" data-f="2">2&times;</button>
+<button type="button" data-f="3">3&times;</button>
+<label>or <input type="number" min="0.1" max="100" step="0.1" value="1"></label>
+</div>
+<script>
+(function(){
+  function init(){
+    var box=document.querySelector('[data-scaler]'); if(!box) return;
+    var qs=[].slice.call(document.querySelectorAll('.q'));
+    qs.forEach(function(e){ e.dataset.base=e.dataset.q; });
+    function fmt(v){ var d=v>=100?0:(v>=10?1:2);
+      return parseFloat(v.toFixed(d)).toString(); }
+    function apply(f){
+      if(!(f>0)) return;
+      qs.forEach(function(e){ e.textContent=fmt(parseFloat(e.dataset.base)*f); });
+      var bs=box.querySelectorAll('button');
+      for(var i=0;i<bs.length;i++){
+        bs[i].classList.toggle('on', parseFloat(bs[i].dataset.f)===f); }
+    }
+    var bs=box.querySelectorAll('button');
+    for(var i=0;i<bs.length;i++){
+      bs[i].addEventListener('click', function(){
+        var f=parseFloat(this.dataset.f);
+        box.querySelector('input').value=f; apply(f); }); }
+    box.querySelector('input').addEventListener('input', function(){
+      apply(parseFloat(this.value)); });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script><ul><li>Egg dough: <span class="q" data-q="1">1</span> batch</li><li>Unsalted buffalo&#x27;s milk butter, cold and cubed: <span class="q" data-q="104">104</span> g</li><li>Unsalted cow&#x27;s milk butter, cold and cubed: <span class="q" data-q="52">52</span> g</li><li>Black pepper: <span class="q" data-q="50">50</span> grinds</li><li>2-year parmigiano-reggiano, finely grated: <span class="q" data-q="231">231</span> g</li><li>5-year parmigiano-reggiano, coarsely grated: <span class="q" data-q="120">120</span> g</li></ul></section><section class="block"><h2>Method</h2><ol><li>Roll and cut 624 g of fettuccine from the egg dough.</li><li>Fill a large pot with water, salt it heavily and bring it to the boil over high heat.</li><li>Set a large sauté pan over low heat, then ladle in 2 to 3 ladles of the pot water, 115 to 170 g. Add both butters and swirl the pan until they emulsify. Grind in the pepper and stir it through.</li><li>Boil the fettuccine 1 to 2 minutes. It wants to be tender, not soft.</li><li>Move the pasta across with tongs or a pasta basket, raise the heat to medium and toss for 1 to 2 minutes. Add another 2 to 3 ladles of pasta water, 115 to 170 g, and keep tossing to marry.</li><li>Pull the pan off the heat and add the finely grated 2-year parmigiano a little at a time, tossing as it goes. If the sauce tightens, a splash of pasta water loosens it.</li><li>Divide between bowls, then finish with the 5-year parmigiano, grated coarsely, and more pepper.</li></ol></section><section class="block"><h2>Notes</h2><ul><li>The two butters do separate jobs. Buffalo&#x27;s milk brings a tang, cow&#x27;s milk carries the emulsion. All cow&#x27;s milk butter still makes a good dish.</li><li>The 5-year parmigiano is the cutting note that plain Alfredo lacks. Any wheel aged at least two years will stand in.</li><li>Grate the finishing cheese coarsely, so the crystals land as crunch instead of melting away.</li><li>Pasta water goes into the pan before the pasta does, so the butter has something to emulsify into from the start.</li></ul></section><section class="block"><h2>Learnings</h2><p>Not made yet.</p></section></main>
+<footer><div class="bar">Built 2026-10-04 from the recipes skill.</div></footer>
+</body></html>

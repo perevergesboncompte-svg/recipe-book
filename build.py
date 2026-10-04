@@ -51,7 +51,7 @@ PART_TYPES = {"doughs": "Dough", "fillings": "Filling", "shapes": "Shape",
 
 STATUS_ORDER = ["house", "tested", "drafted", "stub", "retired"]
 
-META_ORDER = ["yield", "makes", "serves", "unit weight", "active time",
+META_ORDER = ["region", "yield", "makes", "serves", "unit weight", "active time",
               "rest", "total time", "oven", "price", "tags", "source"]
 LINK_KEYS = ["dough", "filling", "shape", "base", "coating"]
 SCORE_KEYS = ["appearance", "texture", "flavor", "technique", "overall"]
@@ -268,14 +268,14 @@ def walk_section(key):
     for d in sorted(subdirs(root), key=order_key):
         parts = sorted(subdirs(d), key=order_key)
         if parts:
-            stranded = sorted(f.name for f in d.glob("*.md"))
-            if stranded:
-                sys.exit(f"{key}/{d.name} has part folders, so its loose files "
-                         f"would never render: {', '.join(stranded)}")
             buckets = [{"label": nice(p.name),
                         "items": sort_recipes([parse_recipe(f, key, d.name, p.name)
                                                for f in sorted(p.glob("*.md"))])}
                        for p in parts]
+            held = sort_recipes([parse_recipe(f, key, d.name, None)
+                                 for f in sorted(d.glob("*.md"))])
+            if held:
+                buckets.insert(0, {"label": None, "items": held})
         else:
             buckets = [{"label": None,
                         "items": sort_recipes([parse_recipe(f, key, d.name, None)
