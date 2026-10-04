@@ -5,6 +5,7 @@ import re
 import sys
 from pathlib import Path
 
+import pypdf
 from fpdf import FPDF
 from fpdf.image_parsing import preload_image
 
@@ -12,13 +13,17 @@ SKILL = Path.home() / ".claude/skills/recipes"
 SHAPES = SKILL / "images" / "shapes"
 FONTDIR = Path("/usr/share/fonts/dejavu")
 SITE = "perevergesboncompte-svg.github.io/recipe-book"
+LINKS = ["dough", "filling", "shape", "base", "coating"]
 SKIP = {"section", "status", "image", "thumb", "category", "group",
         "appearance", "texture",
         "flavor", "technique", "overall", "formed", "used in", "unit price",
-        "store", "filling note", "pasta colour", "difficulty", "source"}
+        "store", "filling note", "pasta colour", "difficulty", "source",
+        "chef", *LINKS}
 GRID = ["yield", "makes", "serves", "active time", "rest", "total time", "oven",
         "unit weight", "energy cost", "price"]
 ORDER = ["ingredients", "method", "notes", "preserving", "learnings"]
+PART_ORDER = ["ingredients", "method", "notes"]
+PLACEHOLDER = {"not made yet.", "not written down yet."}
 INK, MUTED, RULE = (17, 17, 17), (102, 102, 102), (51, 51, 51)
 
 
@@ -84,11 +89,18 @@ def shape_art(stem):
 
 
 class Card(FPDF):
-    def __init__(self, crumb=""):
-        super().__init__("P", "mm", "A4")
+    def __init__(self, crumb="", scale=1.0):
+        """Laid out on a canvas of A4/scale, then reduced to A4 on the way out.
+
+        Type sizes are in points and the layout in mm, so enlarging the canvas
+        and shrinking the finished page reduces the whole card photographically.
+        Nothing is restyled and the margins stay 14 mm.
+        """
+        super().__init__("P", "mm", (210 / scale, 297 / scale))
         self.crumb = crumb
-        self.set_margins(14, 14, 14)
-        self.set_auto_page_break(True, 16)
+        m = 14 / scale
+        self.set_margins(m, m, m)
+        self.set_auto_page_break(True, 16 / scale)
         for style, name in (("", "DejaVuSans.ttf"), ("B", "DejaVuSans-Bold.ttf"),
                             ("I", "DejaVuSans-Oblique.ttf")):
             self.add_font("dv", style, str(FONTDIR / name))
@@ -153,15 +165,39 @@ class Card(FPDF):
         self.line(self.l_margin, y, self.w - self.r_margin, y)
         self.ln(1.8)
 
-    def masthead(self, title, source):
+    def masthead(self, title):
         self.set_font("dv", "B", 15)
         self.set_text_color(*INK)
         self.multi_cell(0, 7, title.upper(), align="C", new_x="LMARGIN", new_y="NEXT")
-        if source:
-            self.set_font("dv", "", 8)
-            self.set_text_color(*MUTED)
-            self.multi_cell(0, 4.2, source, align="C", new_x="LMARGIN", new_y="NEXT")
-        self.ln(1.5)
+        self.ln(2.5)
+
+    def sub_heading(self, text):
+        if self.get_y() > self.h - 36:
+            self.add_page()
+        self.ln(1.6)
+        self.set_font("dv", "B", 7.2)
+        self.set_text_color(*MUTED)
+        self.cell(0, 4, text.upper(), new_x="LMARGIN", new_y="NEXT")
+        self.ln(0.4)
+
+    def band(self, kicker, title):
+        """Opens an appended part, set apart from the recipe's own rule headings."""
+        if self.get_y() > self.h - 56:
+            self.add_page()
+        self.ln(3.5)
+        h = 8.4
+        top = self.get_y()
+        self.set_fill_color(238, 236, 231)
+        self.rect(self.l_margin, top, self.avail, h, style="F")
+        self.set_xy(self.l_margin + 2.6, top + 1.1)
+        self.set_font("dv", "", 6)
+        self.set_text_color(*MUTED)
+        self.cell(0, 2.6, kicker.upper(), new_x="LMARGIN", new_y="NEXT")
+        self.set_xy(self.l_margin + 2.6, top + 3.9)
+        self.set_font("dv", "B", 9.5)
+        self.set_text_color(*INK)
+        self.cell(0, 3.6, title)
+        self.set_y(top + h + 2.2)
 
     def facts(self, pairs):
         for i in range(0, len(pairs), 4):
@@ -247,8 +283,8 @@ class Card(FPDF):
         self.set_y(top + total + 1.5)
 
     def signoff(self):
-        if self.get_y() > self.h - 26:
-            self.add_page()
+        if self.get_y() + 24 > self.h - self.b_margin:
+            return
         self.ln(3)
         self.set_draw_color(*RULE)
         self.set_line_width(0.5)
@@ -267,12 +303,112 @@ class Card(FPDF):
         self.cell(0, 4, "_" * 104, new_x="LMARGIN", new_y="NEXT")
 
 
-def render(path, out, crumb=""):
+def index_parts(root):
+    idx = {}
+    for md in root.rglob("*.md"):
+        idx.setdefault(md.relative_to(root).parts[0], {})[md.stem] = md
+    return idx
+
+
+def gather(path, section, idx):
+    """Every part the recipe names, plus the parts those name, in reading order.
+
+    A ravioli dish names a shape and a filling, and the shape names a dough, so
+    the walk has to be transitive for the card to be cookable on its own.
+    """
+    out, seen, queue = [], {path}, [path]
+    while queue:
+        _, meta, _ = parse(queue.pop(0))
+        for k in LINKS:
+            for ref in [x.strip() for x in (meta.get(k) or "").split(",") if x.strip()]:
+                target = idx.get(section, {}).get(ref)
+                if target is None or target in seen:
+                    continue
+                seen.add(target)
+                out.append((k, target))
+                queue.append(target)
+    return out
+
+
+def empty(rows):
+    """A section that only says nothing was recorded earns no space on a card."""
+    return not rows or all(x.lower() in PLACEHOLDER for x in rows)
+
+
+def body(pdf, blocks, order, heading, art):
+    seen = set()
+    for want in order:
+        for head, buf in blocks:
+            if head.lower() != want:
+                continue
+            seen.add(head)
+            rows = items(buf)
+            if empty(rows):
+                continue
+            heading(head)
+            if want == "ingredients":
+                pdf.ingredients(rows)
+            elif want == "method":
+                pdf.steps(rows, True)
+                if art:
+                    heading("Shaping")
+                    pdf.art(art)
+                    art = []
+            elif want in ("notes", "preserving"):
+                pdf.tinted(rows)
+            else:
+                pdf.steps(rows, False)
+    if art:
+        heading("Shaping")
+        pdf.art(art)
+    return seen
+
+
+def part(pdf, kind, path):
+    """A part printed inside a recipe that names it, so the card stands alone."""
     title, meta, blocks = parse(path)
-    art = shape_art(path.stem)
-    pdf = Card(crumb)
+    blocks = [(head, [l for l in buf
+                      if not re.match(r"^[-*]?\s*(Used in |No sub-components\.)", l)])
+              for head, buf in blocks]
+    pdf.band(kind, title)
+    facts = " / ".join(f"{k.title()}: {meta[k]}" for k in GRID if meta.get(k))
+    if facts:
+        pdf.set_font("dv", "I", 7)
+        pdf.set_text_color(*MUTED)
+        pdf.multi_cell(0, 3.6, facts, new_x="LMARGIN", new_y="NEXT")
+    body(pdf, blocks, PART_ORDER, pdf.sub_heading, shape_art(path.stem))
+
+
+def shrink(path, scale):
+    reader = pypdf.PdfReader(str(path))
+    writer = pypdf.PdfWriter()
+    for page in reader.pages:
+        page.scale_by(scale)
+        writer.add_page(page)
+    with open(path, "wb") as fh:
+        writer.write(fh)
+
+
+def render(path, out, crumb="", parts=()):
+    pdf = compose(path, crumb, parts, 1.0)
+    scale = 1.0
+    if pdf.page > 1:
+        for s in (0.95, 0.9):
+            trial = compose(path, crumb, parts, s)
+            if trial.page < pdf.page:
+                pdf, scale = trial, s
+                break
+    out.parent.mkdir(parents=True, exist_ok=True)
+    pdf.output(str(out))
+    if scale != 1.0:
+        shrink(out, scale)
+
+
+def compose(path, crumb, parts, scale):
+    title, meta, blocks = parse(path)
+    pdf = Card(crumb, scale)
     pdf.add_page()
-    pdf.masthead(title, meta.get("source", ""))
+    pdf.masthead(title)
     shot = SKILL / meta["image"] if meta.get("image") else None
     if shot and shot.exists():
         side = 58
@@ -283,56 +419,35 @@ def render(path, out, crumb=""):
     if extra:
         pdf.rule_heading("Details")
         pdf.steps([f"{k.title()}: {v}" for k, v in extra], False)
-    seen = set()
-    for want in ORDER:
-        for head, buf in blocks:
-            if head.lower() != want:
-                continue
-            seen.add(head)
-            rows = items(buf)
-            if not rows:
-                continue
-            pdf.rule_heading(head)
-            if want == "ingredients":
-                pdf.ingredients(rows)
-            elif want == "method":
-                pdf.steps(rows, True)
-                if art:
-                    pdf.rule_heading("Shaping")
-                    pdf.art(art)
-                    art = []
-            elif want in ("notes", "preserving"):
-                pdf.tinted(rows)
-            else:
-                pdf.steps(rows, False)
+    seen = body(pdf, blocks, ORDER, pdf.rule_heading, shape_art(path.stem))
     for head, buf in blocks:
         if head in seen:
             continue
         rows = items(buf)
-        if rows:
+        if not empty(rows):
             pdf.rule_heading(head)
             pdf.steps(rows, False)
-    if art:
-        pdf.rule_heading("Shaping")
-        pdf.art(art)
+    for kind, target in parts:
+        part(pdf, kind, target)
     pdf.signoff()
-    out.parent.mkdir(parents=True, exist_ok=True)
-    pdf.output(str(out))
+    return pdf
 
 
 def main():
     root = SKILL / "recipes"
     outdir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("pdf")
+    idx = index_parts(root)
     made = failed = 0
     for md in sorted(root.rglob("*.md")):
         rel = md.relative_to(root)
         if rel.parts[0] == "ingredients":
             continue
-        parts = [re.sub(r"^\d+[-_]", "", p) for p in rel.parts[:-1]]
-        slug = "-".join(parts + [md.stem])
-        crumb = " / ".join(p.replace("-", " ") for p in parts)
+        dirs = [re.sub(r"^\d+[-_]", "", p) for p in rel.parts[:-1]]
+        slug = "-".join(dirs + [md.stem])
+        crumb = " / ".join(p.replace("-", " ") for p in dirs)
         try:
-            render(md, outdir / f"{slug}.pdf", crumb)
+            render(md, outdir / f"{slug}.pdf", crumb,
+                   gather(md, rel.parts[0], idx))
             made += 1
         except Exception as exc:
             failed += 1
