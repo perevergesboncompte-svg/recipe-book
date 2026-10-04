@@ -193,8 +193,14 @@ def order_key(path):
     return (int(m.group(1)), "") if m else (10 ** 6, path.name.lower())
 
 
+LABELS = {"italian-american": "Italian-American"}
+
+
 def nice(name):
-    s = strip_order(name).replace("-", " ").replace("_", " ").strip()
+    bare = strip_order(name)
+    if bare in LABELS:
+        return LABELS[bare]
+    s = bare.replace("-", " ").replace("_", " ").strip()
     return s[:1].upper() + s[1:] if s else s
 
 
