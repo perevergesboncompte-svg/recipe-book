@@ -1,0 +1,476 @@
+[
+ {
+  "week": 1,
+  "day": "2026-10-05",
+  "stem": "polenta-ravioli",
+  "reuse": "",
+  "also": [
+   "porcini-with-rosemary-and-garlic"
+  ],
+  "season": "white truffle"
+ },
+ {
+  "week": 2,
+  "day": "2026-10-12",
+  "stem": "truffle-ravioli",
+  "reuse": "",
+  "also": [
+   "roasted-kabocha-squash-with-hot-honey"
+  ],
+  "season": "white truffle"
+ },
+ {
+  "week": 3,
+  "day": "2026-10-19",
+  "stem": "tajarin-al-tartufo",
+  "reuse": "",
+  "also": [],
+  "season": "white truffle"
+ },
+ {
+  "week": 4,
+  "day": "2026-10-26",
+  "stem": "tortelli-di-zucca",
+  "reuse": "",
+  "also": [
+   "empanadas/calabaza-cabra"
+  ],
+  "season": "delicata squash"
+ },
+ {
+  "week": 5,
+  "day": "2026-11-02",
+  "stem": "agnolotti-dal-plin-brisket",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 6,
+  "day": "2026-11-09",
+  "stem": "balanzoni-burro-e-salvia",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 7,
+  "day": "2026-11-16",
+  "stem": "bucatini-all-amatriciana",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 8,
+  "day": "2026-11-23",
+  "stem": "tagliatelle-with-matsutake-lemon-and-mint",
+  "reuse": "",
+  "also": [],
+  "season": "matsutake"
+ },
+ {
+  "week": 9,
+  "day": "2026-11-30",
+  "stem": "butternut-squash-and-marjoram-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 10,
+  "day": "2026-12-07",
+  "stem": "crab-ravioli-corrigan",
+  "reuse": "",
+  "also": [],
+  "season": "dungeness crab"
+ },
+ {
+  "week": 11,
+  "day": "2026-12-14",
+  "stem": "crab-ravioli-with-crab-sauce",
+  "reuse": "",
+  "also": [],
+  "season": "dungeness crab"
+ },
+ {
+  "week": 12,
+  "day": "2026-12-21",
+  "stem": "crab-with-turnip",
+  "reuse": "",
+  "also": [],
+  "season": "dungeness crab"
+ },
+ {
+  "week": 13,
+  "day": "2026-12-28",
+  "stem": "corzetti-with-chanterelles-and-aged-goat-cheese",
+  "reuse": "",
+  "also": [],
+  "season": "chanterelle"
+ },
+ {
+  "week": 14,
+  "day": "2027-01-04",
+  "stem": "caramelle-with-caramelized-onion-and-balsamic",
+  "reuse": "",
+  "also": [
+   "empanadas/queso-azul-nueces"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 15,
+  "day": "2027-01-11",
+  "stem": "butternut-squash-ravioli",
+  "reuse": "",
+  "also": [
+   "empanadas/calabaza-cabra"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 16,
+  "day": "2027-01-18",
+  "stem": "canederli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 17,
+  "day": "2027-01-25",
+  "stem": "cjalsons",
+  "reuse": "",
+  "also": [],
+  "season": "granny smith apple"
+ },
+ {
+  "week": 18,
+  "day": "2027-02-01",
+  "stem": "maccheroncini-di-campofilone-al-sugo",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 19,
+  "day": "2027-02-08",
+  "stem": "duck-ravioli-with-langoustines",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 20,
+  "day": "2027-02-15",
+  "stem": "oxtail-ravioli",
+  "reuse": "",
+  "also": [
+   "croquetas/rabo-de-toro",
+   "empanadas/rabo-de-toro"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 21,
+  "day": "2027-02-22",
+  "stem": "pappardelle-with-porcini-and-veal-bolognese",
+  "reuse": "",
+  "also": [
+   "croquetas/boletus"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 22,
+  "day": "2027-03-01",
+  "stem": "parmigiano-fonduta-tortellini-in-brodo",
+  "reuse": "",
+  "also": [
+   "croquetas/marisa-sanchez-echaurren",
+   "empanadas/pollo"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 23,
+  "day": "2027-03-08",
+  "stem": "strangozzi-alla-norcina",
+  "reuse": "",
+  "also": [],
+  "season": "black winter truffle"
+ },
+ {
+  "week": 24,
+  "day": "2027-03-15",
+  "stem": "passatelli-in-brodo",
+  "reuse": "",
+  "also": [
+   "croquetas/pollo-arguinano"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 25,
+  "day": "2027-03-22",
+  "stem": "pizzoccheri-alla-valtellinese",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 26,
+  "day": "2027-03-29",
+  "stem": "pulled-pork-raviolo",
+  "reuse": "",
+  "also": [
+   "empanadas/zorza-raxo"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 27,
+  "day": "2027-04-05",
+  "stem": "watercress-and-egg-yolk-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "jerusalem artichoke"
+ },
+ {
+  "week": 28,
+  "day": "2027-04-12",
+  "stem": "ravioli-with-taleggio-fonduta-peas-and-speck",
+  "reuse": "",
+  "also": [],
+  "season": "english peas"
+ },
+ {
+  "week": 29,
+  "day": "2027-04-19",
+  "stem": "stricchetti-with-smashed-peas-and-prosciutto",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 30,
+  "day": "2027-04-26",
+  "stem": "orecchiette-con-cime-di-rapa",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 31,
+  "day": "2027-05-03",
+  "stem": "busiate-al-pesto-trapanese",
+  "reuse": "",
+  "also": [
+   "roasted-eggplant-with-olives-and-sun-dried-tomato"
+  ],
+  "season": "cherry tomatoes"
+ },
+ {
+  "week": 32,
+  "day": "2027-05-10",
+  "stem": "culurgiones-alla-nuorese",
+  "reuse": "make simple-red-sauce",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 33,
+  "day": "2027-05-17",
+  "stem": "eggplant-mezzelune-with-ricotta-salata",
+  "reuse": "reuse simple-red-sauce",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 34,
+  "day": "2027-05-24",
+  "stem": "corzetti-with-sungold-tomatoes-and-pecorino",
+  "reuse": "",
+  "also": [],
+  "season": "cherry tomatoes"
+ },
+ {
+  "week": 35,
+  "day": "2027-05-31",
+  "stem": "aubergine-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 36,
+  "day": "2027-06-07",
+  "stem": "pink-prawn-ravioli",
+  "reuse": "",
+  "also": [
+   "grilled-summer-beans-with-garlic-vinaigrette"
+  ],
+  "season": "spot prawn"
+ },
+ {
+  "week": 37,
+  "day": "2027-06-14",
+  "stem": "smoked-potato-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "black summer truffle"
+ },
+ {
+  "week": 38,
+  "day": "2027-06-21",
+  "stem": "sheeps-milk-ricotta-occhi-with-bottarga",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 39,
+  "day": "2027-06-28",
+  "stem": "spaghetti-alla-puttanesca",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 40,
+  "day": "2027-07-05",
+  "stem": "trofie-al-pesto-genovese",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 41,
+  "day": "2027-07-12",
+  "stem": "bigoli-in-salsa",
+  "reuse": "",
+  "also": [
+   "croquetas/puerro"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 42,
+  "day": "2027-07-19",
+  "stem": "corzetti-alle-erbe",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 43,
+  "day": "2027-07-26",
+  "stem": "spaghetti-with-colatura-and-bread-crumbs",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 44,
+  "day": "2027-08-02",
+  "stem": "potato-and-creme-fraiche-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 45,
+  "day": "2027-08-09",
+  "stem": "langoustine-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 46,
+  "day": "2027-08-16",
+  "stem": "goat-s-cheese-ravioli",
+  "reuse": "",
+  "also": [
+   "empanadas/calabaza-cabra"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 47,
+  "day": "2027-08-23",
+  "stem": "fettuccine-alfredo",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 48,
+  "day": "2027-08-30",
+  "stem": "penne-alla-vodka",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 49,
+  "day": "2027-09-06",
+  "stem": "timballo-alla-teramana",
+  "reuse": "",
+  "also": [
+   "empanadas/espinacas"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 50,
+  "day": "2027-09-13",
+  "stem": "turkey-and-squash-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 51,
+  "day": "2027-09-20",
+  "stem": "prawn-and-smoked-salmon-ravioli",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 52,
+  "day": "2027-09-27",
+  "stem": "prosciutto-and-goat-cheese-cappelletti",
+  "reuse": "",
+  "also": [
+   "empanadas/espinacas"
+  ],
+  "season": "year-round"
+ },
+ {
+  "week": 53,
+  "day": "2027-10-04",
+  "stem": "rigatoni-diavola",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 54,
+  "day": "2027-10-11",
+  "stem": "tagliatelle-with-ossobuco-and-soffritto",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ },
+ {
+  "week": 55,
+  "day": "2027-10-18",
+  "stem": "tagliatelle-alla-bolognese",
+  "reuse": "",
+  "also": [],
+  "season": "year-round"
+ }
+]

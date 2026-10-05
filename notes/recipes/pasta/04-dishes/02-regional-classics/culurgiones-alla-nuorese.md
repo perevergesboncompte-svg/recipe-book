@@ -4,6 +4,7 @@
 - Status: drafted
 - Shape: culurgiones
 - Filling: potato-ricotta-and-fiore-sardo-filling
+- Sauce: simple-red-sauce
 - Serves: 4-6
 - Total time: 1 h 30 min plus the dough rest
 - Region: South

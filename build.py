@@ -46,6 +46,8 @@ SECTIONS = [
     ("ingredients", "Ingredients"),
 ]
 
+EXTRA_NAV = [("plan", "Plan")] if (SKILL / "plan.md").exists() else []
+
 PART_TYPES = {"doughs": "Dough", "fillings": "Filling", "shapes": "Shape",
               "dishes": "Dish", "bases": "Base", "coatings": "Coating",
               "sauces": "Sauce"}
@@ -377,11 +379,57 @@ def render_md(lines, mark=None):
     return "".join(out)
 
 
+def build_plan(by_stem):
+    """The cooking calendar, a hand-editable table whose stems resolve to links."""
+    src = SKILL / "plan.md"
+    if not src.exists():
+        return None
+    title, intro, rows, joining = "Plan", [], [], False
+    for line in src.read_text(encoding="utf-8").splitlines():
+        if line.startswith("# "):
+            title = line[2:].strip()
+            joining = False
+        elif line.lstrip().startswith("|"):
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if not all(set(c) <= set("-: ") for c in cells):
+                rows.append(cells)
+            joining = False
+        elif line.strip():
+            if joining:
+                intro[-1] += " " + line.strip()
+            else:
+                intro.append(line.strip())
+            joining = True
+        else:
+            joining = False
+
+    def one(text):
+        r = by_stem.get(text)
+        if r:
+            return f'<a href="{r["url"]}">{esc(r["name"])}</a>'
+        return inline(text)
+
+    def cell(text):
+        return ", ".join(one(p.strip()) for p in text.split(",")) if text else ""
+
+    table = ""
+    if rows:
+        th = "".join(f"<th>{inline(c)}</th>" for c in rows[0])
+        tr = "".join("<tr>" + "".join(f"<td>{cell(c)}</td>" for c in r) + "</tr>"
+                     for r in rows[1:])
+        table = (f'<div class="scroll" tabindex="0"><table><thead><tr>{th}</tr>'
+                 f"</thead><tbody>{tr}</tbody></table></div>")
+    lede = "".join(f"<p>{inline(p)}</p>" for p in intro)
+    body = (f'<section class="lede"><h1>{esc(title)}</h1>{lede}</section>'
+            f'<section class="block">{table}</section>')
+    return page(f"{title} | Vergés Recipes", body, here="plan")
+
+
 def page(title, body, here="", depth=""):
     def link(key, label):
         c = ' class="here"' if key == here else ""
         return f'<a href="{depth}{key}.html"{c}>{esc(label)}</a>'
-    nav = " ".join(link(k, label) for k, label in SECTIONS)
+    nav = " ".join(link(k, label) for k, label in SECTIONS + EXTRA_NAV)
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -658,6 +706,9 @@ def main():
         pages[f"{key}.html"] = build_section(key, label, sections[key])
     for r in allitems:
         pages[r["url"]] = build_recipe(r)
+    plan = build_plan({r["stem"]: r for r in allitems})
+    if plan:
+        pages["plan.html"] = plan
 
     privacy_check(pages)
 

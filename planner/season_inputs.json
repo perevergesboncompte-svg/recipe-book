@@ -1,0 +1,1431 @@
+[
+ {
+  "stem": "fettuccine-alfredo",
+  "title": "Fettuccine Alfredo",
+  "group": "04-dishes",
+  "bucket": "01-italian-american",
+  "region": "",
+  "parts": {
+   "shape": "fettuccine"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Unsalted buffalo's milk butter, cold and cubed",
+   "Unsalted cow's milk butter, cold and cubed",
+   "Black pepper",
+   "2-year parmigiano-reggiano, finely grated",
+   "5-year parmigiano-reggiano, coarsely grated"
+  ]
+ },
+ {
+  "stem": "penne-alla-vodka",
+  "title": "Penne alla Vodka",
+  "group": "04-dishes",
+  "bucket": "01-italian-american",
+  "region": "",
+  "parts": {},
+  "ingredients": [
+   "Extruded penne",
+   "Olive oil",
+   "Onion, finely diced",
+   "Garlic, finely chopped",
+   "Dried red chile flakes",
+   "Tomato paste",
+   "Vodka",
+   "Tomato passata",
+   "Heavy cream",
+   "Mascarpone",
+   "Salt",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano, finely grated",
+   "Dried red chile flakes, to finish",
+   "Black pepper, to finish"
+  ]
+ },
+ {
+  "stem": "agnolotti-dal-plin-brisket",
+  "title": "Agnolotti dal Plin with Brisket and Caramelized Onion",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "filling": "brisket-and-caramelized-onion-filling",
+   "shape": "agnolotti-dal-plin"
+  },
+  "ingredients": [
+   "Salt",
+   "Brisket, center cut with a moderate amount of fat",
+   "Olive oil",
+   "Onions, cut into 1/8-inch slices",
+   "Thyme",
+   "Water",
+   "Parmigiano-reggiano for the filling, finely grated",
+   "Nutmeg, whole",
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano to finish, finely grated"
+  ]
+ },
+ {
+  "stem": "balanzoni-burro-e-salvia",
+  "title": "Balanzoni Burro e Salvia",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "filling": "mortadella-and-ricotta-filling",
+   "shape": "balanzoni"
+  },
+  "ingredients": [
+   "Mortadella, in one piece",
+   "Ricotta",
+   "Parmigiano-reggiano for the filling, finely grated",
+   "Nutmeg, whole",
+   "Salt",
+   "Green dough",
+   "Unsalted butter, cold and cubed",
+   "Sage leaves, small",
+   "Parmigiano-reggiano to finish, finely grated",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "bigoli-in-salsa",
+  "title": "Bigoli in Salsa",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "shape": "bigoli"
+  },
+  "ingredients": [
+   "Whole-wheat dough",
+   "Olive oil",
+   "Unsalted butter, cold and cubed",
+   "Onions, finely diced",
+   "Garlic, finely chopped",
+   "Oil-packed anchovy fillets, finely chopped",
+   "Water",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "bucatini-all-amatriciana",
+  "title": "Bucatini all\u2019Amatriciana",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "Central",
+  "parts": {},
+  "ingredients": [
+   "Olive oil",
+   "Guanciale, thinly sliced",
+   "Tomato passata",
+   "Dried red chile flakes",
+   "Extruded bucatini",
+   "Pecorino romano",
+   "Pecorino romano, for garnish"
+  ]
+ },
+ {
+  "stem": "busiate-al-pesto-trapanese",
+  "title": "Busiate alla Pesto Trapanese",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "South",
+  "parts": {
+   "shape": "busiate"
+  },
+  "ingredients": [
+   "Cherry tomatoes",
+   "Garlic cloves",
+   "Basil leaves",
+   "Sicilian almonds, coarsely chopped",
+   "Olive oil, plus more to cover",
+   "Pecorino romano",
+   "Salt",
+   "Semolina dough"
+  ]
+ },
+ {
+  "stem": "canederli",
+  "title": "Canederli with Speck and Brown Butter",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "dough": "canederli-dough",
+   "shape": "canederli"
+  },
+  "ingredients": [
+   "Jewish-style rye bread",
+   "Milk",
+   "Olive oil",
+   "Onions, finely diced",
+   "Eggs, mixed",
+   "Speck, in a slab, finely diced",
+   "All-purpose flour",
+   "Parsley, finely chopped",
+   "Unsalted butter, cold and cubed, to finish",
+   "Parmigiano-reggiano, finely grated, to finish",
+   "Chives, finely sliced, to finish"
+  ]
+ },
+ {
+  "stem": "cjalsons",
+  "title": "Cjalsons",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "filling": "ricotta-apple-and-dried-fruit-filling",
+   "shape": "cjalsons"
+  },
+  "ingredients": [
+   "Ricotta",
+   "Smoked ricotta for the filling, coarsely grated",
+   "Granny Smith apple, peeled and finely grated",
+   "Dried pear, finely chopped",
+   "Golden raisins, finely chopped",
+   "Montasio cheese, finely grated",
+   "Orange peel, pith removed and finely chopped",
+   "Lemon peel, pith removed and finely chopped",
+   "Cinnamon for the filling, freshly ground",
+   "Natural cocoa powder for the filling",
+   "Salt",
+   "Black pepper",
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Cinnamon stick to finish, grated, or ground cinnamon",
+   "Natural cocoa powder to finish",
+   "Smoked ricotta to finish, in one piece"
+  ]
+ },
+ {
+  "stem": "corzetti-alle-erbe",
+  "title": "Corzetti alle Erbe",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "shape": "corzetti"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Pine nuts",
+   "Olive oil",
+   "Garlic, very finely chopped",
+   "Unsalted butter, cold and cubed",
+   "Parsley, finely chopped",
+   "Parmigiano-reggiano, finely grated",
+   "Marjoram leaves"
+  ]
+ },
+ {
+  "stem": "culurgiones-alla-nuorese",
+  "title": "Culurgiones alla Nuorese",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "South",
+  "parts": {
+   "filling": "potato-ricotta-and-fiore-sardo-filling",
+   "sauce": "simple-red-sauce",
+   "shape": "culurgiones"
+  },
+  "ingredients": [
+   "Yukon gold potatoes",
+   "Ricotta",
+   "Pecorino romano, finely grated",
+   "Fiore sardo, finely grated, for the filling",
+   "Salt",
+   "Semolina dough",
+   "Simple red sauce",
+   "Fiore sardo, finely grated, to finish",
+   "Mint leaves, for garnish"
+  ]
+ },
+ {
+  "stem": "maccheroncini-di-campofilone-al-sugo",
+  "title": "Maccheroncini di Campofilone al Sugo Tradizionale",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "Central",
+  "parts": {
+   "shape": "maccheroncini-di-campofilone"
+  },
+  "ingredients": [
+   "Beef short ribs, cut into 3-inch pieces",
+   "Salt",
+   "Celery",
+   "Carrot, peeled",
+   "Onion",
+   "Olive oil",
+   "Garlic, finely chopped",
+   "Whole clove",
+   "Dry white wine",
+   "Beef marrowbone",
+   "Tomato passata",
+   "Nutmeg, for the sugo",
+   "Egg dough",
+   "Parmigiano-reggiano, finely grated",
+   "Nutmeg, to finish"
+  ]
+ },
+ {
+  "stem": "orecchiette-con-cime-di-rapa",
+  "title": "Orecchiette con Cime di Rapa",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "South",
+  "parts": {
+   "shape": "orecchiette"
+  },
+  "ingredients": [
+   "Country bread, half a loaf, torn into pieces",
+   "Olive oil, for the bread crumbs",
+   "Garlic cloves, for the bread crumbs",
+   "Semolina dough",
+   "Broccoli rabe, one large bunch",
+   "Olive oil",
+   "Garlic, finely chopped",
+   "Oil-packed anchovy fillets, finely chopped",
+   "Dried red chile flakes",
+   "Dry white wine",
+   "Pecorino romano, finely grated"
+  ]
+ },
+ {
+  "stem": "passatelli-in-brodo",
+  "title": "Passatelli in Brodo",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {},
+  "ingredients": [
+   "Country bread, torn into pieces",
+   "Parmigiano-reggiano for the dough, finely grated",
+   "Eggs",
+   "Nutmeg, whole",
+   "Lemon peel, pith removed and finely chopped",
+   "Chicken",
+   "Water",
+   "Carrots, peeled and cut into 1-inch pieces",
+   "Onion, cut into quarters",
+   "Celery, cut into 1-inch pieces",
+   "Leek, cut into 1-inch pieces",
+   "Parsley",
+   "Garlic, cut in half",
+   "Black peppercorns",
+   "Bay leaf, fresh",
+   "Salt",
+   "Parmigiano-reggiano to finish, finely grated"
+  ]
+ },
+ {
+  "stem": "pizzoccheri-alla-valtellinese",
+  "title": "Pizzoccheri alla Valtellinese",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "dough": "buckwheat-dough",
+   "shape": "pizzoccheri"
+  },
+  "ingredients": [
+   "Buckwheat dough",
+   "Yukon gold potatoes, peeled and diced into \u00bd-inch pieces",
+   "Olive oil",
+   "Unsalted butter, cold and cubed",
+   "Garlic, thinly sliced",
+   "Savoy cabbage, cored and cut into 3- to 4-inch strips",
+   "Fontina, coarsely grated and at room temperature",
+   "Parmigiano-reggiano, finely grated"
+  ]
+ },
+ {
+  "stem": "spaghetti-alla-puttanesca",
+  "title": "Spaghetti alla Puttanesca",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "South",
+  "parts": {},
+  "ingredients": [
+   "Olive oil",
+   "Garlic, thinly sliced",
+   "Oil-packed anchovy fillets, very finely chopped",
+   "Dried red chile flakes",
+   "Tomato paste",
+   "Whole San Marzano tomatoes, crushed by hand, from two 794 g cans",
+   "Pitted Taggiasca olives, cut into quarters",
+   "Small salt-packed capers, rinsed",
+   "Salt",
+   "Extruded spaghetti"
+  ]
+ },
+ {
+  "stem": "strangozzi-alla-norcina",
+  "title": "Strangozzi alla Norcina",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "Central",
+  "parts": {
+   "shape": "strangozzi"
+  },
+  "ingredients": [
+   "Oil-packed anchovy fillets, coarsely chopped",
+   "Garlic, roughly chopped",
+   "Fresh black truffle, coarsely chopped",
+   "Water",
+   "Olive oil",
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Fresh black truffle, for shaving, optional"
+  ]
+ },
+ {
+  "stem": "tagliatelle-alla-bolognese",
+  "title": "Tagliatelle alla Bolognese",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "shape": "tagliatelle"
+  },
+  "ingredients": [
+   "Pancetta, in one slab",
+   "Onion",
+   "Carrot, peeled",
+   "Celery",
+   "Ground beef",
+   "Ground pork",
+   "Ground veal",
+   "Olive oil",
+   "Tomato paste",
+   "Dry white wine",
+   "Water",
+   "Milk",
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano, finely grated"
+  ]
+ },
+ {
+  "stem": "tajarin-al-tartufo",
+  "title": "Tajarin al Tartufo",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "shape": "tajarin"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano, finely grated",
+   "White truffle"
+  ]
+ },
+ {
+  "stem": "timballo-alla-teramana",
+  "title": "Timballo alla Teramana",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "Central",
+  "parts": {},
+  "ingredients": [
+   "Eggs, for the crepes",
+   "Milk, for the crepes",
+   "Olive oil, for the crepes, plus more for the pan",
+   "00 flour",
+   "Nutmeg, for the crepe batter",
+   "Salt, for the crepe batter",
+   "Olive oil, for the filling",
+   "Ground beef",
+   "Nutmeg, for the beef",
+   "Garlic, finely chopped",
+   "Baby spinach leaves, loosely packed",
+   "Eggs, for the sauce",
+   "Milk, for the sauce",
+   "Tomato passata or simple red sauce",
+   "Salt",
+   "Black pepper",
+   "Butter",
+   "Parmigiano-reggiano, finely grated",
+   "Mozzarella, one large ball cut into \u00bc-inch cubes"
+  ]
+ },
+ {
+  "stem": "tortelli-di-zucca",
+  "title": "Tortelli di Zucca",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "filling": "squash-and-mostarda-filling",
+   "shape": "tortelli"
+  },
+  "ingredients": [
+   "Delicata squash",
+   "Butternut squash",
+   "Unsalted butter for the squash cavities, cold and cubed",
+   "Salt",
+   "Black pepper",
+   "Olive oil",
+   "Rosemary",
+   "Thyme",
+   "Garlic",
+   "Ricotta",
+   "Apple or pear mostarda, finely chopped",
+   "Parmigiano-reggiano for the filling, finely grated",
+   "Nutmeg, whole",
+   "Egg dough",
+   "Unsalted butter for the sauce, cold and cubed",
+   "Sage leaves, small",
+   "Parmigiano-reggiano to finish, finely grated",
+   "Amaretti cookies, finely crushed"
+  ]
+ },
+ {
+  "stem": "trofie-al-pesto-genovese",
+  "title": "Trofie al Pesto Genovese",
+  "group": "04-dishes",
+  "bucket": "02-regional-classics",
+  "region": "North",
+  "parts": {
+   "shape": "trofie"
+  },
+  "ingredients": [
+   "Semolina dough",
+   "Pine nuts",
+   "Basil leaves, plus more to garnish",
+   "Garlic",
+   "Olive oil",
+   "Parmigiano-reggiano, finely grated",
+   "Fiore sardo, finely grated, plus more to finish",
+   "Pecorino romano, finely grated"
+  ]
+ },
+ {
+  "stem": "caramelle-with-caramelized-onion-and-balsamic",
+  "title": "Caramelle with Caramelized Onion, Brown Butter, and Balsamic",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "caramelized-onion-and-parmigiano-filling",
+   "shape": "caramelle"
+  },
+  "ingredients": [
+   "Country bread, torn into pieces",
+   "Olive oil, for the bread crumbs",
+   "Garlic",
+   "Olive oil, for the onions",
+   "Unsalted butter, cold and cubed, for the onions",
+   "Yellow onions, thinly sliced",
+   "Water",
+   "Rosemary, for the onions",
+   "Thyme, for the onions",
+   "Parmigiano-reggiano, finely grated, for the filling",
+   "Salt",
+   "Black pepper",
+   "Egg dough",
+   "Unsalted butter, cold and cubed, to finish",
+   "Aged balsamic vinegar",
+   "Rosemary, leaves picked, to garnish",
+   "Thyme, leaves picked, to garnish",
+   "Parmigiano-reggiano, finely grated, to garnish"
+  ]
+ },
+ {
+  "stem": "corzetti-with-chanterelles-and-aged-goat-cheese",
+  "title": "Corzetti with Chanterelles and Aged Goat Cheese",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "shape": "corzetti"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Olive oil",
+   "Chanterelles, cleaned",
+   "Garlic, finely chopped",
+   "Dry white wine",
+   "Unsalted butter, cold and cubed",
+   "Thyme, leaves picked",
+   "Aged Italian goat cheese, coarsely grated"
+  ]
+ },
+ {
+  "stem": "corzetti-with-sungold-tomatoes-and-pecorino",
+  "title": "Corzetti with Sungold Tomatoes, Pecorino, and Herbs",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "shape": "corzetti"
+  },
+  "ingredients": [
+   "Sungold tomatoes",
+   "Olive oil",
+   "Garlic, finely chopped",
+   "Salt",
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Pecorino romano, finely grated",
+   "Chervil, tender leaves",
+   "Basil, small to medium leaves",
+   "Marjoram leaves"
+  ]
+ },
+ {
+  "stem": "eggplant-mezzelune-with-ricotta-salata",
+  "title": "Eggplant-Filled Mezzelune with Simple Sauce and Ricotta Salata",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "charred-eggplant-and-ricotta-filling",
+   "sauce": "simple-red-sauce",
+   "shape": "mezzelune"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Japanese eggplants, 10",
+   "Ricotta",
+   "Salt",
+   "Simple red sauce",
+   "Ground red chile",
+   "Ricotta salata",
+   "Basil leaves, small"
+  ]
+ },
+ {
+  "stem": "pappardelle-with-porcini-and-veal-bolognese",
+  "title": "Pappardelle with Porcini and Veal Bolognese",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "shape": "pappardelle"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Dried porcini mushrooms",
+   "Room-temperature water",
+   "Fennel bulb",
+   "Onion",
+   "Garlic",
+   "Olive oil, for the veal",
+   "Olive oil, for the soffritto",
+   "Ground veal",
+   "Dry white wine",
+   "Juice from canned San Marzano tomatoes",
+   "Fresh bay leaf",
+   "Thyme",
+   "Rosemary",
+   "Sage",
+   "Coriander seed",
+   "Black peppercorns",
+   "Unsalted butter, cold and cubed",
+   "Parsley, finely chopped",
+   "Parmigiano-reggiano, finely grated",
+   "Whole nutmeg",
+   "Salt",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "parmigiano-fonduta-tortellini-in-brodo",
+  "title": "Parmigiano Fonduta-Filled Tortellini in Brodo",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "parmigiano-fonduta-filling",
+   "shape": "tortellini"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Heavy cream",
+   "Parmigiano-reggiano, finely grated, for the filling",
+   "Egg yolks, stirred",
+   "Chicken, whole",
+   "Water",
+   "Carrots, peeled and cut into 1-inch pieces",
+   "Onion, quartered",
+   "Celery, cut into 1-inch pieces",
+   "Leek, cut into 1-inch pieces",
+   "Parsley",
+   "Garlic, head halved",
+   "Black peppercorns",
+   "Fresh bay leaf",
+   "Parmigiano-reggiano, finely grated, to finish",
+   "Salt",
+   "Olive oil",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "potato-and-creme-fraiche-ravioli",
+  "title": "Potato and Cr\u00e8me Fra\u00eeche-Filled Ravioli with Garlic and Rosemary",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "potato-and-creme-fraiche-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Yukon gold potatoes",
+   "Ricotta",
+   "Cr\u00e8me fra\u00eeche",
+   "Parmigiano-reggiano, finely grated, for the filling",
+   "Lemon peel, pith removed and finely chopped",
+   "Olive oil, for frying the garlic",
+   "Garlic, sliced 1/16 inch thick on a mandoline, for the crispy garlic",
+   "Olive oil, for the sauce",
+   "Garlic, thinly sliced",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano, finely grated, to finish",
+   "Rosemary, leaves picked",
+   "Salt"
+  ]
+ },
+ {
+  "stem": "prosciutto-and-goat-cheese-cappelletti",
+  "title": "Prosciutto and Goat Cheese-Filled Cappelletti with Pistachios",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "prosciutto-goat-cheese-and-spinach-filling",
+   "shape": "cappelletti"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Prosciutto, in a single piece",
+   "Ricotta",
+   "Spinach leaves, lightly packed",
+   "Fresh goat cheese",
+   "Parmigiano-reggiano, finely grated, for the filling",
+   "Egg yolk",
+   "Unsalted butter, cold and cubed",
+   "Raw Sicilian pistachios, very finely chopped",
+   "Parmigiano-reggiano, finely grated, to finish",
+   "Salt"
+  ]
+ },
+ {
+  "stem": "ravioli-with-taleggio-fonduta-peas-and-speck",
+  "title": "Ravioli with Taleggio Fonduta, Peas, and Speck",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "taleggio-fonduta-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Heavy cream",
+   "Taleggio with rind",
+   "Egg yolk",
+   "English peas, shelled",
+   "Olive oil",
+   "Garlic, thinly sliced",
+   "Unsalted butter, cold and cubed",
+   "Speck, finely diced",
+   "Pea tendrils, tender",
+   "Parmigiano-reggiano, finely grated",
+   "Salt",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "rigatoni-diavola",
+  "title": "Rigatoni Diavola",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "sauce": "diavola-sauce"
+  },
+  "ingredients": [
+   "Extruded rigatoni",
+   "Diavola sauce",
+   "Pecorino romano, finely grated",
+   "Marjoram, leaves picked",
+   "Olive oil",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "sheeps-milk-ricotta-occhi-with-bottarga",
+  "title": "Sheep's Milk Ricotta-Filled Occhi with Lemon and Bottarga",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "filling": "sheeps-and-cows-milk-ricotta-filling",
+   "shape": "occhi"
+  },
+  "ingredients": [
+   "Sheep's milk ricotta, whipped",
+   "Cow's milk ricotta",
+   "Salt",
+   "Egg dough",
+   "Unsalted butter, cold and cubed",
+   "Lemon, peel finely chopped and pith removed",
+   "Bottarga"
+  ]
+ },
+ {
+  "stem": "spaghetti-with-colatura-and-bread-crumbs",
+  "title": "Spaghetti with Colatura, Garlic, and Bread Crumbs",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {},
+  "ingredients": [
+   "Fresh country bread, crust removed and torn into pea-size pieces",
+   "Olive oil, for the bread crumbs",
+   "Extruded spaghetti",
+   "Olive oil",
+   "Garlic, finely chopped",
+   "Oil-packed anchovy fillets, finely chopped",
+   "Colatura",
+   "Parsley, finely chopped",
+   "Dried red chile flakes",
+   "Lemon, halved and seeds removed"
+  ]
+ },
+ {
+  "stem": "stricchetti-with-smashed-peas-and-prosciutto",
+  "title": "Stricchetti with Smashed Peas and Prosciutto",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "shape": "stricchetti"
+  },
+  "ingredients": [
+   "Shelled English peas",
+   "Olive oil, for the peas",
+   "Egg dough",
+   "Olive oil",
+   "Onion, finely diced",
+   "Garlic, finely chopped",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano, finely grated",
+   "Prosciutto, 40 g finely diced and 40 g julienned",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "tagliatelle-with-matsutake-lemon-and-mint",
+  "title": "Tagliatelle with Matsutake Mushrooms, Lemon, and Mint",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "shape": "tagliatelle"
+  },
+  "ingredients": [
+   "Egg dough",
+   "Matsutake mushrooms",
+   "Olive oil, for the mushrooms",
+   "Olive oil, for the garlic",
+   "Garlic, finely chopped",
+   "Unsalted butter, cold and cubed",
+   "Parmigiano-reggiano, finely grated",
+   "Lemon, peel finely chopped and pith removed",
+   "Parsley, finely chopped",
+   "Mint leaves",
+   "Black pepper"
+  ]
+ },
+ {
+  "stem": "tagliatelle-with-ossobuco-and-soffritto",
+  "title": "Tagliatelle with Ossobuco and Soffritto",
+  "group": "04-dishes",
+  "bucket": "03-modern-classics",
+  "region": "",
+  "parts": {
+   "shape": "tagliatelle"
+  },
+  "ingredients": [
+   "Veal shanks, center cut, in 2-inch-thick pieces",
+   "Salt",
+   "Black pepper",
+   "Fennel bulb",
+   "Carrot",
+   "Onion",
+   "Olive oil",
+   "Garlic, thinly sliced",
+   "Dry white wine",
+   "Whole San Marzano tomatoes, crushed by hand",
+   "Fennel seed",
+   "Dried red chile flakes",
+   "Rosemary",
+   "Thyme",
+   "Egg dough",
+   "Fennel pollen",
+   "Parmigiano-reggiano, finely grated"
+  ]
+ },
+ {
+  "stem": "aubergine-ravioli",
+  "title": "Aubergine Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "aubergine-and-ricotta-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Key Components \u2014 00 flour + 75g semolina",
+   "Key Components \u2014 egg yolk",
+   "Key Components \u2014 aubergine (for filling)",
+   "Key Components \u2014 ricotta, Parmesan",
+   "Key Components \u2014 smoked scamorza cheese",
+   "Key Components \u2014 large red prawns",
+   "Key Components \u2014 prawn bisque (reduced)"
+  ]
+ },
+ {
+  "stem": "butternut-squash-and-marjoram-ravioli",
+  "title": "Butternut Squash and Marjoram Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "butternut-squash-and-marjoram-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Pasta \u2014 large eggs, organic",
+   "Pasta \u2014 00 flour",
+   "Pasta \u2014 fine semolina (+ extra for dusting)",
+   "Ravioli Filling \u2014 small butternut squash",
+   "Ravioli Filling \u2014 garlic clove, sliced",
+   "Ravioli Filling \u2014 fresh marjoram, chopped",
+   "Ravioli Filling \u2014 unsalted butter",
+   "Ravioli Filling \u2014 nutmeg, grated",
+   "Ravioli Filling \u2014 mascarpone",
+   "Ravioli Filling \u2014 salt and pepper",
+   "Sage & Gorgonzola Sauce \u2014 sage, roughly chopped",
+   "Sage & Gorgonzola Sauce \u2014 Gorgonzola dolce latte"
+  ]
+ },
+ {
+  "stem": "butternut-squash-ravioli",
+  "title": "Butternut Squash Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "butternut-squash-and-truffle-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Ravioli Filling \u2014 butternut squash, peeled and diced",
+   "Ravioli Filling \u2014 black truffle, grated",
+   "Ravioli Filling \u2014 pecorino cheese",
+   "Ravioli Filling \u2014 salt",
+   "Saffron Pasta Dough \u2014 pasta flour",
+   "Saffron Pasta Dough \u2014 egg yolks",
+   "Saffron Pasta Dough \u2014 saffron threads",
+   "Saffron Pasta Dough \u2014 salt",
+   "Saffron Pasta Dough \u2014 egg (for egg wash)",
+   "Sage Butter Sauce \u2014 butter",
+   "Sage Butter Sauce \u2014 sage leaves, chopped",
+   "Sage Butter Sauce \u2014 lemon juice",
+   "Sage Butter Sauce \u2014 salt"
+  ]
+ },
+ {
+  "stem": "crab-ravioli-corrigan",
+  "title": "Crab Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Crab Filling \u2014 white crab meat",
+   "Crab Filling \u2014 brown crab meat",
+   "Crab Filling \u2014 salt and pepper",
+   "Saffron Pasta \u2014 pasta flour (00)",
+   "Saffron Pasta \u2014 eggs (1 for egg wash)",
+   "Saffron Pasta \u2014 saffron strands",
+   "Saffron Pasta \u2014 olive oil",
+   "Saffron Pasta \u2014 water",
+   "To Serve \u2014 samphire",
+   "To Serve \u2014 lobster bisque",
+   "To Serve \u2014 olive oil"
+  ]
+ },
+ {
+  "stem": "crab-ravioli-with-crab-sauce",
+  "title": "Crab Ravioli with Crab Sauce",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "crab-and-salmon-mousse-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Pasta Dough \u2014 00 flour",
+   "Pasta Dough \u2014 egg (whole)",
+   "Pasta Dough \u2014 egg yolks (reserve 2 for egg wash)",
+   "Pasta Dough \u2014 olive oil",
+   "Pasta Dough \u2014 cold water",
+   "Pasta Dough \u2014 salt",
+   "Crab Meat \u2014 large cock crabs (or 1kg white + 300g brown)",
+   "Crab Meat \u2014 water",
+   "Crab Meat \u2014 salt",
+   "Crab Meat \u2014 lemons, juiced",
+   "Crab Meat \u2014 thyme",
+   "Crab Meat \u2014 bay leaf",
+   "Salmon Mousse \u2014 smoked salmon",
+   "Salmon Mousse \u2014 sole (or other white fish)",
+   "Salmon Mousse \u2014 egg white",
+   "Salmon Mousse \u2014 double cream",
+   "Salmon Mousse \u2014 salt and pepper",
+   "Crab Sauce \u2014 crab shells (from cooked crabs)",
+   "Crab Sauce \u2014 brandy",
+   "Crab Sauce \u2014 onion, carrots, fennel, leek, celery (sliced)",
+   "Crab Sauce \u2014 tomatoes",
+   "Crab Sauce \u2014 garlic",
+   "Crab Sauce \u2014 saffron threads",
+   "Crab Sauce \u2014 Pernod",
+   "Crab Sauce \u2014 white wine",
+   "Crab Sauce \u2014 thyme, rosemary",
+   "Crab Sauce \u2014 parsley",
+   "Crab Sauce \u2014 double cream",
+   "Crab Sauce \u2014 butter"
+  ]
+ },
+ {
+  "stem": "crab-with-turnip",
+  "title": "Crab with Turnip",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "dressed-crab-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": []
+ },
+ {
+  "stem": "duck-ravioli-with-langoustines",
+  "title": "Duck Ravioli with Langoustines",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Duck Confit \u2014 duck legs",
+   "Duck Confit \u2014 salt",
+   "Duck Confit \u2014 duck fat",
+   "Duck Confit \u2014 bulb garlic",
+   "Duck Confit \u2014 fresh thyme",
+   "Ravioli & Langoustines \u2014 wonton wrappers",
+   "Ravioli & Langoustines \u2014 egg yolk (beaten)",
+   "Ravioli & Langoustines \u2014 langoustine tails",
+   "Veal Jus & Components \u2014 veal bones",
+   "Veal Jus & Components \u2014 onion, leek, carrot",
+   "Veal Jus & Components \u2014 red wine",
+   "Veal Jus & Components \u2014 langoustine jus",
+   "Veal Jus & Components \u2014 double cream",
+   "Veal Jus & Components \u2014 lemon (juiced)"
+  ]
+ },
+ {
+  "stem": "goat-s-cheese-ravioli",
+  "title": "Goat's Cheese Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "goat-s-cheese-and-cream-cheese-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Filling Ingredients \u2014 goat's cheese",
+   "Filling Ingredients \u2014 cream cheese",
+   "Filling Ingredients \u2014 coriander, chopped",
+   "Filling Ingredients \u2014 flat-leaf parsley, chopped",
+   "Filling Ingredients \u2014 chives, chopped",
+   "Pasta Dough \u2014 plain flour",
+   "Pasta Dough \u2014 warm water",
+   "Pasta Dough \u2014 salt",
+   "Pasta Dough \u2014 sugar",
+   "Pasta Dough \u2014 egg, beaten (for egg wash)"
+  ]
+ },
+ {
+  "stem": "langoustine-ravioli",
+  "title": "Langoustine Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "langoustine-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Key Ingredients \u2014 langoustines (heads removed, reserved for stock)",
+   "Key Ingredients \u2014 langoustine heads (for stock)",
+   "Key Ingredients \u2014 onion, carrots, celery (2cm dice)",
+   "Key Ingredients \u2014 fennel seeds, coriander seeds",
+   "Key Ingredients \u2014 star anise",
+   "Key Ingredients \u2014 white wine",
+   "Key Ingredients \u2014 fish stock",
+   "Key Ingredients \u2014 endive, finely sliced",
+   "Key Ingredients \u2014 caster sugar",
+   "Key Ingredients \u2014 sherry vinegar",
+   "Key Ingredients \u2014 orange, juiced"
+  ]
+ },
+ {
+  "stem": "oxtail-ravioli",
+  "title": "Oxtail Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "oxtail-and-celeriac-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": []
+ },
+ {
+  "stem": "pink-prawn-ravioli",
+  "title": "Pink Prawn Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "king-prawn-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Pink Pasta \u2014 00 flour",
+   "Pink Pasta \u2014 egg yolks (Freshlay Farms Golden Yolker preferred)",
+   "Pink Pasta \u2014 cooked beetroot",
+   "Pink Pasta \u2014 olive oil (+ extra for frying)",
+   "Prawn Filling \u2014 raw king prawns, peeled (+ 6-12 more to serve)",
+   "Prawn Filling \u2014 double cream",
+   "Prawn Filling \u2014 lemon zest (+ squeeze to serve)",
+   "Prawn Filling \u2014 chives, finely chopped",
+   "Prawn Filling \u2014 salt and pepper",
+   "Champagne Beurre Blanc \u2014 Champagne",
+   "Champagne Beurre Blanc \u2014 shallot, finely chopped",
+   "Champagne Beurre Blanc \u2014 white wine vinegar",
+   "Champagne Beurre Blanc \u2014 unsalted butter, chilled and diced",
+   "Champagne Beurre Blanc \u2014 ground white pepper",
+   "Champagne Beurre Blanc \u2014 trout roe"
+  ]
+ },
+ {
+  "stem": "polenta-ravioli",
+  "title": "Polenta Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "polenta-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Key Components \u2014 water",
+   "Key Components \u2014 polenta",
+   "Key Components \u2014 Parmesan",
+   "Key Components \u2014 butter",
+   "Key Components \u2014 artichokes",
+   "Key Components \u2014 pasta flour",
+   "Key Components \u2014 egg yolks",
+   "Key Components \u2014 truffle (for serving)"
+  ]
+ },
+ {
+  "stem": "prawn-and-smoked-salmon-ravioli",
+  "title": "Prawn and Smoked Salmon Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "prawn-and-smoked-salmon-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Pasta \u2014 00 flour",
+   "Pasta \u2014 eggs",
+   "Pasta \u2014 olive oil",
+   "Filling \u2014 smoked salmon",
+   "Filling \u2014 double cream",
+   "Filling \u2014 cooked prawns",
+   "Filling \u2014 dill, chopped",
+   "Filling \u2014 salt and black pepper",
+   "Filling \u2014 semolina",
+   "To Serve \u2014 butter",
+   "To Serve \u2014 dill, chopped",
+   "To Serve \u2014 lemon (juice)"
+  ]
+ },
+ {
+  "stem": "pulled-pork-raviolo",
+  "title": "Pulled Pork Raviolo",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "pulled-pork-and-chorizo-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Key Ingredients \u2014 pork belly (skin removed)",
+   "Key Ingredients \u2014 onion, carrot, leek, celery (chopped)",
+   "Key Ingredients \u2014 garlic, halved",
+   "Key Ingredients \u2014 smoked paprika",
+   "Key Ingredients \u2014 chilli flakes (habanero)",
+   "Key Ingredients \u2014 chorizo, diced",
+   "Key Ingredients \u2014 gyoza wrappers"
+  ]
+ },
+ {
+  "stem": "smoked-potato-ravioli",
+  "title": "Smoked Potato Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "smoked-potato-and-egg-yolk-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Key Components \u2014 00 flour",
+   "Key Components \u2014 egg (whole)",
+   "Key Components \u2014 D\u00e9sir\u00e9e potatoes (for 400g cooked)",
+   "Key Components \u2014 butter",
+   "Key Components \u2014 smoked water",
+   "Key Components \u2014 shallots (for reduction)",
+   "Key Components \u2014 white wine",
+   "Key Components \u2014 butter (for sauce)",
+   "Key Components \u2014 egg yolks (St. Ewe's preferred)",
+   "Key Components \u2014 truffle paste",
+   "Key Components \u2014 fresh summer truffle"
+  ]
+ },
+ {
+  "stem": "truffle-ravioli",
+  "title": "Truffle Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "truffle-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Pasta Dough \u2014 pasta flour",
+   "Pasta Dough \u2014 eggs (+ 1 for egg wash)",
+   "Pasta Dough \u2014 olive oil",
+   "Truffle Filling \u2014 ruby port",
+   "Truffle Filling \u2014 Madeira",
+   "Truffle Filling \u2014 brandy",
+   "Truffle Filling \u2014 brown chicken stock",
+   "Truffle Filling \u2014 truffle juice",
+   "Truffle Filling \u2014 butter",
+   "Truffle Filling \u2014 truffle oil (extra for garnish)",
+   "Truffle Filling \u2014 salt",
+   "Truffle Filling \u2014 gelatine (soaked)",
+   "Truffle Filling \u2014 agar agar",
+   "Garnish \u2014 white truffle (8 large shavings)",
+   "Garnish \u2014 pea shoots",
+   "Garnish \u2014 Parmesan shavings",
+   "Garnish \u2014 sea salt"
+  ]
+ },
+ {
+  "stem": "turkey-and-squash-ravioli",
+  "title": "Turkey and Squash Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "turkey-and-butternut-squash-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Turkey and Squash Filling \u2014 turkey leg",
+   "Turkey and Squash Filling \u2014 butternut squash",
+   "Turkey and Squash Filling \u2014 onion, finely chopped",
+   "Turkey and Squash Filling \u2014 garlic cloves, minced",
+   "Turkey and Squash Filling \u2014 Parmesan, grated",
+   "Turkey and Squash Filling \u2014 parsley, finely chopped",
+   "Turkey and Squash Filling \u2014 olive oil",
+   "Turkey and Squash Filling \u2014 salt and pepper",
+   "Poaching Liquor \u2014 thyme",
+   "Poaching Liquor \u2014 bay leaves",
+   "Poaching Liquor \u2014 carrot, onion, celery stick, leek (large dice)",
+   "Poaching Liquor \u2014 bulb of garlic, halved",
+   "Pasta & Serving \u2014 00 flour",
+   "Pasta & Serving \u2014 egg yolks (+ 1 whole egg)",
+   "Pasta & Serving \u2014 olive oil, cold water",
+   "Pasta & Serving \u2014 unsalted butter",
+   "Pasta & Serving \u2014 sage leaves",
+   "Pasta & Serving \u2014 pine nuts",
+   "Pasta & Serving \u2014 Parmesan, grated"
+  ]
+ },
+ {
+  "stem": "watercress-and-egg-yolk-ravioli",
+  "title": "Watercress and Egg Yolk Ravioli",
+  "group": "04-dishes",
+  "bucket": "04-dishes",
+  "region": "",
+  "parts": {
+   "filling": "watercress-and-egg-yolk-filling",
+   "shape": "ravioli"
+  },
+  "ingredients": [
+   "Pasta Dough \u2014 00 flour",
+   "Pasta Dough \u2014 egg",
+   "Pasta Dough \u2014 egg yolk",
+   "Pasta Dough \u2014 rapeseed oil",
+   "Pasta Dough \u2014 salt",
+   "Pasta Filling \u2014 watercress (leaves picked, stalks reserved)",
+   "Pasta Filling \u2014 onion",
+   "Pasta Filling \u2014 lime, zested",
+   "Pasta Filling \u2014 pecorino (or Lord of The Hundreds)",
+   "Pasta Filling \u2014 mascarpone",
+   "Pasta Filling \u2014 salt and pepper",
+   "Pasta Filling \u2014 egg yolks (large, raw - for filling)",
+   "Celeriac Pur\u00e9e \u2014 celeriac, peeled and diced",
+   "Celeriac Pur\u00e9e \u2014 whole milk",
+   "Celeriac Pur\u00e9e \u2014 unsalted butter, chilled and diced",
+   "Celeriac Pur\u00e9e \u2014 salt",
+   "Sauce \u2014 button mushrooms, sliced",
+   "Sauce \u2014 garlic clove, halved",
+   "Sauce \u2014 Madeira",
+   "Sauce \u2014 vegetable stock",
+   "Sauce \u2014 double cream",
+   "Sauce \u2014 salt and sugar",
+   "Garnish \u2014 Jerusalem artichoke",
+   "Garnish \u2014 vegetable oil",
+   "Garnish \u2014 mixed wild mushrooms",
+   "Garnish \u2014 tenderstem broccoli",
+   "Garnish \u2014 rapeseed oil",
+   "Garnish \u2014 butter",
+   "Garnish \u2014 salt and pepper"
+  ]
+ },
+ {
+  "stem": "grilled-summer-beans-with-garlic-vinaigrette",
+  "title": "Grilled Summer Beans and Garlic Vinaigrette",
+  "group": "05-contorni",
+  "bucket": "05-contorni",
+  "region": "",
+  "parts": {},
+  "ingredients": [
+   "Shallot, finely diced",
+   "Olive oil, for the vinaigrette",
+   "Garlic, finely chopped",
+   "Marjoram, finely chopped",
+   "Parsley, finely chopped",
+   "Dried red chile flakes, for the vinaigrette",
+   "Red wine vinegar",
+   "Summer beans, trimmed",
+   "Olive oil, for the beans",
+   "Salt",
+   "Dried red chile flakes, to finish",
+   "Flaky sea salt"
+  ]
+ },
+ {
+  "stem": "porcini-with-rosemary-and-garlic",
+  "title": "Porcini with Rosemary and Garlic",
+  "group": "05-contorni",
+  "bucket": "05-contorni",
+  "region": "",
+  "parts": {},
+  "ingredients": [
+   "Olive oil, for the caramelized garlic",
+   "Garlic, 15 whole cloves",
+   "Porcini mushrooms, about 8",
+   "Olive oil, for the chopped garlic",
+   "Olive oil, for searing the porcini",
+   "Olive oil, for drizzling",
+   "Garlic, finely chopped",
+   "Salt",
+   "Lemon, halved and seeds removed",
+   "Lemon peel, pith removed and finely chopped",
+   "Rosemary, leaves picked",
+   "Flaky sea salt"
+  ]
+ },
+ {
+  "stem": "roasted-eggplant-with-olives-and-sun-dried-tomato",
+  "title": "Roasted Eggplant with Olives and Sun-Dried Tomato Vinaigrette",
+  "group": "05-contorni",
+  "bucket": "05-contorni",
+  "region": "",
+  "parts": {},
+  "ingredients": [
+   "Japanese eggplants, quartered lengthwise and widthwise",
+   "Salt",
+   "Olive oil, for cooking the eggplant",
+   "Red wine vinegar, for cooking the eggplant",
+   "Olive oil, for the vinaigrette base",
+   "Garlic, finely chopped",
+   "Tomato paste",
+   "Sun-dried tomatoes, dry-packed",
+   "Taggiasca olives, pitted",
+   "Anchovies, finely chopped",
+   "Salt-packed capers, rinsed and finely chopped",
+   "Orange, a quarter of the peel finely chopped with the pith removed and the fruit reserved",
+   "Calabrian chile oil, for the vinaigrette base",
+   "Red wine vinegar, to finish",
+   "Olive oil, to finish",
+   "Calabrian chile oil, to finish",
+   "Basil, stems removed"
+  ]
+ },
+ {
+  "stem": "roasted-kabocha-squash-with-hot-honey",
+  "title": "Roasted Kabocha Squash with Hot Honey and Bread Crumbs",
+  "group": "05-contorni",
+  "bucket": "05-contorni",
+  "region": "",
+  "parts": {},
+  "ingredients": [
+   "Country bread, torn into pieces",
+   "Olive oil, for the bread crumbs",
+   "Garlic, 2 whole cloves",
+   "Honey",
+   "Calabrian chiles, crushed",
+   "Calabrian chile oil, drained from the jarred chiles",
+   "Unsalted butter, cold and cubed",
+   "Olive oil, for the squash",
+   "Kabocha squash, cut into 2-inch-thick wedges",
+   "Garlic, 10 whole cloves",
+   "Rosemary, for roasting",
+   "Thyme, for roasting",
+   "Salt",
+   "Honey vinegar or apple cider vinegar",
+   "Thyme, leaves picked",
+   "Rosemary, leaves picked",
+   "Dried red chile flakes",
+   "Flaky sea salt"
+  ]
+ }
+]
