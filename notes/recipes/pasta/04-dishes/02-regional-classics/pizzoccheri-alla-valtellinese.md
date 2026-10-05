@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Dough: buckwheat-dough
 - Shape: pizzoccheri
 - Serves: 4-6
 - Total time: 1 h plus the dough rest

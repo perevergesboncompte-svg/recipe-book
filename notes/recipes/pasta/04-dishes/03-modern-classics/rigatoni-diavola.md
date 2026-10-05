@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Sauce: diavola-sauce
 - Serves: 4-6
 - Total time: 30 min plus the sauce and the rigatoni
 - Source: Missy Robbins, Pasta

@@ -13,7 +13,7 @@ SKILL = Path.home() / ".claude/skills/recipes"
 SHAPES = SKILL / "images" / "shapes"
 FONTDIR = Path("/usr/share/fonts/dejavu")
 SITE = "perevergesboncompte-svg.github.io/recipe-book"
-LINKS = ["dough", "filling", "shape", "base", "coating"]
+LINKS = ["dough", "filling", "sauce", "shape", "base", "coating"]
 SKIP = {"section", "status", "image", "thumb", "category", "group",
         "appearance", "texture",
         "flavor", "technique", "overall", "formed", "used in", "unit price",

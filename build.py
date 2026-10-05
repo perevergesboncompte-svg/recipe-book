@@ -47,13 +47,14 @@ SECTIONS = [
 ]
 
 PART_TYPES = {"doughs": "Dough", "fillings": "Filling", "shapes": "Shape",
-              "dishes": "Dish", "bases": "Base", "coatings": "Coating"}
+              "dishes": "Dish", "bases": "Base", "coatings": "Coating",
+              "sauces": "Sauce"}
 
 STATUS_ORDER = ["house", "tested", "drafted", "stub", "retired"]
 
 META_ORDER = ["region", "yield", "makes", "serves", "unit weight", "active time",
               "rest", "total time", "oven", "price", "tags", "source"]
-LINK_KEYS = ["dough", "filling", "shape", "base", "coating"]
+LINK_KEYS = ["dough", "filling", "sauce", "shape", "base", "coating"]
 SCORE_KEYS = ["appearance", "texture", "flavor", "technique", "overall"]
 BODY_ORDER = ["ingredients", "method", "notes", "preserving", "learnings"]
 HIDE_META = {"section", "status", "image", "thumb", "category", "group"}

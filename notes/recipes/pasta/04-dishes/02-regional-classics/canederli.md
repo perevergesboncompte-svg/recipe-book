@@ -2,6 +2,7 @@
 
 - Section: pasta
 - Status: drafted
+- Dough: canederli-dough
 - Shape: canederli
 - Region: North
 - Serves: 4-6

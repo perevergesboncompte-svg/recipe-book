@@ -4,6 +4,7 @@
 - Status: drafted
 - Shape: mezzelune
 - Filling: charred-eggplant-and-ricotta-filling
+- Sauce: simple-red-sauce
 - Serves: 6-8
 - Total time: 1 h 30 plus the 2 h drain and the dough rest
 - Source: Missy Robbins, Pasta
