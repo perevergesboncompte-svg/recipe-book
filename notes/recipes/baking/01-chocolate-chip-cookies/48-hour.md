@@ -1,7 +1,12 @@
 # 48-Hour Chocolate Chip
 
 - Section: baking
-- Status: drafted
+- Status: tested
+- Appearance: 2
+- Texture: 2
+- Flavor: 2
+- Technique: 2
+- Overall: 2
 - Yield: 18 cookies
 - Oven: 375F, 12-14 min
 - Energy cost: $1.51 (14 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
@@ -46,4 +51,9 @@
 
 ## Learnings
 
-Not made yet.
+Too sugary. 430 g of sugar against 313 g of flour is the problem, and the espresso
+powder and 12 g of salt do not pull it back. 2 out of 5 across the board, the lowest
+of the ten chocolate chip recipes.
+
+- Bake in rings for 11 minutes rather than scooping free-form for 12 to 14. The rings hold the shape and the shorter bake keeps the centre from drying out.
+- Not worth the 48-hour lead time at this score.
