@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: tested
+- Image: images/48-hour.jpg
 - Appearance: 2
 - Texture: 2
 - Flavor: 2
