@@ -1,7 +1,8 @@
 # Neapolitan-Style Pizza in a Home Oven
 
 - Section: baking
-- Status: drafted
+- Status: house
+- Overall: 5
 - Dough: pizza-dough-home-oven
 - Makes: 3 pizzas
 - Active time: 15 min
@@ -44,4 +45,9 @@
 
 ## Learnings
 
-Not made yet.
+5 out of 5 as home pizza, which is the bar it should be judged against. A 250C oven
+cannot char a rim the way a wood fire does, so the question is whether this is as good
+as a home oven gets, and it is. The highest grade in the collection so far.
+
+- The split bake is what earns the score. Everything that usually goes wrong with pizza in a domestic oven comes from one long bake, and this sidesteps it.
+- Keep the second bake short. The base is already cooked when it goes back in, so the only job left is colour.
