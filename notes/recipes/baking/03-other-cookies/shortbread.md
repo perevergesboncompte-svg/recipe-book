@@ -22,15 +22,15 @@
 
 1. Heat the oven to 325F and butter a glass baking dish of 15 by 25 cm.
 2. Put the butter in a mixing bowl. It needs to be very soft, somewhere around the consistency of mayonnaise or whipped cream.
-3. Add the salt to the butter and mix it in thoroughly.
+3. Work the salt into the butter thoroughly.
 4. Sift the flour and cornstarch together into a second bowl.
-5. Add the granulated sugar to the butter and mix only until the two are combined.
+5. Tip the granulated sugar into the butter and stop mixing as soon as the two come together.
 6. Add the sifted flour and cornstarch and mix just to a smooth dough, no further.
 7. Pat the dough level into the dish. It should sit no deeper than 1.5 cm.
 8. Bake about 30 minutes, until the top and the base are lightly browned. The middle stays pale.
 9. Cool on a wire rack only until the slab is warm to the touch, not cold.
 10. Scatter the superfine sugar over the surface. Tilt the dish so it coats the top evenly, then tip the surplus out.
-11. With a very thin sharp knife, cut the slab into fingers roughly 12 mm wide and 5 cm long. This has to happen while it is still warm.
+11. Using a thin, very sharp knife, cut the slab into fingers roughly 12 mm wide and 5 cm long. This has to happen while it is still warm.
 12. Chill the dish thoroughly, then lift the fingers out. The first one is awkward, after which a small thin offset spatula gets the rest out easily.
 
 ## Notes

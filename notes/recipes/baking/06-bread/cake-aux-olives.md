@@ -26,8 +26,8 @@
 ## Method
 
 1. Heat the oven to 325F. Butter the base and sides of a 23 by 12 cm loaf pan lightly, then line it with parchment and leave several centimetres standing above the rim.
-2. Combine the flour, baking powder, wine, vermouth and eggs. A stand mixer on the paddle handles it, and so does a wooden spoon and a bowl. Work on medium until the mixture pulls together.
-3. Keep the mixer on medium and pour the olive oil in slowly, in a thin steady stream, until it is all taken up and the dough looks elastic.
+2. Tip in the baking powder, flour, wine, vermouth and eggs. A stand mixer on the paddle handles this, and so does a bowl and a wooden spoon. Work on medium until the mixture pulls together.
+3. Keep the mixer on medium and pour the olive oil in slowly, as a thin steady trickle, until it has all been taken up and the dough looks elastic.
 4. Toss the olives, ham, Gruyère, thyme, salt and pepper together in a second bowl.
 5. Fold that mixture through the batter with a spatula or a wooden spoon, stopping the moment it is evenly distributed.
 6. Scrape the batter into the lined pan and level the top with an offset spatula.

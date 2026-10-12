@@ -24,7 +24,7 @@
 1. Heat the oven to 325F and line a baking sheet with parchment or a nonstick liner.
 2. Run the walnuts in a food processor until they are finely ground, about 30 seconds.
 3. Sift the flour into a small bowl and set it aside.
-4. Fit a stand mixer with the paddle and beat the butter, confectioners' sugar and salt on medium for a minute, to a creamy mixture.
+4. Fit a stand mixer with the paddle and cream the butter with the confectioners' sugar and the salt, on medium, for a minute.
 5. Still on medium, add the vanilla and the water.
 6. Scrape the sides and the base of the bowl down with a rubber spatula.
 7. Drop to low speed, add the ground walnuts and mix about 30 seconds, then add the sifted flour. Stop the mixer the moment everything is evenly combined.

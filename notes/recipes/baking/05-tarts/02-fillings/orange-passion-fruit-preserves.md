@@ -36,7 +36,7 @@
 - 221F [105C] is the set point. Jar the preserve below that and it stays syrupy.
 - Fresh passion fruit brings its seeds with it. Take out some or all of them unless you want a very crunchy preserve.
 - The yield is large, 2.7 kg, so have the jars washed and lined up before the final cook starts.
-- The sugar for the final cook is worth checking against the printed page. The source gives the two measures side by side as 10 cups and 1 kg, and those do not agree, since 1 kg is nearer 5 cups. The 1 kg here is the metric figure. Taking the volume instead roughly doubles the sugar, which would change the set and the keeping time, so weigh rather than scoop until you know which was meant.
+- Use the 1 kg and ignore the volume figure. The source prints the final cook's sugar as both 10 cups and 1 kg, which cannot both be right, since 1 kg of sugar is 5 cups. The weight is the correct one. A set at 221F wants roughly 65% soluble solids, so this 2.7 kg yield needs about 1755 g of solids, the fruit brings around 180 g of its own sugar, and 340 g is already spoken for by the orange slices. That leaves about 1.2 kg for the final cook, which is where the 1 kg lands. Ten cups would make sugar 87% of the finished weight, which is candy rather than a spread and will not fit alongside 1.8 kg of fruit.
 
 ## Preserving
 
