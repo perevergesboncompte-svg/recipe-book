@@ -6,7 +6,7 @@
 - Active time: 30 min
 - Total time: 30 min
 - Tags: vegan
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Ingredients
 

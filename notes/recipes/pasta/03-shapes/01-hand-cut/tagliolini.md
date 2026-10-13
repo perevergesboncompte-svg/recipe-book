@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Widespread across Italy under various local names, as far south as Molise and as far north as Trentino-Alto Adige
 - Rest: 20-30 min at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

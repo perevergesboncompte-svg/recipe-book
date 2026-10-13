@@ -7,13 +7,13 @@
 - Dough: egg-dough
 - Region: Emilia-Romagna, and across the rest of Italy under other names
 - Rest: 3 to 4 hours at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 
 1. Make an egg-based dough, then roll and sheet it.
 2. Dust a wooden board with a little 00 flour. Line a sheet pan with parchment, then dust the parchment with semolina.
-3. Lay the sheets on the board and cut them into rectangles 1 1/2 by 2 inches with a fluted dough divider, or a fluted pastry cutter against a ruler. Cover the rectangles with plastic wrap or a towel.
+3. Lay the sheets on the board and cut them into rectangles 1 1/2 by 2 inches with a fluted dough divider, or a fluted pastry cutter against a ruler. Keep them under wrap or a cloth as you go.
 4. Put your index finger and thumb opposite each other at the middle of a rectangle and pinch the top and bottom edges together into a bow tie. Pinch hard; a loose center comes apart in the pot.
 5. Shape the rest, laying them on the sheet pan in a single layer.
 6. Dry 3 to 4 hours at room temperature, until the pinched center feels firm. To check, boil a single one and see whether it keeps its shape.

@@ -30,7 +30,7 @@
 4. Put the butter, the brandy if you are using it, and 70 g of the sugar in a saucepan. Stir over medium-low heat until the butter has melted and the sugar is fully dissolved.
 5. Pour the hot butter mixture onto the chocolate and stir it with a rubber spatula to a smooth melt.
 6. Put the remaining 65 g of sugar in a large bowl with the eggs, the orange zest and the salt.
-7. Beat on medium speed with the whisk attachment, or by hand with a whisk, about 3 minutes. The mixture should turn very pale and light and drop from the lifted whisk in a thick ribbon.
+7. Whip on medium for about 3 minutes, machine or arm either way. You are after a pale, aerated mass that falls off the lifted whisk in a thick ribbon.
 8. Whisk a third of the beaten eggs into the chocolate to loosen it, then fold the remainder in with a rubber spatula.
 9. Pour the filling into the shell and level the top with an offset spatula.
 10. Lay the hazelnuts over the surface in an even layer.

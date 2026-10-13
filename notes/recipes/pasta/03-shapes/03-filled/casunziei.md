@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Veneto, in Cortina d'Ampezzo, a ski town in the Dolomite range
 - Rest: 45 minutes to 1 hour uncovered in the refrigerator
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

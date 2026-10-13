@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Across Italy, most concentrated in the Alps and over the border into German-speaking neighbors
 - Rest: 45 minutes to 1 hour uncovered in the refrigerator
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

@@ -8,7 +8,7 @@
 - Dough: egg-dough
 - Region: Emilia-Romagna, and widely made in the United States
 - Rest: 45 minutes to 1 hour uncovered in the refrigerator
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

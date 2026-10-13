@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Liguria
 - Rest: 15 to 20 minutes at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

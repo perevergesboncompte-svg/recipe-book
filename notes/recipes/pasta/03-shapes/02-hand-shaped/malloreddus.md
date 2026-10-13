@@ -6,7 +6,7 @@
 - Formed: shaped
 - Dough: egg-dough, semolina-dough
 - Region: Sardinia, in the south near Cagliari
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

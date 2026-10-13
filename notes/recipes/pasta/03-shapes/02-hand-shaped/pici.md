@@ -6,7 +6,7 @@
 - Formed: strand
 - Dough: egg-dough
 - Region: Tuscany around Siena and Grosseto; bringoli near Arezzo; umbrici, umbricelli, or umbrichelli in Umbria; umbrichelli or lombrichetti in Lazio
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

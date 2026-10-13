@@ -5,7 +5,7 @@
 - Thumb: images/shapes/canederli-3.jpg
 - Formed: dumpling
 - Region: Italian Alps, particularly Trentino–Alto Adige
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

@@ -9,11 +9,11 @@
 
 ## Ingredients
 
-- 200 g flour
-- 150 g butter
-- 4 lemons
-- 4 eggs
-- 200 g sugar
+- Flour: 200 g
+- Butter: 150 g
+- Lemons: 4
+- Eggs: 4
+- Sugar: 200 g
 
 ## Method
 

@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: The Marche, province of Fermo, around Ascoli Piceno and Campofilone
 - Rest: 20-30 min at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

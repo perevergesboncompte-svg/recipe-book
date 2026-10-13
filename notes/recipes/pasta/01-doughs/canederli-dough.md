@@ -5,7 +5,7 @@
 - Makes: 18 pieces
 - Active time: 30 min
 - Rest: 30 min to 1 h chilled, after an overnight dry for the bread
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Ingredients
 

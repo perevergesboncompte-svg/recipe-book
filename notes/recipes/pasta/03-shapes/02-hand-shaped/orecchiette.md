@@ -7,7 +7,7 @@
 - Dough: semolina-dough
 - Region: Mostly Puglia; also Calabria, Basilicata, Molise, reaching north into Abruzzo
 - Rest: 1 to 2 hours at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

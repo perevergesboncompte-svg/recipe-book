@@ -7,7 +7,7 @@
 - Dough: semolina-dough
 - Region: Calabria, near Tropea
 - Rest: 1 to 2 hours
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

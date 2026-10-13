@@ -1,4 +1,4 @@
-# Cjalsons
+# Cjalsons with Brown Butter and Cinnamon
 
 - Section: pasta
 - Status: drafted

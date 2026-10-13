@@ -6,7 +6,7 @@
 - Formed: extruded
 - Region: The Veneto, especially Venice; Istria; southeastern Lombardy around Mantua
 - Rest: 20 to 30 minutes at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

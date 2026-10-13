@@ -6,7 +6,7 @@
 - Formed: stuffed
 - Dough: egg-dough
 - Region: Found across Italy, most notably Emilia-Romagna (meat filling under béchamel), Abruzzo, Tuscany, and Campania
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

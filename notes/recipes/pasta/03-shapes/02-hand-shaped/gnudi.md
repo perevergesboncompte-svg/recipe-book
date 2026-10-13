@@ -6,7 +6,7 @@
 - Formed: dumpling
 - Region: Tuscany around Arezzo, and Lombardy near Brescia
 - Rest: chilled at least 1 hour, up to 24 hours
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

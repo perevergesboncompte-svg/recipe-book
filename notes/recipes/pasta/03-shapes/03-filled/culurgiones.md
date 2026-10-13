@@ -7,7 +7,7 @@
 - Dough: semolina-dough
 - Region: Sardinia, with the braided teardrop form centered on the mountainous east near Nuoro
 - Rest: 45 minutes to 1 hour uncovered in the refrigerator
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

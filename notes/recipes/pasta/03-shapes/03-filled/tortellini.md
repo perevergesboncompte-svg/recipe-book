@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Emilia-Romagna, primarily Modena and Bologna
 - Rest: 45 minutes to 1 hour uncovered in the refrigerator
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

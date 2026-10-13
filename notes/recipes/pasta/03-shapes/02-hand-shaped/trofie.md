@@ -7,7 +7,7 @@
 - Dough: semolina-dough
 - Region: Liguria, on the eastern Riviera around Recco and Camogli
 - Rest: 1 to 2 hours at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

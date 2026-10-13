@@ -36,7 +36,7 @@
 9. Bake about 10 minutes, until they have puffed and are just beginning to colour.
 10. Take the oven down to 375F / 190C and give them about 12 minutes more, until the shells are browned all over, hollow inside, and surprisingly light when you pick one up.
 11. Out of the oven, drive a metal skewer into the end of each shell to open a small vent for the steam. Skip this and the shells cave in. Cool them on wire racks.
-12. Make the glaze. Put the chopped chocolate and the corn syrup, which is there for shine, into a heatproof bowl. Heat the cream in a small saucepan to just short of a boil and pour it over the chocolate. Leave it alone for about 2 minutes while the chocolate melts, then stir gently with a rubber spatula, working in as little air as you can, until it is smooth and glossy. Let it cool to barely warm.
+12. Make the glaze. Put the chopped chocolate and the corn syrup, which is there for shine, into a heatproof bowl. Bring the cream up in a small pan until it is just about to boil, then pour it over. Leave it alone for about 2 minutes while the chocolate melts, then stir gently with a rubber spatula, working in as little air as you can, until it is smooth and glossy. Let it cool to barely warm.
 13. Stir the cold pastry cream smooth and load it into a piping bag with a plain tip that has a very small opening.
 14. Fill each shell through the vent hole until it feels heavy in the hand. Open a second hole at the other end and fill from both ends when the cream will not travel the length of a shell, which happens where pockets have formed inside.
 15. Take each filled éclair and dip its top into the glaze, shake it gently to let the excess run off, and stand it the right way up on a wire rack until the glaze firms.

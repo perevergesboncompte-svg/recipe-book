@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Umbria, chiefly around Spoleto, where it is also called stringozzi
 - Rest: 30-40 min at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

@@ -9,12 +9,12 @@
 
 ## Ingredients
 
-- 200 g flour
-- 150 g butter
-- 200 g walnuts
-- 200 g caramel
-- 100 ml cream
-- 3 eggs
+- Flour: 200 g
+- Butter: 150 g
+- Walnuts: 200 g
+- Caramel: 200 g
+- Cream: 100 ml
+- Eggs: 3
 
 ## Method
 

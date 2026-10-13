@@ -7,7 +7,7 @@
 - Dough: semolina-dough
 - Region: Western Sicily, and Sardinia, where it is called busa
 - Rest: 1 to 2 hours at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

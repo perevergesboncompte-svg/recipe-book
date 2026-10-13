@@ -17,7 +17,7 @@
 - Whole wheat flour: 200 g
 - Water: 350 g
 - Salt: 10 g
-- Active starter: quantity not recorded yet
+- Active starter: quantity not given
 
 ## Method
 

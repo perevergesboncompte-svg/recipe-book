@@ -8,7 +8,7 @@
 - Dough: egg-dough
 - Region: Central Italy, mainly Lazio
 - Rest: 20-30 min at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

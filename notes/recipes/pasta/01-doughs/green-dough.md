@@ -5,7 +5,7 @@
 - Makes: 998 g
 - Active time: 8-10 min kneading, plus blanching
 - Rest: 30 min minimum, wrapped
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Ingredients
 

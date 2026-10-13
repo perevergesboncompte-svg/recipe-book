@@ -6,7 +6,7 @@
 - Formed: ribbon
 - Region: The Valtellina, in Lombardy
 - Rest: 20-30 min at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

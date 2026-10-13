@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Found throughout Italy, densest in Tuscany
 - Rest: 20-30 min at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 

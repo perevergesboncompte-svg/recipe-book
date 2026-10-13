@@ -13,13 +13,13 @@
 
 ## Ingredients
 
-- 227 g butter
-- 57 g confectioners' sugar
-- 7 ml vanilla extract
-- 5 ml almond extract (optional)
-- 5 g salt
-- 72 g almond flour
-- 270 g flour
+- Butter: 227 g
+- Confectioners' sugar: 57 g
+- Vanilla extract: 7 ml
+- Almond extract, optional: 5 ml
+- Salt: 5 g
+- Almond flour: 72 g
+- Flour: 270 g
 
 ## Method
 

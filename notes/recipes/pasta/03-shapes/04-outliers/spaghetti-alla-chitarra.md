@@ -7,7 +7,7 @@
 - Dough: egg-dough
 - Region: Abruzzo, where it goes by maccheroni alla chitarra, spaghetti alla chitarra, and pasta alla chitarra; Lazio, as tonnarelli
 - Rest: 20 to 30 minutes at room temperature
-- Source: Pasta, Missy Robbins
+- Source: Missy Robbins, Pasta
 
 ## Method
 
