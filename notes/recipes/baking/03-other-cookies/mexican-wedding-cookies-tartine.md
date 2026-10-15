@@ -1,11 +1,12 @@
 # Mexican Wedding Cookies from Tartine
 
 - Section: baking
-- Status: drafted
+- Status: tested
 - Makes: 24 small cookies
 - Active time: 20 min
 - Total time: about 1 h 30 min
 - Oven: 325F for 25 min
+- Overall: 4.5
 - Source: Tartine, A Classic Revisited
 
 ## Ingredients
@@ -38,10 +39,11 @@
 
 - Grind the walnuts to a fine meal rather than a paste. Around 30 seconds in the processor is enough.
 - The butter goes in at cool room temperature, not fully softened.
+- Scoop the mounds small. Larger ones are worse.
 - Leave 2.5 cm between the scooped mounds on the sheet.
 - The second toss in sugar, after the cookies have sat half an hour, is what produces the clean white coating. No weight is given for this sugar.
 - Sealed from the air, a week is fine in a cool kitchen and a fortnight chilled.
 
 ## Learnings
 
-Not made yet.
+Make the balls small. That is the one thing to change next time.
