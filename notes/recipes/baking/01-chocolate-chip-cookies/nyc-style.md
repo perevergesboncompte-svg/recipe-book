@@ -5,7 +5,7 @@
 - Yield: 12 large cookies
 - Oven: 350F, 12-15 min
 - Energy cost: $1.55 (15 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
-- Source: Cupcake Jemma
+- Source: Cupcake Jemma, youtube.com/watch?v=P1gqm9CG8sw, quantities in the video description
 
 ## Ingredients
 

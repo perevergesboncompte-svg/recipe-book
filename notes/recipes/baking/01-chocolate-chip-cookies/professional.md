@@ -12,7 +12,7 @@
 - Flavor: 3
 - Technique: easy
 - Overall: 3
-- Source: Anna Olson
+- Source: Anna Olson, annaolson.ca/project/classic-chocolate-chip-cookies. Site sits behind a CAPTCHA, so checked against the archive
 
 ## Ingredients
 

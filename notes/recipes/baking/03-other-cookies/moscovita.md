@@ -14,7 +14,7 @@
 - Overall: 5
 - Price: $3
 - Tags: vegetarian
-- Source: El Ingeniero Cocinero, Rialto style
+- Source: El Ingeniero Cocinero, elingenierococinero.com/moscovitas, Rialto style. Site is down, checked against the November 2020 archive
 
 ## Ingredients
 

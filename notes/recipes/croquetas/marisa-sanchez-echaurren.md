@@ -5,7 +5,7 @@
 - Yield: ~30 croquetas
 - Active time: 40 min
 - Rest: Overnight
-- Source: Marisa Sánchez / Francis Paniego, Echaurren, Ezcaray
+- Source: Marisa Sánchez / Francis Paniego, Echaurren, Ezcaray, published at elle.com/es/gourmet/recetas-cocina/a31779490
 
 ## Ingredients
 

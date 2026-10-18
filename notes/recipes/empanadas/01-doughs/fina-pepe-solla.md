@@ -1,12 +1,13 @@
 # Masa Fina, Pepe Solla
 
 - Section: empanadas
-- Status: drafted
+- Status: tested
 - Yield: 1 large empanada, base + tapa
 - Active time: 15 min
 - Rest: none
 - Oven: 180 °C, 45 to 50 min
 - Energy cost: $2.75 (50 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
+- Overall: 3.75
 - Source: Pepe Solla, Casa Solla, Poio
 
 ## Ingredients
@@ -39,4 +40,6 @@
 
 ## Learnings
 
-Not made yet.
+Pull it out a little earlier than the stated 45 to 50 minutes.
+
+Cut a small hole in the tapa before it goes in, so the steam has somewhere to go.

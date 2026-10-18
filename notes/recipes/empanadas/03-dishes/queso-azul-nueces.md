@@ -6,7 +6,7 @@
 - Active time: 15 min
 - Oven: Air fryer at 200 °C for 8-10 min, or oven at 180 °C for about 25 min
 - Energy cost: $2.24 (35 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
-- Source: Nestlé Cocina (Buitoni) — a nod to the Argentine roquefort empanada and to cabrales
+- Source: Nestlé Cocina (Buitoni), nestlecocina.es/receta/empanadas-de-queso-azul-nueces-y-cebolla-caramelizada — a nod to the Argentine roquefort empanada and to cabrales
 
 ## Ingredients
 
@@ -37,6 +37,8 @@
 - Let it cool to warm before cutting so the cheese sets and does not run out.
 - A powerful filling. A thin layer keeps it from cloying.
 - Uses a shop-bought packet of empanada dough (Buitoni).
+- Two deliberate departures from the source: it builds twelve small empanadas from shop-bought caramelized onion, while this makes one large one and caramelizes its own. Every quantity otherwise matches.
+- The site now blocks automated reads, so the archived copy from March 2026 is what this was checked against.
 
 ## Learnings
 

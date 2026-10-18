@@ -1,8 +1,9 @@
 # Empanada de Zorza / Raxo
 
 - Section: empanadas
-- Status: drafted
+- Status: tested
 - Dough: casera-frabisa
+- Overall: 4.5
 - Yield: Filling for 1 large empanada (tin of about 32 cm)
 - Rest: 36-48 h (marinating the zorza)
 - Oven: 195 °C, 45-50 min
@@ -41,4 +42,4 @@
 
 ## Learnings
 
-Not made yet.
+Came out a touch dry. Next time either hold back some of the marinade juices to go in with the meat, or push the onion well past 400 g.
