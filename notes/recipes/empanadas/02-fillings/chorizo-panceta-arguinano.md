@@ -4,8 +4,8 @@
 - Status: drafted
 - Yield: filling for 1 large empanada
 - Active time: 15 min
-- Cook: 25 min
-- Rest: 30 min to cool
+- Cook: not given by the source
+- Rest: none given by the source
 - Source: Karlos Arguiñano, Hogarmania
 
 ## Ingredients
@@ -22,15 +22,16 @@
 ## Method
 
 1. Finely chop the onion, leek and red pepper.
-2. Sweat the vegetables in plenty of oil over medium-low heat with a pinch of salt until very soft, 15 to 20 min.
+2. Sweat the vegetables in plenty of oil over medium-low heat with a pinch of salt until the onion turns translucent.
 3. Add the panceta strips and cook 3 to 4 min so they render their fat.
 4. Add the crumbled fresh chorizo and fry until it loses its raw colour.
 5. Off high heat, add the pimentón and stir quickly so it does not burn. Check the salt.
-6. Drain and cool completely before assembling, keeping the red oil for brushing.
+6. Drain through a sieve and keep the oil, 150 ml for the dough and 25 ml for brushing.
 
 ## Notes
 
-- Must be drained and cooled completely before assembly, and the source is explicit that the filling always goes on cold.
+- The source sets no cooling step and its one temperature note runs the other way — add the strained sofrito oil to the flour while it is still a little warm, since the dough binds better that way.
+- The source gives no time for the sofrito, only to cook it until the onion turns translucent. The 3 to 4 min for the panceta is its own figure.
 - Drain off the excess fat. The embutido releases a lot of it and it would soak the dough.
 - "Iscos" or "liscos" are pieces of pork. This Arguiñano version uses fresh chorizo and panceta instead for more juiciness and flavour.
 - Fresh chorizo already carries plenty of salt and pimentón, so taste before seasoning.

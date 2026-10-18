@@ -23,7 +23,7 @@
 
 - Cut size is 1 1/2 by 2 inches, fluted on every edge, giving a finished bow tie about 2 inches long. Other makers go from about an inch up to considerably larger.
 - Needs a fluted dough divider or a fluted pastry cutter; a ruler helps keep the rectangles square. The forming gesture is a single hard finger-and-thumb pinch at the center, which is where the dialect name comes from.
-- This shape dries longer than any other egg pasta in the book, 3 to 4 hours rather than 1 to 2, because the pinch relaxes easily in boiling water. The boil-one test is the way to confirm it is dry enough.
+- This shape dries longer than any other egg pasta in the book, 3 to 4 hours rather than the 20 to 30 minutes most egg pastas get, because the pinch relaxes easily in boiling water. The boil-one test is the way to confirm it is dry enough.
 - Better known as farfalle, or bow-tie pasta.
 - Refrigerator limit is 24 hours.
 - In Emilia-Romagna it goes into sauces built on vegetables with a little meat: prosciutto and peas in springtime, sausage with cardoons or cavolo nero once it turns cold. Butter and parmigiano is the plain version.

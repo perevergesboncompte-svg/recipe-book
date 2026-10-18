@@ -3,7 +3,7 @@
 - Section: croquetas
 - Status: drafted
 - Yield: 6 people (~24 croquetas)
-- Active time: 30 min
+- Active time: 10 min
 - Rest: 2 h (plus 30 min in the freezer if the mass is loose)
 - Source: Directo al Paladar (Pakus)
 

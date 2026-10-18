@@ -14,7 +14,8 @@
 - Duck confit — fresh thyme: 2 sprigs
 - Final mix — confit duck leg: 1
 - Final mix — veal jus: quantity not given
-- Final mix — sherry vinegar: quantity not given
+- Final mix — sherry vinegar: 1 dash
+- Final mix — salt: quantity not given
 
 ## Method
 
@@ -22,13 +23,13 @@
 2. Wash the salt off, cover the legs with duck fat, and add the garlic and thyme.
 3. Cook at 95 C for 5 hours, then cool the legs in the fat.
 4. Pick the meat from one leg and shred it finely.
-5. Season the shredded meat with veal jus and sherry vinegar.
+5. Season the shredded meat with salt, veal jus and a dash of sherry vinegar.
 
 ## Notes
 
 - From the source's Duck Ravioli with Langoustines, recipe 18. There is no dish file for it in this collection, and the PDF's own contents list stops at 16 and omits it.
 - Two sub-components: the confit, and a cold mix that seasons one leg's worth of picked meat.
 - The confit is a batch: 4 legs are cured and cooked, the filling uses 1. The source says the confit keeps and freezes well, so the other 3 are deliberate surplus.
-- No quantity for the veal jus or the sherry vinegar.
+- No quantity for the veal jus or the salt.
 - Sealed between wonton wrappers rather than fresh pasta, and boiled 3 minutes.
 - The veal jus doing the seasoning is made separately from 5 kg of veal bones over 8 hours and also serves as the plate sauce. Start 2 days ahead.

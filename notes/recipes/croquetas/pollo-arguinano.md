@@ -2,8 +2,8 @@
 
 - Section: croquetas
 - Status: drafted
-- Yield: ~25 croquetas
-- Active time: 30 min
+- Yield: 20 croquetas
+- Active time: 1 h
 - Rest: 4 h (overnight is better)
 - Source: In the style of Karlos Arguiñano, okdiario
 
@@ -16,7 +16,7 @@
 - Whole milk: 600 ml
 - Extra virgin olive oil: 2 tbsp
 - Salt, white pepper, nutmeg (optional): to taste
-- Eggs (for coating): 2
+- Beaten egg (for coating): quantity not given
 - Flour and breadcrumbs (for coating): as needed
 - Mild oil for frying: as needed
 
@@ -35,6 +35,7 @@
 - Double coating for a thicker, crunchier crust.
 - 175 °C in small batches so the oil temperature holds.
 - Chill the mass properly before shaping.
+- The source's ingredient list stops at the bechamel; egg, breadcrumbs and frying oil appear only in the shaping and frying steps, with no amounts.
 - Credited as "in the style of" Arguiñano rather than his own published recipe.
 
 ## Learnings

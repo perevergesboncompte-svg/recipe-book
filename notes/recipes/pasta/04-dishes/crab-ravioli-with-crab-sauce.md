@@ -30,9 +30,17 @@
 - Salmon Mousse — egg white: 1
 - Salmon Mousse — double cream: 600 ml
 - Salmon Mousse — salt and pepper: to taste
+- Filling — tarragon: 5 g
+- Filling — chervil: 5 g
+- Filling — parsley: 10 g
+- Filling — chives: 10 g
+- Filling — lemon juice: to taste
+- Filling — salt: to taste
+- Filling — pepper: to taste
 - Crab Sauce — crab shells (from cooked crabs): 3 kg
 - Crab Sauce — brandy: 250 ml
-- Crab Sauce — onion, carrots, fennel, leek, celery (sliced): 50 g each
+- Crab Sauce — onion, carrots, leek, celery (sliced): 50 g each
+- Crab Sauce — fennel (sliced): 500 g
 - Crab Sauce — tomatoes: 100 g
 - Crab Sauce — garlic: 20 g
 - Crab Sauce — saffron threads: 1 g
@@ -42,6 +50,17 @@
 - Crab Sauce — parsley: 20 g
 - Crab Sauce — double cream: 500 ml
 - Crab Sauce — butter: 150 g
+- Crab Sauce — water: 200 ml
+- Crab Sauce — lemon juice: to taste
+- Crab Sauce — Tabasco: to taste
+- Crab Sauce — olive oil: to taste
+- Tomato Concasse — tomatoes: 4
+- Tomato Concasse — water: 2 l
+- Tomato Concasse — iced water: 2 l
+- To Plate — samphire: 10 g
+- To Plate — chervil leaves: 3
+- To Plate — fleur de sel: to taste
+- To Plate — extra virgin olive oil: to taste
 
 ## Method
 

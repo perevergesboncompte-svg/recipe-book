@@ -4,7 +4,7 @@
 - Status: drafted
 - Yield: 1 large empanada, base + tapa
 - Active time: 15 min
-- Rest: 45 to 60 min prove
+- Rest: 1 h prove
 - Oven: 180 °C, 50 to 60 min
 - Energy cost: $3.10 (60 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Martín Berasategui, El Diario Vasco
@@ -24,9 +24,10 @@
 1. Dissolve the yeast in the lukewarm water.
 2. Mix the flour with the salt in a bowl, then add the yeasted water, the sofrito oil and the white wine.
 3. Knead to a smooth, elastic dough that comes away from your hands.
-4. Cover and prove 45 to 60 min until doubled, somewhere warm and out of draughts.
-5. Divide in two and roll thin, base and tapa. Fill with cold relleno and seal the edges. Cut a central chimney for the steam.
-6. Brush with beaten egg and bake at 180 °C for 50 to 60 min, until golden.
+4. Cover and prove 1 h, somewhere warm and out of draughts.
+5. Turn it out onto a floured surface and knead 5 min, by which point it will have turned more elastic and less sticky.
+6. Divide in two and roll thin, base and tapa. Fill with cold relleno and seal the edges. Cut a central chimney for the steam.
+7. Brush with beaten egg and bake at 180 °C for 50 to 60 min, until golden.
 
 ## Notes
 

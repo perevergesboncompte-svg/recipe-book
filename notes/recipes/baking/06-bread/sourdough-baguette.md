@@ -7,8 +7,8 @@
 - Active time: 15 min
 - Rest: 1.5 h bulk, then 1.5-2 h shaped
 - Total time: about 4 h 45 min
-- Oven: 450F, about 25 min
-- Energy cost: $1.89 (25 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
+- Oven: 450F, 25 to 30 min
+- Energy cost: $2.07 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: King Arthur Baking, kingarthurbaking.com/recipes/sourdough-baguettes-recipe
 
 ## Ingredients
@@ -31,7 +31,7 @@
 6. Shape each into a 16 inch loaf. Space at least 4 inches apart on parchment, or use baguette pans and make them 15 inches.
 7. Cover with greased plastic and rise 1.5 to 2 hours until puffy. Heat the oven to 450F toward the end.
 8. Slash three diagonals about 1/4 inch deep. Skip the slashing if you want taller, rounder loaves.
-9. Bake about 25 minutes to a rich golden brown, with steam if you can.
+9. Bake 25 to 30 minutes to a rich golden brown, with steam if you can.
 10. Turn the oven off, crack the door a few inches, and leave the loaves in to dry the crust.
 11. Cool completely on a rack.
 

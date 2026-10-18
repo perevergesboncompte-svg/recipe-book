@@ -27,8 +27,8 @@
 2. Add the brown sugar, mix low until cohesive.
 3. Add flour and salt gradually, mixing only until incorporated.
 4. Add the eggs one at a time, scraping down, until the dough pulls from the bowl.
-5. Flatten into a 2.5 cm square in parchment, bag it, chill at least 1 hour.
-6. Divide into 14 balls of about 100 g, 7 per pan, 7.5 cm apart.
+5. Flatten into a square slab about 2.5 cm thick in parchment, bag it, chill at least 1 hour.
+6. Divide into 14 balls of about 100 g, 7 per pan, 7.5 cm apart, then press each ball down with your palm into a disk about 1.25 cm thick.
 7. Bake at 350F for 12 to 13 minutes.
 
 ## Notes

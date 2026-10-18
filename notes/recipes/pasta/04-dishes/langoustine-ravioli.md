@@ -15,15 +15,28 @@
 
 - Key Ingredients — langoustines (heads removed, reserved for stock): 1.5 kg
 - Key Ingredients — langoustine heads (for stock): 1 kg
-- Key Ingredients — onion, carrots, celery (2cm dice): 1 each
+- Key Ingredients — onion (2cm dice): 1
+- Key Ingredients — carrots (2cm dice): 2
+- Key Ingredients — celery sticks (2cm dice): 3
 - Key Ingredients — fennel seeds, coriander seeds: 1 tsp each
 - Key Ingredients — star anise: 3
 - Key Ingredients — white wine: 200 ml
 - Key Ingredients — fish stock: 2 l
+- Key Ingredients — garlic bulb, halved (for stock): 1
+- Key Ingredients — tomatoes (for stock): 2
+- Key Ingredients — unsalted butter (for stock): 50 g
+- Key Ingredients — olive oil (for stock): 100 ml
 - Key Ingredients — endive, finely sliced: 300 g
 - Key Ingredients — caster sugar: 35 g
 - Key Ingredients — sherry vinegar: 1 tbsp
 - Key Ingredients — orange, juiced: 1
+- Key Ingredients — unsalted butter (for the braised endive): 60 g
+- Pasta dough — 00 flour: 240 g
+- Pasta dough — large egg yolks: 2
+- Pasta dough — egg, beaten: 1/2
+- Pasta dough — salt: 1 pinch
+- Pasta dough — water: 50 ml
+- Pasta dough — olive oil: 1 tbsp
 
 ## Method
 

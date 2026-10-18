@@ -5,6 +5,7 @@
 - Yield: 8 mini tartlets at 8 cm, or 1 large 23 cm tart
 - Active time: 30 min
 - Rest: 1 h 15 min
+- Oven: 320F / 160C, 20 min in the rings, then 5 to 10 min more out of them
 - Source: Spatula Desserts, spatuladesserts.com
 
 ## Ingredients
@@ -23,6 +24,8 @@
 3. Rub the very cold butter in until sandy, working fast, no more than a few minutes.
 4. Add the room-temperature egg and bring it together by hand. It looks crumbly at first, so resist adding liquid.
 5. Wrap and chill.
+6. Line the perforated tart rings with the dough and freeze them an hour, heating the oven to 320F / 160C towards the end of that hour.
+7. Bake 20 minutes, lift the rings away, then bake 5 to 10 minutes more until golden brown.
 
 ## Notes
 

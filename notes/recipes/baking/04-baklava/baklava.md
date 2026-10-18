@@ -7,7 +7,7 @@
 - Unit weight: 80 g
 - Active time: 45 min
 - Oven: 320F / 160C, 1 h 30 min
-- Energy cost: $5.16 (120 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
+- Energy cost: $4.13 (90 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Price: $4
 - Tags: vegetarian
 - Source: Real Greek Recipes, realgreekrecipes.com/walnut-baklava
@@ -28,7 +28,6 @@
 - Lemon juice, fresh: 2 tbsp
 - Orange peel: 1
 - Cinnamon stick: 1
-- Rose water: 1 to 2 tsp, optional, see Notes
 
 ## Method
 
@@ -50,7 +49,7 @@
 ## Notes
 
 - Cold syrup onto hot baklava is the rule. Reversing it makes the pastry soggy.
-- Rose water option: stir 1 to 2 tsp into the syrup after it comes off the heat, not during the simmer, or the aroma boils off. Start at 1 tsp, since it turns perfumed fast.
+- Rose water is a house addition, not part of the source recipe. If you want it, stir 1 to 2 tsp into the syrup once it is off the heat rather than during the simmer, or the aroma boils off. Start at 1 tsp, since it turns perfumed fast.
 - Cocoa in a walnut filling is unusual and is what makes this version darker and less purely sweet.
 - The syrup is 450 g sugar to 360 g water, so slightly over saturation, which is why it sets rather than running out.
 - Keeps 2 weeks refrigerated, or at room temperature.

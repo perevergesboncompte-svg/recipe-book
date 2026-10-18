@@ -3,7 +3,7 @@
 - Section: croquetas
 - Status: drafted
 - Yield: ~25 croquetas
-- Active time: 30 min
+- Active time: 20 min
 - Rest: Several hours in the fridge
 - Source: Sergio Señor Galán, Recetas de Cocina de El Mundo
 
@@ -16,6 +16,7 @@
 - Carrilleras de ternera, braised, boned and chopped: to taste
 - Salt, pepper, nutmeg: to taste
 - Flour, egg, breadcrumbs plus panko (for coating): as needed
+- Sunflower oil, for frying: as needed
 
 ## Method
 
@@ -24,7 +25,7 @@
 3. Stir in the chopped carrillera meat and the braising liquid you reserved.
 4. Season with nutmeg and go light on the salt. The braising sauce is already savoury.
 5. Pour into a tray, cover to the surface, and chill a few hours in the fridge.
-6. Shape, coat in flour, egg, and breadcrumbs mixed with panko. A second coat is optional. Fry in plenty of oil.
+6. Shape, coat in flour, egg, and breadcrumbs mixed with panko. A second coat is optional. Fry in plenty of sunflower oil.
 
 ## Notes
 
@@ -34,7 +35,7 @@
 - Salt carefully. The braising liquid brings both flavour and salt.
 - Chill the mass properly before rolling.
 - The meat quantity is given as "to taste" with no weight, so the meat-to-bechamel ratio is yours to set.
-- Header calls for deep oil.
+- The source asks for sunflower oil, not olive, because it stands up to frying heat better. If you only have olive, use a very mild one. Either way, fry deep.
 
 ## Learnings
 

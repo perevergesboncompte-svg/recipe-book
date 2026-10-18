@@ -3,8 +3,8 @@
 - Section: baking
 - Status: drafted
 - Yield: 30 cookies
-- Oven: 350F, 20-30 min
-- Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
+- Oven: 350F, 30-35 min
+- Energy cost: $2.24 (35 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 2 h minimum, plus 15-30 min after cutting
 - Source: 101 Cookbooks, 101cookbooks.com
 

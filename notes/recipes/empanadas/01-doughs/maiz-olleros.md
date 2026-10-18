@@ -2,9 +2,9 @@
 
 - Section: empanadas
 - Status: drafted
-- Yield: 1 large rustic cereal empanada
+- Yield: about 2130 g of dough, in 300 g balls for 20 cm trays
 - Active time: 20 min
-- Rest: 1 to 2 h ferment
+- Rest: 1 h ferment, then about 30 min once assembled
 - Oven: 230 °C, about 25 min
 - Energy cost: $1.89 (25 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Javier Olleros, Culler de Pau, O Grove, presented at Madrid Fusión
@@ -15,7 +15,7 @@
 - Galician rye flour: 300 g
 - Liquid sourdough starter (masa madre líquida): 200 g
 - Water: 900 g
-- Fresh yeast: 10 g
+- Yeast (type not specified): 10 g
 - Salt: 20 g
 
 ## Method
@@ -23,9 +23,11 @@
 1. Mix the corn and rye flours with the salt in a wide bowl.
 2. Dissolve the yeast and the starter in warm water.
 3. Bring liquids and flours together and work to a dense, homogeneous dough. Corn and rye drink a lot of water and barely develop gluten.
-4. Rest 1 to 2 h to ferment and come to temperature. It rises very little, which is expected — this is rustic, not a springy bread dough.
-5. Spread it over the tray, fill, and cover. It will not roll as thin as a wheat dough.
-6. Brush the surface with sofrito oil and bake at 230 °C for about 25 min.
+4. Rest 1 h to ferment and come to temperature. It rises very little, which is expected — this is rustic, not a springy bread dough.
+5. Divide into 300 g balls, one base per 20 cm tray. It will not roll as thin as a wheat dough.
+6. Line the tray with one base, fill, and cover with a second base.
+7. Brush the surface with sofrito oil and leave to ferment about 30 min.
+8. Bake at 230 °C for about 25 min.
 
 ## Notes
 

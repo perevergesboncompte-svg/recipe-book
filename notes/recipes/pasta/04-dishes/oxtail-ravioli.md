@@ -13,7 +13,25 @@
 
 ## Ingredients
 
-Not recorded in the source.
+- Oxtail and Celeriac Filling — oxtail, cut into pieces: 1 small
+- Oxtail and Celeriac Filling — carrot, roughly chopped: 1
+- Oxtail and Celeriac Filling — onion, roughly chopped: 1
+- Oxtail and Celeriac Filling — garlic bulb, halved: 1
+- Oxtail and Celeriac Filling — thyme: 1 sprig
+- Oxtail and Celeriac Filling — tomato purée: 1 tbsp
+- Oxtail and Celeriac Filling — red wine: 375 ml
+- Oxtail and Celeriac Filling — brown chicken stock: 1 l
+- Oxtail and Celeriac Filling — celeriac, peeled and diced: 1 small
+- Oxtail and Celeriac Filling — olive oil: quantity not given
+- Oxtail and Celeriac Filling — salt: quantity not given
+- Oxtail and Celeriac Filling — pepper: quantity not given
+- Pasta — fine semolina: 125 g
+- Pasta — 00 flour: 125 g
+- Pasta — egg: 125 g
+- Spinach — spinach: quantity not given
+- Spinach — butter: 1 knob
+- Spinach — salt: quantity not given
+- Spinach — pepper: quantity not given
 
 ## Method
 

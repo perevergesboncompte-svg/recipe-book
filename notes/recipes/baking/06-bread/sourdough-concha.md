@@ -33,16 +33,17 @@
 
 1. Levain: stir starter, flour and water together, cover, and leave 4 to 5 hours at 75-80F until doubled and bubbly. Or skip it and use 150 g of active starter.
 2. If using orange zest, rub it into the granulated sugar until it smells of orange and looks like wet sand.
-3. Mix the flour, salt, sugar, eggs, milk, vanilla and all the levain until the flour is hydrated, a couple of minutes.
-4. Work the softened butter in.
-5. Bulk ferment in a covered bowl at 75-80F for about 5 hours, until doubled, airy and domed.
-6. Refrigerate overnight, up to 2 days.
-7. Punch down, weigh the dough, divide by 14, and roll each portion into a ball. About 85 g each.
-8. Topping: bring the flour, sifted powdered sugar, butter and salt together to a Play-Doh consistency. Divide and colour or flavour it now if you want more than one.
-9. Press the topping into rounds and drape one over each ball.
-10. Score the shell pattern with a lame, sharp knife or concha cutter.
-11. Cover and proof 4 to 5 hours somewhere warm, until doubled, airy, and wobbling when you shake the tray.
-12. Bake one tray at a time at 350F for 18 minutes, until lightly golden. Cool completely.
+3. Mix the flour, salt, sugar, eggs, milk, vanilla and all the levain until the flour is incorporated, a couple of minutes.
+4. Cover and rest at least 10 minutes, so the flour hydrates fully.
+5. Add the softened butter a tablespoon at a time, then mix about 10 minutes, until the dough is tacky but strong and passes the windowpane test.
+6. Bulk ferment in a covered bowl at 75-80F for about 5 hours, until doubled, airy and domed.
+7. Refrigerate overnight, up to 2 days.
+8. Punch down, weigh the dough, divide by 14, and roll each portion into a ball. About 85 g each.
+9. Topping: bring the flour, sifted powdered sugar, butter and salt together to a Play-Doh consistency. Divide and colour or flavour it now if you want more than one.
+10. Press the topping into rounds and drape one over each ball.
+11. Score the shell pattern with a lame, sharp knife or concha cutter.
+12. Cover and proof 4 to 5 hours somewhere warm, until doubled, airy, and wobbling when you shake the tray.
+13. Bake one tray at a time at 350F for 18 minutes, until lightly golden. Cool completely.
 
 ## Notes
 

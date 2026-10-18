@@ -17,9 +17,12 @@
 - Unsalted butter, softened: 226 g
 - Granulated sugar: 150 g
 - Egg yolk: 1
-- Vanilla extract: 7.5 ml
+- Vanilla extract: 10 ml
 - Salt: 2 g
 - All-purpose flour: 265 g
+- Dark chocolate chips, for dipping (optional): 170 g
+- Vegetable shortening, for the chocolate (optional): 1/2 tsp
+- Nonpareil sprinkles, for decorating (optional): quantity not given
 
 ## Method
 
@@ -33,7 +36,7 @@
 
 ## Notes
 
-- Only six ingredients and no chill at all, the fastest butter cookie in the group.
+- Only six ingredients in the dough and no chill at all, the fastest butter cookie in the group. The chocolate dip is optional.
 - A large tip is not optional with this stiff dough. Warming the bag in your hands helps.
 - Without a tip, drop spoonfuls and fork criss-cross them instead.
 - Never pipe onto a warm sheet.

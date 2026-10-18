@@ -23,6 +23,8 @@
 - Egg yolks, room temperature: 2
 - Vanilla extract: 10 ml
 - Milk powder: 33 g
+- Milk chocolate melts or chocolate chips, for decorating (optional): 1 cup
+- Nonpareil sprinkles, for decorating (optional): quantity not given
 
 ## Method
 
@@ -34,6 +36,7 @@
 6. Chill the piped cookies 30 minutes until firm.
 7. Bake one tray at a time at 350F for about 15 minutes. More browning means richer flavour and a crisper edge.
 8. Cool on the tray 30 minutes before moving them.
+9. To decorate, melt the chocolate in 30 second bursts, dip each cookie halfway, return it to the parchment, and scatter the sprinkles on before the chocolate sets.
 
 ## Notes
 

@@ -19,12 +19,35 @@
 - Ravioli & Langoustines — wonton wrappers: 1 packet
 - Ravioli & Langoustines — egg yolk (beaten): 1
 - Ravioli & Langoustines — langoustine tails: 4
+- Ravioli & Langoustines — sherry vinegar: 1 dash
+- Ravioli & Langoustines — salt: quantity not given
 - Veal Jus & Components — veal bones: 5 kg
 - Veal Jus & Components — onion, leek, carrot: 1 each
 - Veal Jus & Components — red wine: 750 ml
+- Veal Jus & Components — tomato purée: 3 tbsp
+- Veal Jus & Components — bay leaf: 1
+- Veal Jus & Components — sherry vinegar: 1 dash
+- Veal Jus & Components — salt: quantity not given
 - Veal Jus & Components — langoustine jus: 475 ml
 - Veal Jus & Components — double cream: 1.5 l
 - Veal Jus & Components — lemon (juiced): 1
+- Langoustine Bisque — langoustine shells and heads: 20
+- Langoustine Bisque — carrot, chopped: 1
+- Langoustine Bisque — celery, chopped: 1
+- Langoustine Bisque — shallot, chopped: 1
+- Langoustine Bisque — garlic clove: 1
+- Langoustine Bisque — fresh thyme: 1 sprig
+- Langoustine Bisque — tomato purée: 1 tbsp
+- Langoustine Bisque — brandy: 1 tbsp
+- Langoustine Bisque — chicken stock: 500 ml
+- Nantoise Bubbles — water: 100 ml
+- Nantoise Bubbles — salt: quantity not given
+- To Plate — vegetable oil: quantity not given
+- To Plate — butter: 50 g
+- To Plate — lemon (juiced): 1/2
+- To Plate — baby spinach: 1 handful
+- To Plate — shaved Brazil nuts: 1 handful
+- To Plate — salt: to taste
 
 ## Method
 

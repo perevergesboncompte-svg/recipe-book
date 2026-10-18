@@ -3,7 +3,8 @@
 - Section: croquetas
 - Status: drafted
 - Yield: 6 people (~24 croquetas)
-- Active time: 30 min
+- Active time: 10 min
+- Total time: 50 min (the source splits 10 min of prep from 40 min of cooking)
 - Rest: 5 h (overnight is better)
 - Source: Directo al Paladar (Pakus)
 
@@ -35,7 +36,7 @@
 - Long rest, overnight preferably, to roll them properly.
 - Not the same recipe as the TATEL rabo croqueta.
 - Shaped as quenelles rather than rolled balls.
-- Header specifies olive oil for frying.
+- Fried in olive oil, which the source names only in the frying step and never measures.
 
 ## Learnings
 

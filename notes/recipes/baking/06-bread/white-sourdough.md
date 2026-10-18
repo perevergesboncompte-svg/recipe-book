@@ -4,7 +4,7 @@
 - Status: house
 - Image: images/white-sourdough.jpg
 - Yield: 1 loaf
-- Unit weight: 600 g
+- Unit weight: not given (the weighed ingredients make about 1052 g of dough)
 - Active time: 30 min
 - Rest: 4-18 h bulk, then 5-6 h in the pan
 - Total time: about 24 h

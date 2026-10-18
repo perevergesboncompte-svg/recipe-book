@@ -23,6 +23,12 @@
 - Pasta Dough — salt: 1 pinch
 - Pasta Dough — sugar: 1 pinch
 - Pasta Dough — egg, beaten (for egg wash): 1
+- Garnish — chervil, picked: 1/4 bunch
+- Garnish — chives, finely chopped: 1 tsp
+- Garnish — basil cress: 1 1/3 handfuls
+- Garnish — extra virgin olive oil: quantity not given
+- Garnish — cracked black pepper: quantity not given
+- Garnish — salt: quantity not given
 
 ## Method
 

@@ -3,7 +3,7 @@
 - Section: croquetas
 - Status: drafted
 - Yield: ~25-30 croquetas
-- Active time: 30 min
+- Active time: 25 min
 - Rest: Overnight
 - Source: Karlos Arguiñano, Hogarmania
 

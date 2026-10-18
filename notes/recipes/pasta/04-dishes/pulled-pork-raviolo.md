@@ -18,8 +18,33 @@
 - Key Ingredients — garlic, halved: 1 bulb
 - Key Ingredients — smoked paprika: 5 g
 - Key Ingredients — chilli flakes (habanero): 2 g
+- Key Ingredients — white peppercorns: 2 g
+- Key Ingredients — tomato purée: 25 g
+- Key Ingredients — red wine: 50 ml
+- Key Ingredients — chicken stock mixed with veal stock in a 50:50 ratio: to cover
+- Key Ingredients — bay leaf: 1
+- Key Ingredients — thyme: 1 sprig
+- Key Ingredients — coriander stalks: 3
+- Key Ingredients — coriander, leaves picked and chopped: 1 bunch
+- Key Ingredients — olive oil: quantity not given
 - Key Ingredients — chorizo, diced: 50 g
 - Key Ingredients — gyoza wrappers: 1 packet
+- Green chilli, peanut and sesame sauce — sugar: 25 g
+- Green chilli, peanut and sesame sauce — fish sauce: 10 g
+- Green chilli, peanut and sesame sauce — rice wine vinegar: 25 g
+- Green chilli, peanut and sesame sauce — water: 25 g
+- Green chilli, peanut and sesame sauce — green chilli, finely diced, seeds removed: 1
+- Green chilli, peanut and sesame sauce — sesame oil: 125 ml
+- Green chilli, peanut and sesame sauce — toasted sesame seeds: 30 g
+- Green chilli, peanut and sesame sauce — black sesame seeds: 30 g
+- Green chilli, peanut and sesame sauce — peanuts, toasted and finely chopped: 75 g
+- Pickled cucumber — cucumber, diced into 1 cm squares, seeds removed: 1
+- Pickled cucumber — white wine vinegar: 200 ml
+- Pickled cucumber — water: 200 ml
+- Pickled cucumber — caster sugar: 150 g
+- Pickled cucumber — yellow mustard seeds: 10 g
+- Pickled cucumber — coriander cress: quantity not given
+- Pickled cucumber — mint cress: quantity not given
 
 ## Method
 

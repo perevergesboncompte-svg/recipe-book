@@ -4,17 +4,17 @@
 - Status: drafted
 - Yield: filling for 1 large empanada
 - Active time: 20 min
-- Cook: 15 min
+- Cook: 40 min
 - Rest: 30 min to cool
 - Source: Directo al Paladar (Pakus)
 
 ## Ingredients
 
-- Cocido leftovers (garbanzos, meats, vegetables): 550-600 g
-- Onions: 2
-- Garlic cloves: 4
+- Cocido leftovers (garbanzos, meats, vegetables): 300 g
+- Onions: 1
+- Garlic cloves: 2
 - Sweet pimentón: 2 tbsp
-- Extra virgin olive oil: 5-6 tbsp
+- Extra virgin olive oil: 3 tbsp
 - Cocido broth (optional, to bind): 1-2 ladles
 - Salt: to taste
 

@@ -31,6 +31,7 @@
 - Pasta & Serving — unsalted butter: 250 g
 - Pasta & Serving — sage leaves: 18
 - Pasta & Serving — pine nuts: 20 g
+- Pasta & Serving — olive oil, for frying the sage: 200 ml
 - Pasta & Serving — Parmesan, grated: to serve
 
 ## Method

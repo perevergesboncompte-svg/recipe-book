@@ -3,26 +3,26 @@
 - Section: empanadas
 - Status: drafted
 - Yield: filling for 1 large empanada
-- Active time: 25 min
+- Active time: 20 min
 - Cook: over 3 h, slow stew
 - Rest: overnight to cool
 - Source: Directo al Paladar (Pakus), following the method of the Cofradía del Rabo de Toro Cordobés
 
 ## Ingredients
 
-- Rabo de toro, or beef tail: 1,5 kg
-- Onions: 2
-- Carrots: 2
-- Ripe tomatoes: 3
-- Garlic cloves: 5-6
+- Rabo de toro, or beef tail: 2 kg
+- Onions: 3
+- Carrots: 3
+- Ripe tomatoes: 4
+- Garlic cloves: 8
 - Italian green pepper: 1
-- Extra virgin olive oil: 75 ml
-- Montilla-Moriles wine (or dry red): 350 ml
-- Water, just enough to cover: 1 l
-- Peppercorns: 8-10
-- Cloves: 4
+- Extra virgin olive oil: 100 ml
+- Montilla-Moriles wine (or dry red): 450 ml
+- Water, just enough to cover: 1,2 l
+- Peppercorns: 12
+- Cloves: 6
 - Saffron: quantity not given
-- Salt: ~20 g
+- Salt: 30 g
 
 ## Method
 
@@ -37,7 +37,7 @@
 
 - Reduce until juicy but with no loose liquid, then drain and cool completely. The sheet gives overnight as the cooling time, and cooking it the day before improves it a lot anyway.
 - The cofradía method from Córdoba: slow cooking rather than pressure, to get the collagen out of the tail.
-- 1,5 kg of tail yields roughly 450 to 550 g of clean meat, which is right for a large empanada.
+- 2 kg of tail yields roughly 600 to 730 g of clean meat, more than enough for a large empanada.
 - Keep the leftover sauce separate to serve alongside rather than putting it in the filling.
 - The same source suggests this meat for croquetas, albóndigas or empanadas.
 

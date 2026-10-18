@@ -20,6 +20,19 @@
 - Key Components — smoked scamorza cheese: 150 g
 - Key Components — large red prawns: 12
 - Key Components — prawn bisque (reduced): 50 ml
+- Scamorza sauce — whole milk: 100 g
+- Scamorza sauce — double cream: 100 g
+- Marinated aubergine garnish — aubergine: 1/4
+- Marinated aubergine garnish — rice wine vinegar: 50 ml
+- Marinated aubergine garnish — balsamic vinegar: 50 ml
+- Pasta filling — shallot, finely chopped: 1
+- Pasta filling — basil leaves, freshly chopped: 4
+- Pasta filling — rock salt: 1 handful
+- Pasta dough — salt: 1 pinch
+- Pasta dough — extra virgin olive oil: 1 dash
+- To serve — samphire (rock and marsh mix): 1 handful
+- To serve — micro basil: quantity not given
+- To serve — dried samphire blitzed to a powder, optional: 1 tsp
 
 ## Method
 

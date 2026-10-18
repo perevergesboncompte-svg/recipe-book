@@ -11,17 +11,21 @@
 - Crab meat — water: 6 l
 - Crab meat — salt: 100 g
 - Crab meat — lemons, juiced: 3
-- Crab meat — thyme: 1 sprig
+- Crab meat — thyme: quantity not given
 - Crab meat — bay leaf: 1
 - Salmon mousse — smoked salmon: 200 g
-- Salmon mousse — sole (or other white fish): 200 g
+- Salmon mousse — sole: 200 g
 - Salmon mousse — egg white: 1
 - Salmon mousse — double cream: 600 ml
 - Salmon mousse — salt and pepper: to taste
 - Final mix — white crab meat: 1 kg
 - Final mix — brown crab meat: 300 g
 - Final mix — salmon mousse: 200 g
-- Final mix — herbs, lemon juice and seasoning: quantity not given
+- Final mix — tarragon: 5 g
+- Final mix — chervil: 5 g
+- Final mix — parsley: 10 g
+- Final mix — chives: 10 g
+- Final mix — lemon juice, salt and pepper: to taste
 
 ## Method
 
@@ -37,6 +41,6 @@
 
 - Used in Crab Ravioli with Crab Sauce.
 - Two sub-components: picked crab meat and a separate salmon mousse. Only 200 g of the mousse goes into the filling, and the mousse quantities as written make far more than that. The source does not say what to do with the surplus.
-- The herbs in the final mix are never named.
+- The source weighs the four final-mix herbs: tarragon, chervil, parsley and chives. Its parsley here is separate from the parsley in the crab sauce, and its chervil from the leaves used to plate.
 - Shells from cooking the crabs go to the crab sauce, and brown crab meat is also used in that sauce and as a garnish. Both are outside this file.
 - Portioned at 50 g per raviolo, cut with a 6 cm cutter.

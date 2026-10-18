@@ -13,7 +13,31 @@
 
 ## Ingredients
 
-Not recorded in the source.
+- Turnip Ravioli — large turnips: 2
+- Turnip Ravioli — salt: to taste
+- Honey Dressing — acacia honey: 50 g
+- Honey Dressing — sherry vinegar: 30 g
+- Honey Dressing — grapeseed oil: 75 ml
+- Cocktail Sauce — egg yolk: 1
+- Cocktail Sauce — Dijon mustard: 50 g
+- Cocktail Sauce — white wine vinegar: 10 g
+- Cocktail Sauce — grapeseed oil: 250 ml
+- Cocktail Sauce — ketchup: 80 g
+- Cocktail Sauce — cognac: 15 g
+- Cocktail Sauce — Worcestershire sauce: 5 g
+- Cocktail Sauce — Tabasco: 10 drops
+- Cocktail Sauce — cayenne pepper: 1 pinch
+- Cocktail Sauce — salt: 1 pinch
+- Crab Mix — crab meat: 200 g
+- Crab Mix — lemon juice: 1 tsp
+- Crab Mix — salt: 1 pinch
+- Crab Mix — tarragon, chopped: 1 pinch
+- Crab Mix — cayenne pepper: 1 pinch
+- To Plate — rosemary, finely chopped: 1 pinch
+- To Plate — pink peppercorns, ground: 1 pinch
+- To Plate — radishes, julienned: 2
+- To Plate — chives, in batons: 4
+- To Plate — edible flowers: quantity not given
 
 ## Method
 

@@ -13,7 +13,7 @@
 ## Ingredients
 
 - Gluten-free crumb crust, 23 cm, baked and cooled: 1 batch
-- Chocolate pudding: 1 batch
+- Chocolate pudding: 800 g
 - Heavy cream, very cold: 360 ml
 - Vanilla extract: 2 tsp
 - Confectioners' sugar: 1 tbsp
@@ -34,7 +34,7 @@
 
 ## Notes
 
-- One batch of the pudding is 800 g, which is what a 23 cm shell holds.
+- The pie takes 800 g of pudding and a full batch comes to 1.02 kg, so about 220 g is spare.
 - The pudding has to go in while it is warm, so the crust must be baked and cooled before you start it.
 - Cold, this pudding sets to roughly the texture of pot de crème and holds a spoon upright, which is what makes the pie sliceable rather than spoonable.
 - Keeps in the refrigerator up to 4 days.

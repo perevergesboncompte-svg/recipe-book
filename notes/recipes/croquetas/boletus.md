@@ -3,7 +3,7 @@
 - Section: croquetas
 - Status: drafted
 - Yield: 4 people (~20 croquetas)
-- Active time: 35 min
+- Active time: 1 h
 - Rest: 8 h (overnight is better)
 - Source: Carmen Tía Alia, Directo al Paladar
 
@@ -16,7 +16,8 @@
 - Wheat flour: 80 g
 - Whole milk: 350 ml
 - Reserved soaking water: 100 ml
-- Salt, white pepper, egg and breadcrumbs: to taste
+- Egg, for coating: 2
+- Salt, white pepper and breadcrumbs: to taste
 
 ## Method
 

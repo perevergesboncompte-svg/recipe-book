@@ -1,11 +1,12 @@
 # Salted Sesame Chocolate Chip
 
 - Section: baking
-- Status: drafted
+- Status: tested
 - Yield: about 20 cookies
 - Oven: 350F, 8 min then 3-4 min after topping
 - Energy cost: $1.45 (12 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Rest: 2 h chilled, better overnight
+- Overall: 3.5
 - Source: Dear Saturdays, dearsaturdays.com
 
 ## Ingredients
@@ -51,4 +52,4 @@
 
 ## Learnings
 
-Not made yet.
+Made once, graded 3.5. Nothing to change yet.

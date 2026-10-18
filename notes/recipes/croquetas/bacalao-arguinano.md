@@ -2,8 +2,8 @@
 
 - Section: croquetas
 - Status: drafted
-- Yield: ~25-30 croquetas
-- Active time: 30 min
+- Yield: 6 servings
+- Active time: 15 min
 - Rest: Chill completely
 - Source: Karlos Arguiñano, Hogarmania
 

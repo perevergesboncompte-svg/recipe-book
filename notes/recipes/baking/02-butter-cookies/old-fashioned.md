@@ -21,13 +21,14 @@
 - Sea salt: 2 g
 - Egg yolks: 2
 - Vanilla extract: 7.5 ml
+- Butter emulsion, optional: 2.5 ml
 - All-purpose flour: 250 g
 
 ## Method
 
 1. Cream the butter and shortening smooth.
 2. Add sugar and salt, beat about 2 minutes until fluffy and uniform.
-3. Mix in the yolks and vanilla, scraping down.
+3. Mix in the yolks, the vanilla and the butter emulsion if using, scraping down.
 4. Stir in the flour a little at a time with a spatula to a soft uniform dough.
 5. Knead lightly by hand to pick up the last of the flour.
 6. Press through a cookie press, or pipe with an open star tip, packed close since the tray is going in the fridge.

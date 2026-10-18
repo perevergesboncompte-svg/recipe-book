@@ -15,15 +15,27 @@
 
 - Key Components — 00 flour: 500 g
 - Key Components — egg (whole): 200 g
+- Key Components — salt (for the pasta dough): 8 g
+- Key Components — water (for the pasta dough): 25 g
+- Key Components — olive oil (for the pasta dough): 15 g
 - Key Components — Désirée potatoes (for 400g cooked): 500 g
 - Key Components — butter: 100 g
 - Key Components — smoked water: 15 g
+- Key Components — salt (for the purée): 4 g
+- Key Components — whole milk (for the purée): 20 g
 - Key Components — shallots (for reduction): 250 g
-- Key Components — white wine: 400 ml
+- Key Components — white wine: 400 g
+- Key Components — black peppercorns (for reduction): 5 g
 - Key Components — butter (for sauce): 250 g
+- Key Components — double cream (for sauce): 50 g
+- Key Components — white balsamic vinegar (for sauce): 10 g
+- Key Components — salt (for sauce): 2 g
 - Key Components — egg yolks (St. Ewe's preferred): 4
 - Key Components — truffle paste: 80 g
 - Key Components — fresh summer truffle: to serve
+- Key Components — egg, beaten (for sealing): 1
+- Key Components — semolina, for dusting: quantity not given
+- Key Components — salt (to finish): quantity not given
 
 ## Method
 

@@ -11,14 +11,15 @@
 
 ## Ingredients
 
+- Empanada dough, bought or made at home: 500 g
 - Vieiras, cleaned (muscle and coral), cut up: 12
 - Medium onions, finely chopped: 5
 - Green peppers, chopped: 2
 - Garlic cloves, chopped: 3
 - Jamón, diced: 100 g
-- Extra virgin olive oil: 1 glass
+- Olive oil: 1 glass
 - Fresh parsley, chopped: 1 tbsp
-- Saffron: a few threads
+- Saffron (optional): no quantity given
 - Salt and pepper: no quantity given
 
 ## Method

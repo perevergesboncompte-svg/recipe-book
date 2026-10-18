@@ -2,6 +2,7 @@
 
 - Section: empanadas
 - Status: drafted
+- Dough: casera-frabisa
 - Yield: Filling for 1 large empanada (tin of about 32 cm)
 - Rest: 36-48 h (marinating the zorza)
 - Oven: 195 °C, 45-50 min
@@ -16,7 +17,7 @@
 - Hot pimentón: 3 g
 - Dried oregano: 1 tsp
 - Coarse salt: no quantity given
-- Extra virgin olive oil for the majado: 2-3 tbsp
+- Extra virgin olive oil for the majado: a splash, no quantity given
 - Large onions: 2 (about 400 g), with 1 tsp sweet pimentón
 - Piquillo or roasted peppers (optional): to taste
 
