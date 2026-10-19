@@ -2,6 +2,7 @@
 
 - Section: baking
 - Status: tested
+- Image: images/salted-sesame.jpg
 - Yield: about 20 cookies
 - Oven: 350F, 8 min then 3-4 min after topping
 - Energy cost: $1.45 (12 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
