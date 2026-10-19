@@ -5,7 +5,7 @@
 - Yield: Filling for 1 large empanada
 - Active time: 15 min
 - Rest: 20 min (chill before assembling)
-- Oven: 190-200 °C, about 30 min
+- Oven: 190-200 °C, about 30 min, a collection default rather than a sourced time
 - Energy cost: $2.06 (30 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Traditional Mediterranean vegetarian spinach empanada — no chef or publication credited
 
@@ -36,6 +36,7 @@
 - A little nutmeg lifts the flavour a lot.
 - Cheese such as feta or ricotta gives a creamier version.
 - Filling goes on cold and well drained.
+- The oven figure here is the collection default for a large empanada, not a time any source gave. Treat it as a starting point and judge by colour.
 
 ## Learnings
 

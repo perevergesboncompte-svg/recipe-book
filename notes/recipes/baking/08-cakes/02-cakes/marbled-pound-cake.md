@@ -5,7 +5,7 @@
 - Makes: 1 loaf, 23 by 12 cm, 6 to 8 servings
 - Active time: 25 min
 - Total time: about 2 h 30 min
-- Oven: 350F until a knife comes out clean
+- Oven: 350F, 55 to 70 min as my own estimate for this loaf size, baked until a knife comes out clean
 - Source: Tartine, A Classic Revisited
 
 ## Ingredients

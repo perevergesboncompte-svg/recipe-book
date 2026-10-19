@@ -5,7 +5,7 @@
 - Yield: Filling for 1 large empanada
 - Active time: 20 min
 - Rest: 30 min (chill before assembling)
-- Oven: 190-200 °C, about 35 min
+- Oven: 190-200 °C, about 35 min, a collection default rather than a sourced time
 - Energy cost: $2.24 (35 min bake plus 30 min, 3.5 kW at 59 cents/kWh)
 - Source: Traditional chicken empanada filling — no chef or publication credited
 
@@ -37,6 +37,7 @@
 - Drain well. The filling should be juicy but not wet.
 - Hard-boiled egg adds body and is very traditional here.
 - Filling always goes on cold.
+- The oven figure here is the collection default for a large empanada, not a time any source gave. Treat it as a starting point and judge by colour.
 
 ## Learnings
 
